@@ -43,11 +43,7 @@ public abstract class TestBase {
 	@BeforeSuite
 	public void loadConfig() {
 		properties = new Properties();
-		// String filePath = System.getProperty("user.dir") +
-		// "\\src\\test\\resources\\config.properties";
-		String filePath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
-				+ File.separator + "resources" + File.separator + "config.properties";
-
+		String filePath = System.getProperty("user.dir") + "\\src\\test\\resources\\config.properties";
 		try (FileInputStream fis = new FileInputStream(filePath)) {
 
 			properties.load(fis);
