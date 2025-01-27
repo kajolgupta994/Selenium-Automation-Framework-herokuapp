@@ -1,20 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test(failed)">
+  <listeners>
+    <listener class-name="com.qa.herokuapp.helper.ITestListenerUtils"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.qa.herokuapp.tests.HandleDynamicWebElementsTest">
+      <class name="com.qa.herokuapp.tests.BasicAuthLoginTest">
         <methods>
-          <include name="setup"/>
-          <include name="getCanvasContent"/>
-          <include name="handleDynamicElement"/>
+          <include name="validLogin"/>
+          <include name="loadConfig"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- com.qa.herokuapp.tests.BasicAuthLoginTest -->
+      <class name="com.qa.herokuapp.tests.DigestAuthenticationTest">
+        <methods>
           <include name="loadConfig"/>
           <include name="closeBrowser"/>
           <include name="initializeBrowser"/>
-          <include name="handleAndGetTableData"/>
-          <include name="handleActionButtons"/>
+          <include name="validDigestAuthLogin"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.HandleDynamicWebElementsTest -->
+      </class> <!-- com.qa.herokuapp.tests.DigestAuthenticationTest -->
+      <class name="com.qa.herokuapp.tests.DisappearingElementsTest">
+        <methods>
+          <include name="validateDisappearingElement"/>
+          <include name="loadConfig"/>
+          <include name="closeBrowser"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.herokuapp.tests.DisappearingElementsTest -->
+      <class name="com.qa.herokuapp.tests.DynamicWebElementsTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="handleDynamicElement"/>
+        </methods>
+      </class> <!-- com.qa.herokuapp.tests.DynamicWebElementsTest -->
+      <class name="com.qa.herokuapp.tests.DropdownTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="closeBrowser"/>
+          <include name="initializeBrowser"/>
+          <include name="validateDropdownValues"/>
+        </methods>
+      </class> <!-- com.qa.herokuapp.tests.DropdownTest -->
+      <class name="com.qa.herokuapp.tests.DragAndDropTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testDragAndDrop"/>
+        </methods>
+      </class> <!-- com.qa.herokuapp.tests.DragAndDropTest -->
       <class name="com.qa.herokuapp.tests.AddRemoveElementsTest">
         <methods>
           <include name="loadConfig"/>
@@ -24,23 +64,30 @@
           <include name="addDeleteElement"/>
         </methods>
       </class> <!-- com.qa.herokuapp.tests.AddRemoveElementsTest -->
-      <class name="com.qa.herokuapp.tests.LoginTest">
+      <class name="com.qa.herokuapp.tests.CheckboxesTest">
         <methods>
           <include name="loadConfig"/>
           <include name="closeBrowser"/>
           <include name="initializeBrowser"/>
-          <include name="validLogin"/>
-          <include name="invalidLogin"/>
+          <include name="testClickingCheckboes"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.LoginTest -->
-      <class name="com.qa.herokuapp.pages.BrokenImagesTest">
+      </class> <!-- com.qa.herokuapp.tests.CheckboxesTest -->
+      <class name="com.qa.herokuapp.tests.ContextMenuTest">
         <methods>
-          <include name="brokenImageTest"/>
+          <include name="testRightClickOnContextMenuBox"/>
           <include name="loadConfig"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.pages.BrokenImagesTest -->
+      </class> <!-- com.qa.herokuapp.tests.ContextMenuTest -->
+      <class name="com.qa.herokuapp.tests.DynamicContentTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="closeBrowser"/>
+          <include name="initializeBrowser"/>
+          <include name="validateDropdownValues"/>
+        </methods>
+      </class> <!-- com.qa.herokuapp.tests.DynamicContentTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

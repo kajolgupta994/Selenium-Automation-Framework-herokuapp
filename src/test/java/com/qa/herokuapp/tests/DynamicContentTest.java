@@ -1,7 +1,5 @@
 package com.qa.herokuapp.tests;
 
-import org.testng.Assert;
-import org.testng.SkipException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.qa.herokuapp.base.TestBase;

@@ -6,10 +6,9 @@
       <class name="com.qa.herokuapp.tests.DynamicContentTest">
         <methods>
           <include name="loadConfig"/>
-          <include name="testFail"/>
-          <include name="closeBrowser"/>
           <include name="initializeBrowser"/>
-          <include name="testSkip"/>
+          <include name="closeBrowser"/>
+          <include name="validateDropdownValues"/>
         </methods>
       </class> <!-- com.qa.herokuapp.tests.DynamicContentTest -->
     </classes>

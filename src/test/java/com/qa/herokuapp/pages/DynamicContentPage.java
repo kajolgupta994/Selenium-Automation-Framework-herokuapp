@@ -17,7 +17,7 @@ import com.qa.herokuapp.helper.WebDriverWaitUtils;
 public class DynamicContentPage {
 	private WebDriver driver;
 
-	@FindBy(xpath = "//div[@id='content']/div[@class='row']")
+	@FindBy(xpath = "//div[@id='content']/div[@class='ro']")
 	private List<WebElement> rows;
 
 	public DynamicContentPage(WebDriver driver) {

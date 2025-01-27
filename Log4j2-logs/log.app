@@ -70,3 +70,13 @@
 2025-01-06 17:56:45 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Clicked on the Dynamic Content link text.
 2025-01-06 17:56:45 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Trying to get texts from the dynamically changing columns...
 2025-01-06 17:56:45 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - All the texts are recieved.
+2025-01-27 17:28:42 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Click on the Dynamic Content link text: 
+2025-01-27 17:28:43 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Clicked on the Dynamic Content link text.
+2025-01-27 17:28:43 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Trying to get texts from the dynamically changing columns...
+2025-01-27 17:28:43 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - All the texts are recieved.
+2025-01-27 17:33:00 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Click on the Dynamic Content link text: 
+2025-01-27 17:33:01 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Clicked on the Dynamic Content link text.
+2025-01-27 17:33:01 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Trying to get texts from the dynamically changing columns...
+2025-01-27 17:35:34 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Click on the Dynamic Content link text: 
+2025-01-27 17:35:35 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Clicked on the Dynamic Content link text.
+2025-01-27 17:35:35 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Trying to get texts from the dynamically changing columns...

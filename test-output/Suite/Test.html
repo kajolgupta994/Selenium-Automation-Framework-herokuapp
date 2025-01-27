@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/9</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/12</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 02 08:25:41 IST 2025</td>
+<td>Started on:</td><td>Mon Jan 27 17:34:28 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (547 ms)</td>
+<tr><td>Total time:</td><td>6 seconds (6881 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,30 +76,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup()'><b>setup</b><br>Test class: com.qa.herokuapp.tests.HandleDynamicWebElementsTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace462526099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace462526099'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td title='com.qa.herokuapp.tests.ContextMenuTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.ContextMenuTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1506703662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1506703662'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,9 +91,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -126,7 +111,340 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.HandleDynamicWebElementsTest@909217e</td></tr>
+<td>com.qa.herokuapp.tests.ContextMenuTest@72bca894</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DynamicContentTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.DynamicContentTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace846014380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace846014380'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DynamicContentTest@503d56b5</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DragAndDropTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.DragAndDropTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace558455114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace558455114'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DragAndDropTest@2575f671</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.BasicAuthLoginTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.BasicAuthLoginTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1116264846", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1116264846'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.BasicAuthLoginTest@324dcd31</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DigestAuthenticationTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.DigestAuthenticationTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace940448009", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace940448009'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DigestAuthenticationTest@329a1243</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DisappearingElementsTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.DisappearingElementsTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1648537147", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1648537147'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DisappearingElementsTest@39c11e6c</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.CheckboxesTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.CheckboxesTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1802188146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1802188146'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.CheckboxesTest@1fc793c2</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DynamicWebElementsTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.DynamicWebElementsTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace282812721", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace282812721'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DynamicWebElementsTest@ecf9fb3</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DropdownTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.DropdownTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace912440831", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace912440831'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DropdownTest@433ffad1</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.AddRemoveElementsTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.AddRemoveElementsTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2009215919", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2009215919'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.AddRemoveElementsTest@2d35442b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -137,45 +455,69 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.herokuapp.pages.BrokenImagesTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.pages.BrokenImagesTest</td>
+<td title='com.qa.herokuapp.tests.BasicAuthLoginTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.BasicAuthLoginTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.herokuapp.pages.BrokenImagesTest@5e2c3d18</td></tr>
+<td>com.qa.herokuapp.tests.BasicAuthLoginTest@324dcd31</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.HandleDynamicWebElementsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.HandleDynamicWebElementsTest</td>
+<td title='com.qa.herokuapp.tests.DigestAuthenticationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.DigestAuthenticationTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.HandleDynamicWebElementsTest@909217e</td></tr>
+<td>com.qa.herokuapp.tests.DigestAuthenticationTest@329a1243</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.LoginTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.LoginTest</td>
+<td title='com.qa.herokuapp.tests.ContextMenuTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.ContextMenuTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.LoginTest@7a35b0f5</td></tr>
+<td>com.qa.herokuapp.tests.ContextMenuTest@72bca894</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.LoginTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.LoginTest</td>
+<td title='com.qa.herokuapp.tests.DisappearingElementsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.DisappearingElementsTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.LoginTest@7a35b0f5</td></tr>
+<td>com.qa.herokuapp.tests.DisappearingElementsTest@39c11e6c</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.HandleDynamicWebElementsTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.HandleDynamicWebElementsTest</td>
+<td title='com.qa.herokuapp.tests.DragAndDropTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.DragAndDropTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.HandleDynamicWebElementsTest@909217e</td></tr>
+<td>com.qa.herokuapp.tests.DragAndDropTest@2575f671</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.AddRemoveElementsTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: com.qa.herokuapp.tests.AddRemoveElementsTest</td>
+<td title='com.qa.herokuapp.tests.DropdownTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.DropdownTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.AddRemoveElementsTest@2cb4893b</td></tr>
+<td>com.qa.herokuapp.tests.DropdownTest@433ffad1</td></tr>
 <tr>
-<td title='com.qa.herokuapp.pages.BrokenImagesTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.pages.BrokenImagesTest</td>
+<td title='com.qa.herokuapp.tests.DynamicWebElementsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.DynamicWebElementsTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.herokuapp.pages.BrokenImagesTest@5e2c3d18</td></tr>
+<td>com.qa.herokuapp.tests.DynamicWebElementsTest@ecf9fb3</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DynamicContentTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.DynamicContentTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DynamicContentTest@503d56b5</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.CheckboxesTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.CheckboxesTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.CheckboxesTest@1fc793c2</td></tr>
 <tr>
 <td title='com.qa.herokuapp.tests.AddRemoveElementsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.qa.herokuapp.tests.AddRemoveElementsTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.AddRemoveElementsTest@2cb4893b</td></tr>
+<td>com.qa.herokuapp.tests.AddRemoveElementsTest@2d35442b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.herokuapp.tests.BrokenImagesTest.brokenImageTest()'><b>brokenImageTest</b><br>Test class: com.qa.herokuapp.tests.BrokenImagesTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.BrokenImagesTest@52d10fb8</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -186,30 +528,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.herokuapp.tests.LoginTest.invalidLogin()'><b>invalidLogin</b><br>Test class: com.qa.herokuapp.tests.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1634387050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1634387050'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td title='com.qa.herokuapp.tests.DynamicContentTest.validateDropdownValues()'><b>validateDropdownValues</b><br>Test class: com.qa.herokuapp.tests.DynamicContentTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace130211746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace130211746'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -218,9 +543,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -236,32 +563,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.LoginTest@7a35b0f5</td></tr>
+<td>com.qa.herokuapp.tests.DynamicContentTest@503d56b5</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.HandleDynamicWebElementsTest.handleActionButtons()'><b>handleActionButtons</b><br>Test class: com.qa.herokuapp.tests.HandleDynamicWebElementsTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1176968662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1176968662'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td title='com.qa.herokuapp.tests.DynamicWebElementsTest.handleDynamicElement()'><b>handleDynamicElement</b><br>Test class: com.qa.herokuapp.tests.DynamicWebElementsTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1194385648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1194385648'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -270,9 +580,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -288,32 +600,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.HandleDynamicWebElementsTest@909217e</td></tr>
+<td>com.qa.herokuapp.tests.DynamicWebElementsTest@ecf9fb3</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.LoginTest.validLogin()'><b>validLogin</b><br>Test class: com.qa.herokuapp.tests.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1740223770", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1740223770'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td title='com.qa.herokuapp.tests.BasicAuthLoginTest.validLogin()'><b>validLogin</b><br>Test class: com.qa.herokuapp.tests.BasicAuthLoginTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2023817059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2023817059'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -322,9 +617,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -340,32 +637,52 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.LoginTest@7a35b0f5</td></tr>
+<td>com.qa.herokuapp.tests.BasicAuthLoginTest@324dcd31</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.BasicAuthLoginTest.invalidLogin()'><b>invalidLogin</b><br>Test class: com.qa.herokuapp.tests.BasicAuthLoginTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace677144856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace677144856'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.BasicAuthLoginTest@324dcd31</td></tr>
 <tr>
 <td title='com.qa.herokuapp.tests.AddRemoveElementsTest.addDeleteElement()'><b>addDeleteElement</b><br>Test class: com.qa.herokuapp.tests.AddRemoveElementsTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1077072774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1077072774'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace935599808", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace935599808'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -374,9 +691,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -392,32 +711,126 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.AddRemoveElementsTest@2cb4893b</td></tr>
+<td>com.qa.herokuapp.tests.AddRemoveElementsTest@2d35442b</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DropdownTest.validateDropdownValues()'><b>validateDropdownValues</b><br>Test class: com.qa.herokuapp.tests.DropdownTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1336418989", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1336418989'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DropdownTest@433ffad1</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.CheckboxesTest.testClickingCheckboes()'><b>testClickingCheckboes</b><br>Test class: com.qa.herokuapp.tests.CheckboxesTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1146045637", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1146045637'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.CheckboxesTest@1fc793c2</td></tr>
+<tr>
+<td title='com.qa.herokuapp.tests.DisappearingElementsTest.validateDisappearingElement()'><b>validateDisappearingElement</b><br>Test class: com.qa.herokuapp.tests.DisappearingElementsTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1579140143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1579140143'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.herokuapp.tests.DisappearingElementsTest@39c11e6c</td></tr>
 <tr>
 <td title='com.qa.herokuapp.tests.AddRemoveElementsTest.addElement()'><b>addElement</b><br>Test class: com.qa.herokuapp.tests.AddRemoveElementsTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace684822005", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace684822005'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace899736725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace899736725'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -426,9 +839,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -444,32 +859,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.AddRemoveElementsTest@2cb4893b</td></tr>
+<td>com.qa.herokuapp.tests.AddRemoveElementsTest@2d35442b</td></tr>
 <tr>
-<td title='com.qa.herokuapp.pages.BrokenImagesTest.brokenImageTest()'><b>brokenImageTest</b><br>Test class: com.qa.herokuapp.pages.BrokenImagesTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1664598529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1664598529'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td title='com.qa.herokuapp.tests.DragAndDropTest.testDragAndDrop()'><b>testDragAndDrop</b><br>Test class: com.qa.herokuapp.tests.DragAndDropTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1475889071", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1475889071'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -478,9 +876,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -496,32 +896,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.pages.BrokenImagesTest@5e2c3d18</td></tr>
+<td>com.qa.herokuapp.tests.DragAndDropTest@2575f671</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.HandleDynamicWebElementsTest.handleAndGetTableData()'><b>handleAndGetTableData</b><br>Test class: com.qa.herokuapp.tests.HandleDynamicWebElementsTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace297490204", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace297490204'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td title='com.qa.herokuapp.tests.ContextMenuTest.testRightClickOnContextMenuBox()'><b>testRightClickOnContextMenuBox</b><br>Test class: com.qa.herokuapp.tests.ContextMenuTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1078834804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1078834804'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -530,9 +913,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -548,32 +933,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.HandleDynamicWebElementsTest@909217e</td></tr>
+<td>com.qa.herokuapp.tests.ContextMenuTest@72bca894</td></tr>
 <tr>
-<td title='com.qa.herokuapp.tests.HandleDynamicWebElementsTest.getCanvasContent()'><b>getCanvasContent</b><br>Test class: com.qa.herokuapp.tests.HandleDynamicWebElementsTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace541698497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace541698497'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
+<td title='com.qa.herokuapp.tests.DigestAuthenticationTest.validDigestAuthLogin()'><b>validDigestAuthLogin</b><br>Test class: com.qa.herokuapp.tests.DigestAuthenticationTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace157201184", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace157201184'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.properties&quot; is null
+	at com.qa.herokuapp.base.TestBase.initializeBrowser(TestBase.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -582,9 +950,11 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -600,59 +970,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.herokuapp.tests.HandleDynamicWebElementsTest@909217e</td></tr>
-<tr>
-<td title='com.qa.herokuapp.tests.HandleDynamicWebElementsTest.handleDynamicElement()'><b>handleDynamicElement</b><br>Test class: com.qa.herokuapp.tests.HandleDynamicWebElementsTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2085745483", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2085745483'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.qa.herokuapp.helper.WebDriverWaitHelper.waitForTheVisibilityOfElement(WebDriverWaitHelper.java:17)
-	at com.qa.herokuapp.pages.HomePage.clickOnChallengingDOMLinkText(HomePage.java:48)
-	at com.qa.herokuapp.tests.HandleDynamicWebElementsTest.setup(HandleDynamicWebElementsTest.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.herokuapp.tests.HandleDynamicWebElementsTest@909217e</td></tr>
+<td>com.qa.herokuapp.tests.DigestAuthenticationTest@329a1243</td></tr>
 </table><p>
 </body>
 </html>
