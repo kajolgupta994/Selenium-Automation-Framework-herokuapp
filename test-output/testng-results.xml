@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-27T23:20:29 IST" name="Default suite" finished-at="2025-01-27T23:20:40 IST" duration-ms="10962">
+  <suite started-at="2025-01-27T23:56:08 IST" name="Default suite" finished-at="2025-01-27T23:56:27 IST" duration-ms="18696">
     <groups>
     </groups>
-    <test started-at="2025-01-27T23:20:29 IST" name="Default test" finished-at="2025-01-27T23:20:40 IST" duration-ms="10962">
-      <class name="com.qa.herokuapp.tests.DynamicContentTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.herokuapp.tests.DynamicContentTest@435871cb]" started-at="2025-01-27T23:20:29 IST" name="loadConfig" finished-at="2025-01-27T23:20:29 IST" duration-ms="21" status="PASS">
+    <test started-at="2025-01-27T23:56:08 IST" name="Default test" finished-at="2025-01-27T23:56:27 IST" duration-ms="18696">
+      <class name="com.qa.herokuapp.tests.DigestAuthenticationTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.herokuapp.tests.DigestAuthenticationTest@4fc5e095]" started-at="2025-01-27T23:56:08 IST" name="loadConfig" finished-at="2025-01-27T23:56:08 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.qa.herokuapp.tests.DynamicContentTest@435871cb]" started-at="2025-01-27T23:20:29 IST" name="initializeBrowser" finished-at="2025-01-27T23:20:36 IST" duration-ms="7361" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.qa.herokuapp.tests.DigestAuthenticationTest@4fc5e095]" started-at="2025-01-27T23:56:08 IST" name="initializeBrowser" finished-at="2025-01-27T23:56:17 IST" duration-ms="8466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="validateDropdownChange()[pri:0, instance:com.qa.herokuapp.tests.DynamicContentTest@435871cb]" started-at="2025-01-27T23:20:36 IST" name="validateDropdownChange" finished-at="2025-01-27T23:20:39 IST" duration-ms="2940" status="PASS">
+        <test-method signature="validDigestAuthLogin()[pri:0, instance:com.qa.herokuapp.tests.DigestAuthenticationTest@4fc5e095]" started-at="2025-01-27T23:56:17 IST" name="validDigestAuthLogin" finished-at="2025-01-27T23:56:24 IST" duration-ms="7457" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateDropdownChange -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.herokuapp.tests.DynamicContentTest@435871cb]" started-at="2025-01-27T23:20:39 IST" name="closeBrowser" finished-at="2025-01-27T23:20:40 IST" duration-ms="571" status="PASS">
+        </test-method> <!-- validDigestAuthLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.herokuapp.tests.DigestAuthenticationTest@4fc5e095]" started-at="2025-01-27T23:56:24 IST" name="closeBrowser" finished-at="2025-01-27T23:56:27 IST" duration-ms="2603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.qa.herokuapp.tests.DynamicContentTest -->
+      </class> <!-- com.qa.herokuapp.tests.DigestAuthenticationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
