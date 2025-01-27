@@ -1,6 +1,5 @@
 package com.qa.herokuapp.tests;
 
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.qa.herokuapp.base.TestBase;
 import com.qa.herokuapp.pages.DynamicContentPage;
