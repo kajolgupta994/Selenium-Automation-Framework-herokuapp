@@ -19,7 +19,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import java.io.*;
 import java.time.Duration;
 
-
 @Listeners(com.qa.herokuapp.helper.ITestListenerUtils.class)
 public abstract class TestBase {
 
@@ -36,13 +35,19 @@ public abstract class TestBase {
 	public Logger getLogger() {
 		return this.LOGGER;
 	}
+
 	public WebDriver getDriver() {
-	    return driver;
+		return driver;
 	}
+
 	@BeforeSuite
 	public void loadConfig() {
 		properties = new Properties();
-		String filePath = System.getProperty("user.dir") + "\\src\\test\\resources\\config.properties";
+		// String filePath = System.getProperty("user.dir") +
+		// "\\src\\test\\resources\\config.properties";
+		String filePath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
+				+ File.separator + "resources" + File.separator + "config.properties";
+
 		try (FileInputStream fis = new FileInputStream(filePath)) {
 
 			properties.load(fis);
@@ -55,7 +60,13 @@ public abstract class TestBase {
 
 	@BeforeClass
 	public void initializeBrowser() {
+		if (properties == null) {
+			loadConfig(); // Fallback in case @BeforeSuite did not execute
+		}
 		String browser = properties.getProperty("browser");
+		if (browser == null) {
+			throw new IllegalStateException("Browser property is not set in config.properties");
+		}
 		if (browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
