@@ -80,3 +80,6 @@
 2025-01-27 17:35:34 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Click on the Dynamic Content link text: 
 2025-01-27 17:35:35 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Clicked on the Dynamic Content link text.
 2025-01-27 17:35:35 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Trying to get texts from the dynamically changing columns...
+2025-01-27 17:56:55 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Click on the Dynamic Content link text: 
+2025-01-27 17:56:56 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Clicked on the Dynamic Content link text.
+2025-01-27 17:56:56 [main] INFO  com.qa.herokuapp.tests.DynamicContentTest - Trying to get texts from the dynamically changing columns...

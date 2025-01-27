@@ -6,7 +6,7 @@ import com.qa.herokuapp.base.TestBase;
 import com.qa.herokuapp.pages.DynamicContentPage;
 import com.qa.herokuapp.pages.HomePage;
 
-@Listeners(com.qa.herokuapp.helper.ITestListenerUtils.class)
+
 public class DynamicContentTest extends TestBase {
 	private HomePage homePage;
 	private DynamicContentPage dynamicContentPage;
