@@ -9,17 +9,17 @@ import org.testng.annotations.Test;
 import com.qa.herokuapp.base.TestBase;
 import com.qa.herokuapp.helper.ImplicitWaitUtils;
 import com.qa.herokuapp.pages.HomePage;
-import com.qa.herokuapp.pages.LoginPage;
+import com.qa.herokuapp.pages.BasicAuthLoginPage;
 
-public class LoginTest extends TestBase {
+public class BasicAuthLoginTest extends TestBase {
 
-	private LoginPage loginPage;
+	private BasicAuthLoginPage loginPage;
 
 	@Test
 	public void validLogin() {
 
 		// Call LoginPage driver;
-		loginPage = new LoginPage(driver);
+		loginPage = new BasicAuthLoginPage(driver);
 
 		// Step 2: Basic Authentication
 		String username = properties.getProperty("username");
@@ -28,7 +28,7 @@ public class LoginTest extends TestBase {
 		driver.get("https://" + username + ":" + password + authUrl);
 
 		// Verify the successful login message
-		String successMessage = LoginPage.getSuccessMsg();
+		String successMessage = BasicAuthLoginPage.getSuccessMsg();
 		assertTrue(successMessage.contains("Congratulations! You must have the proper credentials."),
 				"Login was not successful!");
 
@@ -38,7 +38,7 @@ public class LoginTest extends TestBase {
 	public void invalidLogin() {
 
 		// Call LoginPage driver;
-		loginPage = new LoginPage(driver);
+		loginPage = new BasicAuthLoginPage(driver);
 
 		// Step 2: Basic Authentication
 		String username = properties.getProperty("invalidUsername");
@@ -47,7 +47,7 @@ public class LoginTest extends TestBase {
 		driver.get(authUrl);
 
 		String expectedUrl = "https://the-internet.herokuapp.com/basic_auth";
-		String currentUrl = LoginPage.getCurrentUrl();
+		String currentUrl = BasicAuthLoginPage.getCurrentUrl();
 		assertNotEquals(currentUrl, expectedUrl, "Invalid login should not load the correct page!");
 
 	}
