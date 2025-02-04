@@ -28,6 +28,15 @@ public class WebDriverWaitUtils {
 		wait = new WebDriverWait(driver, timeout);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
+	public static void waitForElementToNotBeClickable(WebDriver driver, Duration timeout, WebElement element) {
+		wait = new WebDriverWait(driver, timeout);
+		wait.until(ExpectedConditions.not(ExpectedConditions.elementToBeClickable(element)));
+	}
+	public static void waitForTextToBePresent(WebDriver driver, Duration timeout, String message, WebElement element) {
+		wait = new WebDriverWait(driver, timeout);
+		wait.until(ExpectedConditions.textToBePresentInElement(element, message));
+	}
+	
 	public static void waitForTheVisibilityOfListWebElements(WebDriver driver, Duration timeout,
 			List<WebElement> element) {
 		wait = new WebDriverWait(driver, timeout);
