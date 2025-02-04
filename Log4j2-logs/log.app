@@ -670,3 +670,53 @@
 2025-02-04 20:26:44 [main] INFO  com.qa.herokuapp.tests.DynamicControlsTest - Disabling the input field
 2025-02-04 20:26:44 [main] INFO  com.qa.herokuapp.tests.DynamicControlsTest - Verifying the disable message...
 2025-02-04 20:26:45 [main] INFO  com.qa.herokuapp.tests.DynamicControlsTest - Actual disable message received: It's disabled!
+2025-02-04 20:58:13 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Navigating to Dynamic Loading Page
+2025-02-04 20:58:15 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Successfully navigated to Dynamic Loading
+2025-02-04 20:58:15 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 1 text
+2025-02-04 20:58:16 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Current button text before click: Example 1: Element on page that is hidden
+2025-02-04 20:58:16 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Example 1 text is clicked...
+2025-02-04 20:58:16 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Verifying the Example 1 message...
+2025-02-04 20:59:44 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Navigating to Dynamic Loading Page
+2025-02-04 20:59:45 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Successfully navigated to Dynamic Loading
+2025-02-04 20:59:45 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 1 text
+2025-02-04 20:59:45 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Current button text before click: Example 1: Element on page that is hidden
+2025-02-04 20:59:46 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Example 1 text is clicked...
+2025-02-04 20:59:46 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Verifying the Example 1 message...
+2025-02-04 21:08:00 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Navigating to Dynamic Loading Page
+2025-02-04 21:08:03 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Successfully navigated to Dynamic Loading
+2025-02-04 21:08:10 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 1 text
+2025-02-04 21:08:21 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Current button text before click: Example 1: Element on page that is hidden
+2025-02-04 21:10:10 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Navigating to Dynamic Loading Page
+2025-02-04 21:10:13 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Successfully navigated to Dynamic Loading
+2025-02-04 21:10:13 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 1 text
+2025-02-04 21:10:23 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Current button text before click: Example 1: Element on page that is hidden
+2025-02-04 21:10:43 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Example 1: Start button is clicked.
+2025-02-04 21:10:52 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Example 1 text is clicked...
+2025-02-04 21:10:53 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Verifying the Example 1 message...
+2025-02-04 21:11:00 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Actual enable message received: Hello World!
+2025-02-04 21:11:15 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 2 text
+2025-02-04 21:11:19 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Current button text before click: Example 2: Element rendered after the fact
+2025-02-04 21:16:16 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Navigating to Dynamic Loading Page
+2025-02-04 21:16:17 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Successfully navigated to Dynamic Loading
+2025-02-04 21:16:17 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 1 text
+2025-02-04 21:16:18 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Example 1 text is clicked.
+2025-02-04 21:16:18 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Example 1: Start button is clicked.
+2025-02-04 21:16:23 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Example 1 text is clicked...
+2025-02-04 21:16:23 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Verifying the Example 1 message...
+2025-02-04 21:16:23 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Actual enable message received: Hello World!
+2025-02-04 21:16:23 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 2 text
+2025-02-04 21:16:24 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Example 2 text is clicked.
+2025-02-04 21:19:42 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Navigating to Dynamic Loading Page
+2025-02-04 21:19:45 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Successfully navigated to Dynamic Loading
+2025-02-04 21:19:45 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 1 text
+2025-02-04 21:19:45 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Example 1 text is clicked.
+2025-02-04 21:19:46 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Example 1: Start button is clicked.
+2025-02-04 21:19:51 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Example 1 text is clicked...
+2025-02-04 21:19:51 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Verifying the Example 1 message...
+2025-02-04 21:19:51 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Actual enable message received: Hello World!
+2025-02-04 21:19:51 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Click the Example 2 text
+2025-02-04 21:19:52 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Example 2 text is clicked.
+2025-02-04 21:19:53 [main] INFO  com.qa.herokuapp.pages.DynamicLoadingPage - Example 2: Start button is clicked.
+2025-02-04 21:19:58 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Disable Example 2 text is clicked...
+2025-02-04 21:19:58 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Verifying the Example 2 message...
+2025-02-04 21:19:58 [main] INFO  com.qa.herokuapp.tests.DynamicLoadingTest - Actual disable message received: Hello World!
