@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.herokuapp.tests.DynamicLoadingTest">
+      <class name="com.qa.herokuapp.tests.EntryAdTest">
         <methods>
           <include name="loadConfig"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
-          <include name="testDynamicLoading"/>
+          <include name="setup"/>
+          <include name="testCloseModal"/>
+          <include name="testReEnableModal"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.DynamicLoadingTest -->
+      </class> <!-- com.qa.herokuapp.tests.EntryAdTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
