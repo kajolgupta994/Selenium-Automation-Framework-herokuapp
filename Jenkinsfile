@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/kajolgupta994/Selenium-Automation-Framework-herokuapp'
+                git branch: 'main', url: 'https://github.com/kajolgupta994/Selenium-Automation-Framework-herokuapp'
             }
         }
 
