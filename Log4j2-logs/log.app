@@ -1230,3 +1230,189 @@ Session ID: b2402db89645fa7231ec019c0f2875ac
 2025-02-05 21:15:22 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Waiting for the modal to appear...
 2025-02-05 21:15:22 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Clicking Close button...
 2025-02-05 21:15:23 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Modal closed successfully.
+2025-02-05 21:37:02 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Navigating to Exit Intent Page...
+2025-02-05 21:37:02 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Successfully navigated to Exit Intent Page.
+2025-02-05 21:37:02 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Triggering Exit Intent by moving mouse outside viewport...
+2025-02-05 21:37:03 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Mouse moved outside viewport to trigger Exit Intent.
+2025-02-05 21:37:06 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Verifying if modal appears...
+2025-02-05 21:37:06 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Waiting for the modal to appear...
+2025-02-05 21:37:06 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Clicking Close button...
+2025-02-05 21:37:06 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Modal closed successfully.
+2025-02-05 21:37:27 [main] INFO  com.qa.herokuapp.tests.EntryAdTest - Navigating to Entry Ad Page...
+2025-02-05 21:37:28 [main] INFO  com.qa.herokuapp.tests.EntryAdTest - Successfully navigated to Entry Ad Page.
+2025-02-05 21:37:28 [main] INFO  com.qa.herokuapp.tests.EntryAdTest - Testing modal close functionality...
+2025-02-05 21:37:28 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Wait for the modal to appear
+2025-02-05 21:37:28 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Modal is appeared now.
+2025-02-05 21:37:28 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Click to the Close button to close the modal...
+2025-02-05 21:37:29 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Close button is clicked.
+2025-02-05 21:37:29 [main] INFO  com.qa.herokuapp.tests.EntryAdTest - Testing modal re-enable functionality...
+2025-02-05 21:37:29 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Wait for the modal to disappear before re-enabling
+2025-02-05 21:37:29 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Attempt 1: Clicking 'Click Here' to re-enable the modal.
+2025-02-05 21:37:30 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Modal is re-enabled now.
+2025-02-05 21:37:30 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Clicking the Close button...
+2025-02-05 21:37:30 [main] INFO  com.qa.herokuapp.pages.EntryAdPage - Close button is clicked.
+2025-02-05 21:38:07 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to Entry Ad Page...
+2025-02-05 21:38:07 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to Entry Ad Page.
+2025-02-05 21:38:23 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to Entry Ad Page...
+2025-02-05 21:38:24 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to Entry Ad Page.
+2025-02-05 21:51:06 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-05 21:51:06 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-05 21:51:36 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-05 21:51:38 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-05 21:51:39 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 20210801358_Gabrile Omar Prasetyo_Tugas Sesi 13 - SQA.pdf is downloaded successfully.
+2025-02-05 21:51:39 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - MyFile.png is downloaded successfully.
+2025-02-05 21:51:40 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1000-1.jpg is downloaded successfully.
+2025-02-05 21:51:40 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test_text_file.txt is downloaded successfully.
+2025-02-05 21:51:41 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - s.txt is downloaded successfully.
+2025-02-05 21:51:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - spectrum-logo.png is downloaded successfully.
+2025-02-05 21:51:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1000-2.jpg is downloaded successfully.
+2025-02-05 21:51:43 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Internship Certificate Surbhi.pdf is downloaded successfully.
+2025-02-05 21:51:43 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test_image.jpg is downloaded successfully.
+2025-02-05 21:51:44 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - hello.txt is downloaded successfully.
+2025-02-05 21:51:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Capture d'écran 2025-02-04 095455.png is downloaded successfully.
+2025-02-05 21:51:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - chromedriver.exe is downloaded successfully.
+2025-02-05 21:51:46 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - TextDoc.txt is downloaded successfully.
+2025-02-05 21:51:46 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - upload.png is downloaded successfully.
+2025-02-05 21:51:47 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - JSONArray.json is downloaded successfully.
+2025-02-05 21:51:48 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - schema.jpg is downloaded successfully.
+2025-02-05 21:51:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - saturday-baby.gif is downloaded successfully.
+2025-02-05 21:51:50 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - samplexlsxfile.xlsx is downloaded successfully.
+2025-02-05 21:51:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1724336945003.pdf is downloaded successfully.
+2025-02-05 21:51:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - random_data.txt is downloaded successfully.
+2025-02-05 21:51:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Image.PNG is downloaded successfully.
+2025-02-05 21:51:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - LambdaTest.txt is downloaded successfully.
+2025-02-05 21:51:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test.txt is downloaded successfully.
+2025-02-05 21:51:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - some-file.txt is downloaded successfully.
+2025-02-05 21:51:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - selenium.png is downloaded successfully.
+2025-02-05 21:51:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - hello.pdf is downloaded successfully.
+2025-02-05 21:51:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Excel.xlsx is downloaded successfully.
+2025-02-05 21:51:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - chrome.exe is downloaded successfully.
+2025-02-05 21:52:00 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - examplefile.json is downloaded successfully.
+2025-02-05 21:52:48 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-05 21:52:49 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-05 21:52:50 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 20210801358_Gabrile Omar Prasetyo_Tugas Sesi 13 - SQA.pdf is downloaded successfully.
+2025-02-05 21:52:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - MyFile.png is downloaded successfully.
+2025-02-05 21:52:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1000-1.jpg is downloaded successfully.
+2025-02-05 21:52:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test_text_file.txt is downloaded successfully.
+2025-02-05 21:52:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - s.txt is downloaded successfully.
+2025-02-05 21:52:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - spectrum-logo.png is downloaded successfully.
+2025-02-05 21:52:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1000-2.jpg is downloaded successfully.
+2025-02-05 21:52:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Internship Certificate Surbhi.pdf is downloaded successfully.
+2025-02-05 21:52:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test_image.jpg is downloaded successfully.
+2025-02-05 21:52:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - hello.txt is downloaded successfully.
+2025-02-05 21:52:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Capture d'écran 2025-02-04 095455.png is downloaded successfully.
+2025-02-05 21:52:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - chromedriver.exe is downloaded successfully.
+2025-02-05 21:52:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - TextDoc.txt is downloaded successfully.
+2025-02-05 21:53:01 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - upload.png is downloaded successfully.
+2025-02-05 21:53:02 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - JSONArray.json is downloaded successfully.
+2025-02-05 21:53:02 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - schema.jpg is downloaded successfully.
+2025-02-05 21:53:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - saturday-baby.gif is downloaded successfully.
+2025-02-05 21:53:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - samplexlsxfile.xlsx is downloaded successfully.
+2025-02-05 21:53:05 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1724336945003.pdf is downloaded successfully.
+2025-02-05 21:53:05 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - random_data.txt is downloaded successfully.
+2025-02-05 21:53:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Image.PNG is downloaded successfully.
+2025-02-05 21:53:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - LambdaTest.txt is downloaded successfully.
+2025-02-05 21:53:08 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test.txt is downloaded successfully.
+2025-02-05 21:53:08 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - some-file.txt is downloaded successfully.
+2025-02-05 21:53:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - selenium.png is downloaded successfully.
+2025-02-05 21:53:10 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - hello.pdf is downloaded successfully.
+2025-02-05 21:53:10 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Excel.xlsx is downloaded successfully.
+2025-02-05 21:53:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - chrome.exe is downloaded successfully.
+2025-02-05 21:53:12 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - examplefile.json is downloaded successfully.
+2025-02-05 21:57:28 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-05 21:57:31 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-05 21:57:31 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 20210801358_Gabrile Omar Prasetyo_Tugas Sesi 13 - SQA.pdf is downloaded successfully.
+2025-02-05 21:57:32 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - MyFile.png is downloaded successfully.
+2025-02-05 21:57:32 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1000-1.jpg is downloaded successfully.
+2025-02-05 21:57:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test_text_file.txt is downloaded successfully.
+2025-02-05 21:57:34 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - s.txt is downloaded successfully.
+2025-02-05 21:57:35 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - spectrum-logo.png is downloaded successfully.
+2025-02-05 21:57:35 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1000-2.jpg is downloaded successfully.
+2025-02-05 21:57:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Internship Certificate Surbhi.pdf is downloaded successfully.
+2025-02-05 21:57:37 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test_image.jpg is downloaded successfully.
+2025-02-05 21:57:38 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - hello.txt is downloaded successfully.
+2025-02-05 21:57:39 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Capture d'écran 2025-02-04 095455.png is downloaded successfully.
+2025-02-05 21:57:39 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - chromedriver.exe is downloaded successfully.
+2025-02-05 21:57:41 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - TextDoc.txt is downloaded successfully.
+2025-02-05 21:57:41 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - upload.png is downloaded successfully.
+2025-02-05 21:57:43 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - JSONArray.json is downloaded successfully.
+2025-02-05 21:57:44 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - schema.jpg is downloaded successfully.
+2025-02-05 21:57:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - saturday-baby.gif is downloaded successfully.
+2025-02-05 21:57:46 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - samplexlsxfile.xlsx is downloaded successfully.
+2025-02-05 21:57:47 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 1724336945003.pdf is downloaded successfully.
+2025-02-05 21:57:47 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - random_data.txt is downloaded successfully.
+2025-02-05 21:57:48 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Image.PNG is downloaded successfully.
+2025-02-05 21:57:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - LambdaTest.txt is downloaded successfully.
+2025-02-05 21:57:50 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test.txt is downloaded successfully.
+2025-02-05 21:57:50 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - some-file.txt is downloaded successfully.
+2025-02-05 21:57:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - selenium.png is downloaded successfully.
+2025-02-05 21:57:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - hello.pdf is downloaded successfully.
+2025-02-05 21:57:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Excel.xlsx is downloaded successfully.
+2025-02-05 21:57:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - chrome.exe is downloaded successfully.
+2025-02-05 21:57:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - examplefile.json is downloaded successfully.
+2025-02-05 22:19:24 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-05 22:19:26 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-05 22:19:26 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Initiating file download process...
+2025-02-05 22:19:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Total files available: 31
+2025-02-05 22:19:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: 20210801358_Gabrile Omar Prasetyo_Tugas Sesi 13 - SQA.pdf
+2025-02-05 22:19:56 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - 20210801358_Gabrile Omar Prasetyo_Tugas Sesi 13 - SQA.pdf download failed.
+2025-02-05 22:19:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: MyFile.png
+2025-02-05 22:20:28 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - MyFile.png download failed.
+2025-02-05 22:20:28 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: 1000-1.jpg
+2025-02-05 22:20:59 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - 1000-1.jpg download failed.
+2025-02-05 22:20:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: test_text_file.txt
+2025-02-05 22:21:30 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - test_text_file.txt download failed.
+2025-02-05 22:21:30 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: s.txt
+2025-02-05 22:22:01 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - s.txt download failed.
+2025-02-05 22:22:01 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: Screenshot (40).png
+2025-02-05 22:22:33 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - Screenshot (40).png download failed.
+2025-02-05 22:22:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: spectrum-logo.png
+2025-02-05 22:23:04 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - spectrum-logo.png download failed.
+2025-02-05 22:23:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: 1000-2.jpg
+2025-02-05 22:23:36 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - 1000-2.jpg download failed.
+2025-02-05 22:23:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: Internship Certificate Surbhi.pdf
+2025-02-05 22:24:07 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - Internship Certificate Surbhi.pdf download failed.
+2025-02-05 22:24:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: test_image.jpg
+2025-02-05 22:24:38 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - test_image.jpg download failed.
+2025-02-05 22:24:38 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: hello.txt
+2025-02-05 22:25:09 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - hello.txt download failed.
+2025-02-05 22:25:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: Capture d'écran 2025-02-04 095455.png
+2025-02-05 22:25:40 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - Capture d'écran 2025-02-04 095455.png download failed.
+2025-02-05 22:25:40 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: chromedriver.exe
+2025-02-05 22:26:11 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - chromedriver.exe download failed.
+2025-02-05 22:26:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: TextDoc.txt
+2025-02-05 22:26:42 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - TextDoc.txt download failed.
+2025-02-05 22:26:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: upload.png
+2025-02-05 22:27:12 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - upload.png download failed.
+2025-02-05 22:27:12 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: JSONArray.json
+2025-02-05 22:27:43 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - JSONArray.json download failed.
+2025-02-05 22:27:43 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: schema.jpg
+2025-02-05 22:28:14 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - schema.jpg download failed.
+2025-02-05 22:28:14 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: saturday-baby.gif
+2025-02-05 22:28:45 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - saturday-baby.gif download failed.
+2025-02-05 22:28:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: samplexlsxfile.xlsx
+2025-02-05 22:29:16 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - samplexlsxfile.xlsx download failed.
+2025-02-05 22:29:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: 1724336945003.pdf
+2025-02-05 22:29:47 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - 1724336945003.pdf download failed.
+2025-02-05 22:29:47 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: random_data.txt
+2025-02-05 22:30:18 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - random_data.txt download failed.
+2025-02-05 22:30:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: Image.PNG
+2025-02-05 22:30:49 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - Image.PNG download failed.
+2025-02-05 22:30:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: LambdaTest.txt
+2025-02-05 22:31:20 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - LambdaTest.txt download failed.
+2025-02-05 22:31:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: test.txt
+2025-02-05 22:31:51 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - test.txt download failed.
+2025-02-05 22:31:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: some-file.txt
+2025-02-05 22:32:22 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - some-file.txt download failed.
+2025-02-05 22:32:22 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: selenium.png
+2025-02-05 22:32:53 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - selenium.png download failed.
+2025-02-05 22:32:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: Manual.docx
+2025-02-05 22:33:23 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - Manual.docx download failed.
+2025-02-05 22:33:23 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: hello.pdf
+2025-02-05 22:33:54 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - hello.pdf download failed.
+2025-02-05 22:33:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: Excel.xlsx
+2025-02-05 22:34:25 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - Excel.xlsx download failed.
+2025-02-05 22:34:25 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: chrome.exe
+2025-02-05 22:34:56 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - chrome.exe download failed.
+2025-02-05 22:34:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Downloading file: examplefile.json
+2025-02-05 22:35:26 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - examplefile.json download failed.

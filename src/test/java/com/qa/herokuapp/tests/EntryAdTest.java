@@ -1,6 +1,5 @@
 package com.qa.herokuapp.tests;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.qa.herokuapp.base.TestBase;
@@ -17,7 +16,7 @@ public class EntryAdTest extends TestBase {
 		entryAdPage = new EntryAdPage(getDriver());
 	}
 
-	@Test(priority = 1)
+	@Test
 	public void testCloseModal() {
 		LOGGER.info("Navigating to Entry Ad Page...");
         homePage.clickOnEntryAdLinkText();
