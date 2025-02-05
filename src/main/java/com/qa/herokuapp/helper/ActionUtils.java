@@ -2,6 +2,7 @@ package com.qa.herokuapp.helper;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -41,4 +42,12 @@ public class ActionUtils {
 		action = new Actions(driver);
 		action.clickAndHold(source).moveToElement(target).release(target).build().perform();
 	}
+	
+	public static void moveOffsetOutsideViewPort(WebDriver driver) {
+		action = new Actions(driver);
+	    
+	    // Move the cursor out of the viewport (above the browser window)
+	    action.moveByOffset(0, -500).perform(); 
+	}
+
 }

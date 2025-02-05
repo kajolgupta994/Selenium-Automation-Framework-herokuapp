@@ -3,16 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.herokuapp.tests.EntryAdTest">
+      <class name="com.qa.herokuapp.tests.ExitIntentTest">
         <methods>
+          <include name="testExitIntent"/>
           <include name="loadConfig"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
-          <include name="setup"/>
-          <include name="testCloseModal"/>
-          <include name="testReEnableModal"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.EntryAdTest -->
+      </class> <!-- com.qa.herokuapp.tests.ExitIntentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
