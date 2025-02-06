@@ -29,4 +29,5 @@ pipeline {
 					junit '**/target/surefire-reports/testng-results.xml'            
 			}
         }
+	}
 }
