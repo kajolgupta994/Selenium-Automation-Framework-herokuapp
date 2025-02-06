@@ -26,7 +26,7 @@ pipeline {
 
         stage('Publish TestNG Reports') {
             steps {
-                publishTestNGResults testResultsPattern: '**/target/surefire-reports/testng-results.xml'
+                publishTestNG testResultsPattern: '**/target/surefire-reports/testng-results.xml', escapeTestDescp: true, escapeExceptionMsg: true
             }
         }
     }
