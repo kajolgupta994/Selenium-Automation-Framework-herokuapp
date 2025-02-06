@@ -6,19 +6,21 @@ import com.qa.herokuapp.pages.DisappearingElementsPage;
 import com.qa.herokuapp.pages.HomePage;
 
 public class DisappearingElementsTest extends TestBase {
-	protected DisappearingElementsPage handleDisappearingElementsPage;
-	protected HomePage homePage;
+    protected DisappearingElementsPage handleDisappearingElementsPage;
+    protected HomePage homePage;
 
-	@Test
-	public void validateDisappearingElement() {
-		homePage = new HomePage(driver);
+    @Test
+    public void validateDisappearingElement() {
+        LOGGER.info("Initializing HomePage and DisappearingElementsPage objects.");
+        homePage = new HomePage(driver);
+        handleDisappearingElementsPage = new DisappearingElementsPage(getDriver());
 
-		// Navigate to the Disappearing Elements page
-		homePage.clickOnDisappearingElementsLinkText();
+        LOGGER.info("Navigating to the Disappearing Elements Page...");
+        homePage.clickOnDisappearingElementsLinkText();
+        LOGGER.info("Navigated to the Disappearing Elements Page.");
 
-		handleDisappearingElementsPage = new DisappearingElementsPage(driver);
-
-		// Click on menus
-		handleDisappearingElementsPage.ClickOnMenusDynamically();
-	}
+        LOGGER.info("Starting the process of clicking on menus dynamically.");
+        handleDisappearingElementsPage.ClickOnMenusDynamically();
+        LOGGER.info("Completed clicking on menus dynamically.");
+    }
 }

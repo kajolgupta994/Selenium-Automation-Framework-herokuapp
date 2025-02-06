@@ -11,36 +11,35 @@ public class DynamicWebElementsTest extends TestBase {
 
 	@Test
 	public void handleDynamicElement() {
-		homePage = new HomePage(driver);
+		homePage = new HomePage(getDriver());
+		handleDynamicWebElementPage = new DynamicWebElementPage(getDriver());
 
-		// Step 1: Navigate to the Challenging DOM page
-
+		LOGGER.info("Step 1: Navigating to the Challenging DOM page...");
 		homePage.clickOnChallengingDOMLinkText();
+		LOGGER.info("Navigated to the Challenging DOM page.");
 
-		handleDynamicWebElementPage = new DynamicWebElementPage(driver);
-
-		// Step 2: Click on button displaying now
+		LOGGER.info("Step 2: Clicking on button displaying now...");
 		handleDynamicWebElementPage.ClickOnButtonDynamically();
+		LOGGER.info("Button clicked dynamically.");
 
-		// Step 3: Validate table data
-		String Data = handleDynamicWebElementPage.getTableCellValues();
-		if (Data.isEmpty()) {
-			System.out.println("Table data is empty.");
+		LOGGER.info("Step 3: Validating table data...");
+		String data = handleDynamicWebElementPage.getTableCellValues();
+		if (data.isEmpty()) {
+			LOGGER.warn("Table data is empty.");
 		} else {
-			System.out.println(Data);
+			LOGGER.info("Table data: \n" + data);
 		}
 
-		// Step 4: Get canvas data
+		LOGGER.info("Step 4: Getting canvas data...");
 		String canvasContent = handleDynamicWebElementPage.getCanvasDataAsBase64();
 		if (canvasContent != null) {
-			System.out.println("Canvas content(Base64) " + canvasContent);
+			LOGGER.info("Canvas content (Base64): " + canvasContent);
 		} else {
-			System.out.println("Failed to retrieve canvas content.");
+			LOGGER.error("Failed to retrieve canvas content.");
 		}
 
-		// Step 5: Click on the action buttons(edit, delete) to check if enabled and
-		// clickable
+		LOGGER.info("Step 5: Clicking on the action buttons (edit, delete) to check if enabled and clickable...");
 		handleDynamicWebElementPage.clickActionButtons();
-
+		LOGGER.info("Action buttons clicked (edit, delete) and checked for interactability.");
 	}
 }

@@ -12,12 +12,13 @@ public class DynamicContentTest extends TestBase {
 	@Test
 	public void validateDropdownChange() {
 
-		homePage = new HomePage(driver);
+		homePage = new HomePage(getDriver());
+		dynamicContentPage = new DynamicContentPage(getDriver());
+
 		LOGGER.info("Clicking on Dynamic Content link...");
 		homePage.clickOnDynamicContentLinkText();
 		LOGGER.info("Navigated to Dynamic Content page.");
 
-		dynamicContentPage = new DynamicContentPage(driver);
 		LOGGER.info("Validating content changes on refresh...");
 		dynamicContentPage.navigateAndValidateDynamicContent();
 		LOGGER.info("Dynamic content validation completed.");

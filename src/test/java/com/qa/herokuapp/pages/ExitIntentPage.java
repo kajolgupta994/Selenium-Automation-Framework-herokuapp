@@ -29,26 +29,25 @@ public class ExitIntentPage extends TestBase {
 	}
 
 	public void triggerExitIntent() {
-	    try {
-	        Robot robot = new Robot();  // Step 1: Create Robot instance
-	        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize(); // Step 2: Get screen size
+		try {
+			Robot robot = new Robot(); // Step 1: Create Robot instance
+			Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize(); // Step 2: Get screen size
 
-	        // Step 3: Move mouse inside viewport first
-	        robot.mouseMove(screenSize.width / 2, screenSize.height / 2);
-	        Thread.sleep(500); // Small delay to ensure movement is registered
+			// Step 3: Move mouse inside viewport first
+			robot.mouseMove(screenSize.width / 2, screenSize.height / 2);
+			Thread.sleep(500); // Small delay to ensure movement is registered
 
-	        // Step 4: Move mouse outside viewport (top-left corner)
-	        robot.mouseMove(0, 0);
-	        LOGGER.info("Mouse moved outside viewport to trigger Exit Intent.");
-	        
-	        // Step 5: Small delay to allow modal to appear
-	        Thread.sleep(3000);
+			// Step 4: Move mouse outside viewport (top-left corner)
+			robot.mouseMove(0, 0);
+			LOGGER.info("Mouse moved outside viewport to trigger Exit Intent.");
 
-	    } catch (AWTException | InterruptedException e) {
-	        e.printStackTrace();
-	    }
+			// Step 5: Small delay to allow modal to appear
+			Thread.sleep(3000);
+			LOGGER.info("Exit Intent triggered, waiting for modal to appear.");
+		} catch (AWTException | InterruptedException e) {
+			LOGGER.error("Error while triggering Exit Intent: " + e.getMessage());
+		}
 	}
-
 
 	// Close the Exit Intent modal
 	public void closeModal() {
@@ -56,9 +55,11 @@ public class ExitIntentPage extends TestBase {
 		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), modal);
 
 		if (modal.isDisplayed()) {
-			LOGGER.info("Clicking Close button...");
+			LOGGER.info("Modal is visible. Clicking Close button...");
 			closeButton.click();
 			LOGGER.info("Modal closed successfully.");
+		} else {
+			LOGGER.warn("Modal not visible, cannot close.");
 		}
 	}
 }

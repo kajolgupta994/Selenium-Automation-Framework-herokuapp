@@ -16,10 +16,14 @@ public class CheckboxesTest extends TestBase {
 	@Test
 	public void testClickingCheckboes() {
 
-		homePage = new HomePage(driver);
+		homePage = new HomePage(getDriver());
+		handleCheckboxespage = new CheckboxesPage(getDriver());
 
+		LOGGER.info("Navigating to the Checkboxes Page...");
 		homePage.clickOnCheckboxesLinkText();
-		handleCheckboxespage = new CheckboxesPage(driver);
+		LOGGER.info("Navigated to the Checkboxes Page.");
+		
+		
 		handleCheckboxespage.selectAndDeselectCheckboxes();
 
 	}

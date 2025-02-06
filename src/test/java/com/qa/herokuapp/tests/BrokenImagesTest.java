@@ -9,15 +9,16 @@ import com.qa.herokuapp.pages.HomePage;
 public class BrokenImagesTest extends TestBase {
 	private BrokenImagesPage brokenImagesPage;
 	private HomePage homePage;
-	
+
 	@Test
 	public void brokenImageTest() {
-		homePage = new HomePage(driver);
+		homePage = new HomePage(getDriver());
+		brokenImagesPage = new BrokenImagesPage(getDriver());
+
+		LOGGER.info("Navigating to Broken Images Page...");
 		homePage.clickOnBrokenImagesLinkText();
-		
-		brokenImagesPage = new BrokenImagesPage(driver);
+		LOGGER.info("Successfully navigated to Broken Images Page.");
+
 		brokenImagesPage.getBrokenImageCounts();
 	}
-	
-
 }

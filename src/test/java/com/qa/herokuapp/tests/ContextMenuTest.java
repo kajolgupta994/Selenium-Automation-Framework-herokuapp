@@ -13,12 +13,13 @@ public class ContextMenuTest extends TestBase {
 
 	@Test
 	public void testRightClickOnContextMenuBox() {
-		homePage = new HomePage(driver);
 		
-		//Click on the Content Menu 
+		homePage = new HomePage(getDriver());
+		handleContextMenuPage = new ContextMenuPage(getDriver());
+		
+		LOGGER.info("Navigating to the Context Menu Page...");
 		homePage.clickOnContextMenuLinkText();
-
-		handleContextMenuPage = new ContextMenuPage(driver);
+		LOGGER.info("Navigated to the Context Menu Page.");		
 		
 		//Context click on the content menu and hold it until alert it shown
 		handleContextMenuPage.rightClickOnContextMenuBoxAndHold();

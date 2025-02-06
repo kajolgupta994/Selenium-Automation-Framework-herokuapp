@@ -1,48 +1,48 @@
 package com.qa.herokuapp.pages;
 
 import java.util.List;
-
-import org.apache.hc.client5.http.impl.classic.HttpClientBuilder;
-import org.apache.hc.core5.http.HttpStatus;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class BrokenImagesPage {
-	private WebDriver driver;
-	int getBrokenImageCount = 0;
-	public String status = "passed";
+import com.qa.herokuapp.base.TestBase;
 
-	@FindBy(xpath = "//div[@class='example']//img")
-	private List<WebElement> imageList;
+public class BrokenImagesPage extends TestBase {
+    private WebDriver driver;
+    private int brokenImageCount = 0;
+    public String status = "passed";
 
-	public BrokenImagesPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
+    @FindBy(xpath = "//div[@class='example']//img")
+    private List<WebElement> imageList;
 
-	public void getBrokenImageCounts() {
-		try {
+    public BrokenImagesPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 
-			for (WebElement image : imageList) {
-				if (image != null) {
-					if (image.getAttribute("naturalWidth").equals("0")) {
-						System.out.println(image.getAttribute("outerHTML") + "is broken");
-						getBrokenImageCount++;
-					}
-				}
-
-			}
-
-		} catch (Exception e) {
-
-			e.printStackTrace();
-			status = "failed";
-			System.out.println(e.getMessage());
-		}
-		status = "passed";
-		System.out.println("The page has " + getBrokenImageCount + " broken images");
-	}
+    public void getBrokenImageCounts() {
+        try {
+            LOGGER.info("Checking for broken images on the page.");
+            
+            for (WebElement image : imageList) {
+                if (image != null) {
+                    if (image.getAttribute("naturalWidth").equals("0")) {
+                        LOGGER.warn("Broken image detected: {}", image.getAttribute("outerHTML"));
+                        brokenImageCount++;
+                    }
+                }
+            }
+            
+            LOGGER.info("Total broken images found: {}", brokenImageCount);
+            
+        } catch (Exception e) {
+            status = "failed";
+            LOGGER.error("An error occurred while checking for broken images: {}", e.getMessage(), e);
+        }
+        status = "passed";
+    }
 }

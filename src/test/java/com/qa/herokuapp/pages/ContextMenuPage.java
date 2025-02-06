@@ -8,11 +8,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.qa.herokuapp.base.TestBase;
 import com.qa.herokuapp.helper.ActionUtils;
 import com.qa.herokuapp.helper.AlertUtils;
 import com.qa.herokuapp.helper.WebDriverWaitUtils;
 
-public class ContextMenuPage {
+public class ContextMenuPage extends TestBase {
 	private WebDriver driver;
 
 	@FindBy(id = "hot-spot")
@@ -24,26 +25,24 @@ public class ContextMenuPage {
 	}
 
 	public void rightClickOnContextMenuBoxAndHold() {
-
+		LOGGER.info("Waiting for context menu box to be visible...");
 		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), hotSpot);
-		// Perform right-click on the element
-		System.out.println("Performing right-click and hold it until alert is shown up...");
+
+		LOGGER.info("Performing right-click and holding it until alert is displayed...");
 		ActionUtils.alertContextClickAndHold(driver, hotSpot);
 
 		try {
-			// Wait for the alert to appear and get its text
+			LOGGER.info("Waiting for alert to appear...");
 			String alertText = AlertUtils.alertGetText(driver);
-			System.out.println(alertText);
+			LOGGER.info("Alert text: " + alertText);
 
-			// Click ok button from the javascript alert
+			LOGGER.info("Accepting the alert...");
 			AlertUtils.alertAccept(driver);
 
-			// Release mouse hold
+			LOGGER.info("Releasing mouse hold...");
 			ActionUtils.releaseClick(driver);
-
 		} catch (NoAlertPresentException e) {
-			System.out.println("No alert present: " + e.getMessage());
+			LOGGER.error("No alert present: " + e.getMessage());
 		}
-
 	}
 }

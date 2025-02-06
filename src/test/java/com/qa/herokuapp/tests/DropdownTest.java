@@ -15,13 +15,18 @@ public class DropdownTest extends TestBase {
 
 	@Test
 	public void validateDropdownValues() {
+		LOGGER.info("Initializing HomePage object.");
+		homePage = new HomePage(getDriver());
 
-		homePage = new HomePage(driver);
+		LOGGER.info("Initializing DropdownPage object.");
+		dropdownPage = new DropdownPage(getDriver());
 
+		LOGGER.info("Navigating to Dropdown page.");
 		homePage.clickOnDropdownLinkText();
-		dropdownPage = new DropdownPage(driver);
+		LOGGER.info("Navigated to Dropdown page.");
+
+		LOGGER.info("Selecting dropdown options.");
 		dropdownPage.selectDropdownOptions();
-
+		LOGGER.info("Dropdown option selection completed.");
 	}
-
 }

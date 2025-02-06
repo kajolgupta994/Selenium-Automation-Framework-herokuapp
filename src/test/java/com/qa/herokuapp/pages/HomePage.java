@@ -7,10 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.qa.herokuapp.base.TestBase;
 import com.qa.herokuapp.helper.ImplicitWaitUtils;
 import com.qa.herokuapp.helper.WebDriverWaitUtils;
 
-public class HomePage {
+public class HomePage extends TestBase {
 
 	protected WebDriver driver;
 
@@ -103,224 +104,185 @@ public class HomePage {
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
+		LOGGER.info("Waiting for the page to load...");
 		ImplicitWaitUtils.waitForThePageGetLoaded(driver, Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
+		LOGGER.info("Page loaded successfully.");
+	}
+
+	public void clickOnLinkText(WebElement linkTextElement) {
+		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), linkTextElement);
+		linkTextElement.click();
 	}
 
 	public void clickOnBasicAuthText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), basicAuthPageLink);
-		basicAuthPageLink.click();
+		clickOnLinkText(basicAuthPageLink);
 	}
 
 	public void clickOnAddRemoveElementLink() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), addRemoveElements);
-		addRemoveElements.click();
+		clickOnLinkText(addRemoveElements);
 	}
 
 	public void clickOnBrokenImagesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), brokenImagesLinkTexrt);
-		brokenImagesLinkTexrt.click();
+		clickOnLinkText(brokenImagesLinkTexrt);
 	}
 
 	public void clickOnChallengingDOMLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10),
-				clickOnChallengingDOMLinkText);
-		clickOnChallengingDOMLinkText.click();
+		clickOnLinkText(clickOnChallengingDOMLinkText);
 	}
 
 	public void clickOnCheckboxesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), checkboxesLinkText);
-		checkboxesLinkText.click();
+		clickOnLinkText(checkboxesLinkText);
 	}
 
 	public void clickOnContextMenuLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), contextMenuLinkText);
-		contextMenuLinkText.click();
+		clickOnLinkText(contextMenuLinkText);
 	}
+
 	public void clickOnDigestAuthenticationLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), digestAuthenticationLinkText);
-		digestAuthenticationLinkText.click();
+		clickOnLinkText(digestAuthenticationLinkText);
 	}
 
 	public void clickOnDisappearingElementsLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), DisappearingElementsLinkText);
-		DisappearingElementsLinkText.click();
+		clickOnLinkText(DisappearingElementsLinkText);
 	}
 
 	public void clickOnDragAndDropLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), dragAndDropLinkText);
-		dragAndDropLinkText.click();
+		clickOnLinkText(dragAndDropLinkText);
 	}
 
 	public void clickOnDropdownLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), dropddownLinkText);
-		dropddownLinkText.click();
+		clickOnLinkText(dropddownLinkText);
 	}
 
 	public void clickOnDynamicContentLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), dynamicContentLinkText);
-		dynamicContentLinkText.click();
+		clickOnLinkText(dynamicContentLinkText);
 	}
 
 	public void clickOnDynamicControlsLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), dynamicControlsLinkText);
-		dynamicControlsLinkText.click();
+		clickOnLinkText(dynamicControlsLinkText);
 	}
 
 	public void clickOnDynamicLoadingLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), dynamicLoadingLinkText);
-		dynamicLoadingLinkText.click();
+		clickOnLinkText(dynamicLoadingLinkText);
 	}
 
 	public void clickOnEntryAdLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), entryAdLinkText);
-		entryAdLinkText.click();
+		clickOnLinkText(entryAdLinkText);
 	}
-
 	public void clickOnExitIntentLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), exitIntentLinkText);
-		exitIntentLinkText.click();
+	    clickOnLinkText(exitIntentLinkText);
 	}
 
 	public void clickOnFileDownloadLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), fileDownloadLinkText);
-		fileDownloadLinkText.click();
+		clickOnLinkText(fileDownloadLinkText);
 	}
 
 	public void clickOnFileUplaodLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), fileUploadLinkText);
-		fileUploadLinkText.click();
+		clickOnLinkText(fileUploadLinkText);
 	}
 
 	public void clickOnFloatingMenuLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), floatingMenuLinkText);
-		floatingMenuLinkText.click();
+		clickOnLinkText(floatingMenuLinkText);
 	}
 
 	public void clickOnForgotPasswordLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), forgotPasswordLinkText);
-		forgotPasswordLinkText.click();
+		clickOnLinkText(forgotPasswordLinkText);
 	}
 
 	public void clickOnFormAuthenticartionLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), formAuthenticationLinkText);
-		formAuthenticationLinkText.click();
+		clickOnLinkText(formAuthenticationLinkText);
 	}
 
 	public void clickOnFramesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), framesLinkText);
-		framesLinkText.click();
+		clickOnLinkText(framesLinkText);
 	}
 
 	public void clickOnGeolocationLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), GeolocationLinkText);
-		GeolocationLinkText.click();
+		clickOnLinkText(GeolocationLinkText);
 	}
 
 	public void clickOnHorizontalSliderLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), horizontalSliderLinkText);
-		horizontalSliderLinkText.click();
+		clickOnLinkText(horizontalSliderLinkText);
 	}
 
 	public void clickOnHoversLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), hoversLinkText);
-		hoversLinkText.click();
+		clickOnLinkText(hoversLinkText);
 	}
 
 	public void clickOnInfiniteScrollLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), infiniteScrollLinkText);
-		infiniteScrollLinkText.click();
+		clickOnLinkText(infiniteScrollLinkText);
 	}
 
 	public void clickOnInputsLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), inputsLinkText);
-		inputsLinkText.click();
+		clickOnLinkText(inputsLinkText);
 	}
 
 	public void clickOnJqueryUIMenusLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), jQueryUIMenusLinkText);
-		jQueryUIMenusLinkText.click();
+		clickOnLinkText(jQueryUIMenusLinkText);
 	}
 
 	public void clickOnJavaScriptAlertsLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), javaScriptAlertsLinkText);
-		javaScriptAlertsLinkText.click();
+		clickOnLinkText(javaScriptAlertsLinkText);
 	}
 
 	public void clickOnJavaScriptOnloadEventErrorLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10),
-				javaScriptOnloadEventLinkText);
-		javaScriptOnloadEventLinkText.click();
+		clickOnLinkText(javaScriptOnloadEventLinkText);
 	}
 
 	public void clickOnKeyPressesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), keyPressesLinkText);
-		keyPressesLinkText.click();
+		clickOnLinkText(keyPressesLinkText);
 	}
 
 	public void clickOnLargeAndDeepLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), largeAndDeepDOMLinkText);
-		largeAndDeepDOMLinkText.click();
+		clickOnLinkText(largeAndDeepDOMLinkText);
 	}
 
 	public void clickOnMultipleWindowsLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), multipleWindowsLinkText);
-		multipleWindowsLinkText.click();
+		clickOnLinkText(multipleWindowsLinkText);
 	}
 
 	public void clickOnNestedFramesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), nestedFramesLinkText);
-		nestedFramesLinkText.click();
+		clickOnLinkText(nestedFramesLinkText);
 	}
 
 	public void clickOnNotificationMessagesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), notificationMessagesLinkText);
-		notificationMessagesLinkText.click();
+		clickOnLinkText(notificationMessagesLinkText);
 	}
 
 	public void clickOnRedirectLinkLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), redirectLinkLinkText);
-		redirectLinkLinkText.click();
+		clickOnLinkText(redirectLinkLinkText);
 	}
 
 	public void clickOnSecureFileDownloadLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), secureFileDownloadLinkText);
-		secureFileDownloadLinkText.click();
+		clickOnLinkText(secureFileDownloadLinkText);
 	}
 
 	public void clickOnShadowDOMLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), shadowDOMLinkText);
-		shadowDOMLinkText.click();
+		clickOnLinkText(shadowDOMLinkText);
 	}
 
 	public void clickOnShiftingContentLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), shiftingContentLinkText);
-		shiftingContentLinkText.click();
+		clickOnLinkText(shiftingContentLinkText);
 	}
 
 	public void clickOnSlowResourcesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), slowResourcesLinkText);
-		slowResourcesLinkText.click();
+		clickOnLinkText(slowResourcesLinkText);
 	}
 
 	public void clickOnSortableDataTablesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), sortableDataTablesLinkText);
-		sortableDataTablesLinkText.click();
+		clickOnLinkText(sortableDataTablesLinkText);
 	}
 
 	public void clickOnStatusCodesLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), statusCodesLinkText);
-		statusCodesLinkText.click();
+		clickOnLinkText(statusCodesLinkText);
 	}
 
 	public void clickOnTyposLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), typosLinkText);
-		typosLinkText.click();
+		clickOnLinkText(typosLinkText);
 	}
 
 	public void clickOnWYSIWYGEditorLinkText() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), wYSIWYGEditorLinkText);
-		wYSIWYGEditorLinkText.click();
+		clickOnLinkText(wYSIWYGEditorLinkText);
 	}
-
 }

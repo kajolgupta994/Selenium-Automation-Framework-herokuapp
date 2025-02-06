@@ -3,14 +3,12 @@ package com.qa.herokuapp.pages;
 import java.time.Duration;
 import java.util.NoSuchElementException;
 
-import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.qa.herokuapp.base.TestBase;
-import com.qa.herokuapp.helper.AlertUtils;
 import com.qa.herokuapp.helper.WebDriverWaitUtils;
 
 public class EntryAdPage extends TestBase {
@@ -67,7 +65,7 @@ public class EntryAdPage extends TestBase {
 					closeButton.click();
 					LOGGER.info("Close button is clicked.");
 					isModalVisible = true;
-					break; 
+					break;
 				}
 			} catch (Exception e) {
 				LOGGER.warn("Modal did not appear after click. Retrying... " + e.getMessage());
@@ -76,8 +74,8 @@ public class EntryAdPage extends TestBase {
 
 		}
 		if (!isModalVisible) {
-	        LOGGER.error("Failed to re-enable modal after " + maxRetries + " attempts.");
-	    }
+			LOGGER.error("Failed to re-enable modal after " + maxRetries + " attempts.");
+		}
 	}
-	
+
 }

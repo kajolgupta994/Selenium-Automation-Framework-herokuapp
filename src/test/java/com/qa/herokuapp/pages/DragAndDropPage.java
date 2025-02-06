@@ -8,11 +8,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.qa.herokuapp.base.TestBase;
 import com.qa.herokuapp.helper.ActionUtils;
-import com.qa.herokuapp.helper.WebDriverWaitUtils;
 
-public class DragAndDropPage {
+public class DragAndDropPage extends TestBase {
 	protected WebDriver driver;
+
 	@FindBy(id = "column-a")
 	private WebElement columnA;
 
@@ -29,20 +30,27 @@ public class DragAndDropPage {
 
 	public void dragAndDropVisaVersa() {
 		try {
+			LOGGER.info("Dragging Column A to Column B.");
 			ActionUtils.dragAndDropWithWait(driver, columnA, columnB, Duration.ofSeconds(3));
-			ActionUtils.dragAndDropWithWait(driver, columnB, columnA, Duration.ofSeconds(3));
+			LOGGER.info("Dragged Column A to Column B successfully.");
 
+			LOGGER.info("Dragging Column B to Column A.");
+			ActionUtils.dragAndDropWithWait(driver, columnB, columnA, Duration.ofSeconds(3));
+			LOGGER.info("Dragged Column B to Column A successfully.");
 		} catch (Exception e) {
-			System.out.println("Error occured: " + e.getMessage());
+			LOGGER.error("Error occurred during drag and drop operation: " + e.getMessage());
 		}
 	}
 
 	public String getColumnAText() {
-		return columnA.getText();
+		String text = columnA.getText();
+		LOGGER.info("Column A text: " + text);
+		return text;
 	}
 
 	public String getColumnBText() {
-		return columnB.getText();
+		String text = columnB.getText();
+		LOGGER.info("Column B text: " + text);
+		return text;
 	}
-
 }
