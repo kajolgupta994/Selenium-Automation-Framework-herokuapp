@@ -3,6 +3,8 @@ pipeline {
 
     environment {
         TESTNG_XML = 'testng.xml'
+        AUTOIT_PATH = 'C:\Program Files (x86)\AutoIt3\AutoIt3.exe'
+        AUTOIT_SCRIPT = "${WORKSPACE}\\src\\main\\java\\resources\\AutoIT\\HandleDigestAuthentication.exe"
     }
 
     stages {
@@ -15,6 +17,12 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'mvn clean package'
+            }
+        }
+
+        stage('Run AutoIt Script') {
+            steps {
+                bat "\"${env.AUTOIT_PATH}\" \"${env.AUTOIT_SCRIPT}\""
             }
         }
 
