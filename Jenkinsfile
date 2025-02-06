@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         TESTNG_XML = 'testng.xml'
-        AUTOIT_PATH = 'C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe'  // Full path to AutoIt3.exe
+        AUTOIT_PATH = 'C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe'
         AUTOIT_SCRIPT = "${WORKSPACE}\\src\\main\\java\\resources\\AutoIT\\HandleDigestAuthentication.exe"
     }
 
