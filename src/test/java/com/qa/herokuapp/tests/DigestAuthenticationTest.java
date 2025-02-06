@@ -13,6 +13,7 @@ public class DigestAuthenticationTest extends TestBase {
 	
 	@Test
 	public void validDigestAuthLogin() {
+		
 		homePage = new HomePage(getDriver());
 		handleDigestAuthenticationPage = new DigestAuthenticationPage(getDriver());
 		

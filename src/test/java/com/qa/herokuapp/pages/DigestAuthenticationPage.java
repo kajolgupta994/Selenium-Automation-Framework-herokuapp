@@ -14,7 +14,7 @@ import com.qa.herokuapp.helper.WebDriverWaitUtils;
 public class DigestAuthenticationPage extends TestBase {
     protected WebDriver driver;
     
-    @FindBy(xpath = "//p")
+    @FindBy(xpath = "//p[contains(text(), 'Congratulations! You must have the proper credentials.')]")
     private WebElement getSuccessMessage;
 
     public DigestAuthenticationPage(WebDriver driver) {
