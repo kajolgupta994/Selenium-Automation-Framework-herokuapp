@@ -6,8 +6,10 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.qa.herokuapp.tests.DigestAuthenticationTest"/>
       <class name="com.qa.herokuapp.tests.DynamicLoadingTest"/>
       <class name="com.qa.herokuapp.tests.DynamicWebElementsTest"/>
+      <class name="com.qa.herokuapp.tests.ExitIntentTest"/>
       <class name="com.qa.herokuapp.tests.AddRemoveElementsTest"/>
       <class name="com.qa.herokuapp.tests.BrokenImagesTest"/>
       <class name="com.qa.herokuapp.tests.DisappearingElementsTest"/>
