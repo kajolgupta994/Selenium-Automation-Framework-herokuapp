@@ -2173,3 +2173,112 @@ Iuvaret9 | Apeirian9 | Adipisci9 | Definiebas9 | Consequuntur9 | Phaedrum9 |
 2025-02-07 19:25:52 [main] WARN  com.qa.herokuapp.pages.BrokenImagesPage - Broken image detected: <img src="asdf.jpg">
 2025-02-07 19:25:52 [main] WARN  com.qa.herokuapp.pages.BrokenImagesPage - Broken image detected: <img src="hjkl.jpg">
 2025-02-07 19:25:52 [main] INFO  com.qa.herokuapp.pages.BrokenImagesPage - Total broken images found: 2
+2025-02-07 19:38:41 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:38:41 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:38:41 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-07 19:38:43 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-07 19:38:43 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Initiating file download process...
+2025-02-07 19:38:44 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Total files available for download: 74
+2025-02-07 19:38:44 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: chromedriver.exe
+2025-02-07 19:38:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: chromedriver.exe
+2025-02-07 19:39:15 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File not downloaded within timeout: chromedriver.exe
+2025-02-07 19:39:15 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File download failed: chromedriver.exe
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Test2.pdf already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - aaa.txt already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - webdriverIO.png already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Social icon.png already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 472490367_3019294874875681_7604486489568407827_n.jpg already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Selenium.txt already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - puppy.png already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test-file.txt already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Myfile.png already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - testing.pdf already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - schema.jpg already exists. Skipping download.
+2025-02-07 19:39:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - bb.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Untitled-1.html already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - login.csv already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - logo.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Test1.pdf already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - document.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - spectrum-logo.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - targetScreenshot (3).png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - IMG_0111.jpeg already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - file.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Capture1.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - selenium-snapshot.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - some-file.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - demo (2).zip already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Blank Document.pages already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - sample_media_file.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - image.jpg already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - ED369D24-B62F-42A4-8EDF-9247C4BF0C58.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Снимок экрана 2025-02-05 в 22.56.05.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - targetkarate-logo.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - zero_bytes_file.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - random_data.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - result.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Step 1.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Divyesh Vadhavana.jpg already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - puppies.jpeg already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - text.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Cypress1.pdf already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - luminoslogo.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Screenshot (1).png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Abhishek.png already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - BlankDocument_VS.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - webdriverio-view.pdf already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - sample.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test1.pdf already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - playwright_image.svg already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Java Notes.txt already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - megadyneBladeHero.jpg already exists. Skipping download.
+2025-02-07 19:39:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: ex3.jpg
+2025-02-07 19:39:17 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: ex3.jpg
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: ex3.jpg after 1 seconds.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: ex3.jpg
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - example.json already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - UploadFileExample.txt already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - upload.png already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - file.json already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 2.png already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - testFile.jpg already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Sunilreddy-QA.pdf already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - MyTest.pdf already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - document1.txt already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Capture1.PNG already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - career.jpg already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - empty.txt already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - icon1.jpg already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Fee Receipt.pdf already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Jpeg_with_exif.jpeg already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - LambdaTest.txt already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 3.png already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - sample-zip-file.zip already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - dummy.pdf already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - MyFile.txt already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 8 (1).pdf already exists. Skipping download.
+2025-02-07 19:39:18 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - File download process completed.
+2025-02-07 19:40:41 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:40:41 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:40:41 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Navigating to Exit Intent Page...
+2025-02-07 19:40:43 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Successfully navigated to Exit Intent Page.
+2025-02-07 19:40:43 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Triggering Exit Intent by moving mouse outside viewport...
+2025-02-07 19:40:44 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Mouse moved outside viewport to trigger Exit Intent.
+2025-02-07 19:40:47 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Exit Intent triggered, waiting for modal to appear.
+2025-02-07 19:40:47 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Verifying if modal appears...
+2025-02-07 19:40:47 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Waiting for the modal to appear...
+2025-02-07 19:40:47 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Modal is visible. Clicking Close button...
+2025-02-07 19:40:47 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Modal closed successfully.
+2025-02-07 19:41:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:41:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:41:02 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Navigating to the Digest Authentication Page...
+2025-02-07 19:41:04 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Navigated to the Digest Authentication Page.
+2025-02-07 19:41:04 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to login using AutoIT script...
+2025-02-07 19:41:04 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Executing AutoIT script for Digest Authentication...
+2025-02-07 19:41:04 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - AutoIT script executed successfully.
+2025-02-07 19:41:04 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to get the successful login message...
+2025-02-07 19:41:04 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Waiting for success message to be visible...
+2025-02-07 19:41:09 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Success message retrieved: Congratulations! You must have the proper credentials.
+2025-02-07 19:41:09 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Successful login message is received.

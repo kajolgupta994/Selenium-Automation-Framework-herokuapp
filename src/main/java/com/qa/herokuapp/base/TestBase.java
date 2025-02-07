@@ -70,29 +70,15 @@ public abstract class TestBase {
 
 			// ChromeOptions - Adding download directory configuration
 			String downloadPath = System.getProperty("user.dir") + "\\test-output\\file_downloads";
-			ChromeOptions options = new ChromeOptions();
 			
-			// Set preferences for file download
-			HashMap<String, Object> chromePrefs = new HashMap<>();
+			HashMap<String, Object> chromePrefs = new HashMap<>();			
 			chromePrefs.put("download.default_directory", downloadPath);
 			chromePrefs.put("profile.default_content_settings.popups", 0);
-			chromePrefs.put("download.prompt_for_download", false);
-			chromePrefs.put("download.directory_upgrade", true);
-			chromePrefs.put("plugins.always_open_pdf_externally", true); // Open PDFs externally instead of in-browser
+			
+			ChromeOptions options = new ChromeOptions();
 			options.setExperimentalOption("prefs", chromePrefs);
 
-			// Required options for running in Jenkins (headless mode)
-			if (System.getProperty("headless", "false").equalsIgnoreCase("true")) {
-				options.addArguments("--headless=new"); // New headless mode
-				options.addArguments("--disable-gpu");
-				options.addArguments("--window-size=1920,1080"); // Viewport size
-				options.addArguments("--remote-allow-origins=*");
-				options.addArguments("--disable-dev-shm-usage"); // Prevent memory issues in Jenkins
-				options.addArguments("--no-sandbox"); // Needed for CI/CD environments
-				options.addArguments("--disable-popup-blocking"); // Ensure popups don’t interfere
-			}
-
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver(options); // Initialize driver with ChromeOptions
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
