@@ -52,7 +52,7 @@ public class ExitIntentPage extends TestBase {
 	// Close the Exit Intent modal
 	public void closeModal() {
 		LOGGER.info("Waiting for the modal to appear...");
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), modal);
+		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(20), modal);
 
 		if (modal.isDisplayed()) {
 			LOGGER.info("Modal is visible. Clicking Close button...");
