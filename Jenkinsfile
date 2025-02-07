@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         TESTNG_XML = 'testng.xml'
+        HEADLESS = 'true'  // Set the headless mode
     }
 
     stages {
@@ -20,7 +21,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat "mvn test -Dsurefire.suiteXmlFiles=${env.TESTNG_XML}"
+                bat "mvn test -Dsurefire.suiteXmlFiles=${env.TESTNG_XML} -Dheadless=${env.HEADLESS}"
             }
         }
 

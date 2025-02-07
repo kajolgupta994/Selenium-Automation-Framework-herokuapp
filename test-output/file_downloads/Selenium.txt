@@ -1,0 +1,1 @@
+Selenium is an open source suite of tools designed for automating web browsers. It provides a framework to write tests for web applications in various programming languages

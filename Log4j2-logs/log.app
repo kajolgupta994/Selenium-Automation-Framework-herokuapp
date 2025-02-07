@@ -1640,3 +1640,536 @@ Iuvaret9 | Apeirian9 | Adipisci9 | Definiebas9 | Consequuntur9 | Phaedrum9 |
 2025-02-06 22:07:11 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to login using AutoIT script...
 2025-02-06 22:07:11 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Executing AutoIT script for Digest Authentication...
 2025-02-06 22:07:11 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - AutoIT script executed successfully.
+2025-02-07 18:09:22 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 18:09:22 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 18:09:24 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-07 18:09:25 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-07 18:09:25 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Initiating file download process...
+2025-02-07 18:11:08 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Total files available for download: 70
+2025-02-07 18:13:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: chromedriver.exe
+2025-02-07 18:13:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete for: chromedriver.exe
+2025-02-07 18:15:56 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File chromedriver.exe not downloaded within the timeout period.
+2025-02-07 18:16:03 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - chromedriver.exe download failed.
+2025-02-07 18:16:19 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Test2.pdf
+2025-02-07 18:16:24 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete for: Test2.pdf
+2025-02-07 18:17:23 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 18:17:23 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 18:17:23 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-07 18:17:24 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-07 18:17:24 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Initiating file download process...
+2025-02-07 18:17:24 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Total files available for download: 70
+2025-02-07 18:17:24 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: chromedriver.exe
+2025-02-07 18:17:24 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete for: chromedriver.exe
+2025-02-07 18:17:54 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File chromedriver.exe not downloaded within the timeout period.
+2025-02-07 18:17:54 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - chromedriver.exe download failed.
+2025-02-07 18:17:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Test2.pdf
+2025-02-07 18:17:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete for: Test2.pdf
+2025-02-07 18:18:26 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File Test2.pdf not downloaded within the timeout period.
+2025-02-07 18:18:26 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - Test2.pdf download failed.
+2025-02-07 18:18:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: aaa.txt
+2025-02-07 18:18:27 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete for: aaa.txt
+2025-02-07 18:18:57 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File aaa.txt not downloaded within the timeout period.
+2025-02-07 18:18:57 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - aaa.txt download failed.
+2025-02-07 18:18:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: webdriverIO.png
+2025-02-07 18:18:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete for: webdriverIO.png
+2025-02-07 18:19:29 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File webdriverIO.png not downloaded within the timeout period.
+2025-02-07 18:19:29 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - webdriverIO.png download failed.
+2025-02-07 18:19:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Social icon.png
+2025-02-07 18:19:30 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete for: Social icon.png
+2025-02-07 18:21:12 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 18:21:12 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 18:21:12 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-07 18:21:13 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-07 18:21:13 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Initiating file download process...
+2025-02-07 18:21:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Total files available for download: 70
+2025-02-07 18:21:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: chromedriver.exe
+2025-02-07 18:21:14 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Test2.pdf
+2025-02-07 18:21:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: aaa.txt
+2025-02-07 18:21:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: webdriverIO.png
+2025-02-07 18:21:19 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Social icon.png
+2025-02-07 18:21:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: 472490367_3019294874875681_7604486489568407827_n.jpg
+2025-02-07 18:21:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Selenium.txt
+2025-02-07 18:21:22 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: puppy.png
+2025-02-07 18:21:24 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Myfile.png
+2025-02-07 18:21:25 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: testing.pdf
+2025-02-07 18:21:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: schema.jpg
+2025-02-07 18:21:28 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: test.png
+2025-02-07 18:21:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: bb.txt
+2025-02-07 18:21:31 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Untitled-1.html
+2025-02-07 18:21:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: login.csv
+2025-02-07 18:21:34 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: logo.png
+2025-02-07 18:21:35 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Test1.pdf
+2025-02-07 18:21:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: document.txt
+2025-02-07 18:21:37 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: test.txt
+2025-02-07 18:21:37 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: spectrum-logo.png
+2025-02-07 18:21:39 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: targetScreenshot (3).png
+2025-02-07 18:21:39 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: IMG_0111.jpeg
+2025-02-07 18:21:40 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: file.txt
+2025-02-07 18:21:40 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Capture1.png
+2025-02-07 18:21:41 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: some-file.txt
+2025-02-07 18:21:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: demo (2).zip
+2025-02-07 18:21:43 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Blank Document.pages
+2025-02-07 18:21:44 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: sample_media_file.png
+2025-02-07 18:21:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: image.jpg
+2025-02-07 18:21:48 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: ED369D24-B62F-42A4-8EDF-9247C4BF0C58.png
+2025-02-07 18:21:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Снимок экрана 2025-02-05 в 22.56.05.png
+2025-02-07 18:21:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: targetkarate-logo.png
+2025-02-07 18:21:50 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: zero_bytes_file.txt
+2025-02-07 18:21:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: random_data.txt
+2025-02-07 18:21:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: result.txt
+2025-02-07 18:21:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Divyesh Vadhavana.jpg
+2025-02-07 18:21:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: puppies.jpeg
+2025-02-07 18:21:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: text.txt
+2025-02-07 18:21:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Cypress1.pdf
+2025-02-07 18:21:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: luminoslogo.png
+2025-02-07 18:21:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Screenshot (1).png
+2025-02-07 18:22:00 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Abhishek.png
+2025-02-07 18:22:01 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: BlankDocument_VS.txt
+2025-02-07 18:22:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: webdriverio-view.pdf
+2025-02-07 18:22:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: sample.txt
+2025-02-07 18:22:05 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: test1.pdf
+2025-02-07 18:22:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: playwright_image.svg
+2025-02-07 18:22:08 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Java Notes.txt
+2025-02-07 18:22:08 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: megadyneBladeHero.jpg
+2025-02-07 18:22:10 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: example.json
+2025-02-07 18:22:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: UploadFileExample.txt
+2025-02-07 18:37:44 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 18:37:44 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 18:37:45 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-07 18:37:48 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-07 18:37:48 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Initiating file download process...
+2025-02-07 18:37:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Total files available for download: 71
+2025-02-07 18:37:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: chromedriver.exe
+2025-02-07 18:37:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: chromedriver.exe
+2025-02-07 18:38:25 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File not downloaded within timeout: chromedriver.exe
+2025-02-07 18:38:25 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File download failed: chromedriver.exe
+2025-02-07 18:38:25 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Test2.pdf
+2025-02-07 18:38:27 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Test2.pdf
+2025-02-07 18:38:57 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File not downloaded within timeout: Test2.pdf
+2025-02-07 18:38:57 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File download failed: Test2.pdf
+2025-02-07 18:38:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: aaa.txt
+2025-02-07 18:38:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: aaa.txt
+2025-02-07 18:53:18 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 18:53:18 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 18:53:18 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-07 18:53:19 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-07 18:53:19 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Initiating file download process...
+2025-02-07 18:53:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Total files available for download: 71
+2025-02-07 18:53:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: chromedriver.exe
+2025-02-07 18:53:22 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: chromedriver.exe
+2025-02-07 18:53:52 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File not downloaded within timeout: chromedriver.exe
+2025-02-07 18:53:52 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File download failed: chromedriver.exe
+2025-02-07 18:53:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Test2.pdf
+2025-02-07 18:53:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Test2.pdf
+2025-02-07 18:53:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Test2.pdf after 1 seconds.
+2025-02-07 18:53:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Test2.pdf
+2025-02-07 18:53:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: aaa.txt
+2025-02-07 18:53:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: aaa.txt
+2025-02-07 18:53:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: aaa.txt after 1 seconds.
+2025-02-07 18:53:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: aaa.txt
+2025-02-07 18:53:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: webdriverIO.png
+2025-02-07 18:53:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: webdriverIO.png
+2025-02-07 18:53:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: webdriverIO.png after 1 seconds.
+2025-02-07 18:53:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: webdriverIO.png
+2025-02-07 18:53:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Social icon.png
+2025-02-07 18:53:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Social icon.png
+2025-02-07 18:53:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Social icon.png after 1 seconds.
+2025-02-07 18:53:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Social icon.png
+2025-02-07 18:53:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: 472490367_3019294874875681_7604486489568407827_n.jpg
+2025-02-07 18:53:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: 472490367_3019294874875681_7604486489568407827_n.jpg
+2025-02-07 18:54:00 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: 472490367_3019294874875681_7604486489568407827_n.jpg after 1 seconds.
+2025-02-07 18:54:00 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: 472490367_3019294874875681_7604486489568407827_n.jpg
+2025-02-07 18:54:00 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Selenium.txt
+2025-02-07 18:54:01 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Selenium.txt
+2025-02-07 18:54:02 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Selenium.txt after 1 seconds.
+2025-02-07 18:54:02 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Selenium.txt
+2025-02-07 18:54:02 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: puppy.png
+2025-02-07 18:54:02 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: puppy.png
+2025-02-07 18:54:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: puppy.png after 1 seconds.
+2025-02-07 18:54:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: puppy.png
+2025-02-07 18:54:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Myfile.png
+2025-02-07 18:54:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Myfile.png
+2025-02-07 18:54:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Myfile.png after 1 seconds.
+2025-02-07 18:54:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Myfile.png
+2025-02-07 18:54:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: testing.pdf
+2025-02-07 18:54:05 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: testing.pdf
+2025-02-07 18:54:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: testing.pdf after 1 seconds.
+2025-02-07 18:54:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: testing.pdf
+2025-02-07 18:54:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: schema.jpg
+2025-02-07 18:54:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: schema.jpg
+2025-02-07 18:54:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: schema.jpg after 1 seconds.
+2025-02-07 18:54:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: schema.jpg
+2025-02-07 18:54:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: test.png
+2025-02-07 18:54:08 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: test.png
+2025-02-07 18:54:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: test.png after 1 seconds.
+2025-02-07 18:54:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: test.png
+2025-02-07 18:54:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: bb.txt
+2025-02-07 18:54:10 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: bb.txt
+2025-02-07 18:54:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: bb.txt after 1 seconds.
+2025-02-07 18:54:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: bb.txt
+2025-02-07 18:54:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Untitled-1.html
+2025-02-07 18:54:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Untitled-1.html
+2025-02-07 18:54:12 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Untitled-1.html after 1 seconds.
+2025-02-07 18:54:12 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Untitled-1.html
+2025-02-07 18:54:12 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: login.csv
+2025-02-07 18:54:12 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: login.csv
+2025-02-07 18:54:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: login.csv after 1 seconds.
+2025-02-07 18:54:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: login.csv
+2025-02-07 18:54:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: logo.png
+2025-02-07 18:54:14 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: logo.png
+2025-02-07 18:54:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: logo.png after 1 seconds.
+2025-02-07 18:54:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: logo.png
+2025-02-07 18:54:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Test1.pdf
+2025-02-07 18:54:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Test1.pdf
+2025-02-07 18:54:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Test1.pdf after 1 seconds.
+2025-02-07 18:54:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Test1.pdf
+2025-02-07 18:54:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: document.txt
+2025-02-07 18:54:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: document.txt
+2025-02-07 18:54:17 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: document.txt after 1 seconds.
+2025-02-07 18:54:17 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: document.txt
+2025-02-07 18:54:17 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: test.txt
+2025-02-07 18:54:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: test.txt
+2025-02-07 18:54:19 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: test.txt after 1 seconds.
+2025-02-07 18:54:19 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: test.txt
+2025-02-07 18:54:19 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: spectrum-logo.png
+2025-02-07 18:54:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: spectrum-logo.png
+2025-02-07 18:54:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: spectrum-logo.png after 1 seconds.
+2025-02-07 18:54:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: spectrum-logo.png
+2025-02-07 18:54:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: targetScreenshot (3).png
+2025-02-07 18:54:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: targetScreenshot (3).png
+2025-02-07 18:54:22 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: targetScreenshot (3).png after 1 seconds.
+2025-02-07 18:54:22 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: targetScreenshot (3).png
+2025-02-07 18:54:22 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: IMG_0111.jpeg
+2025-02-07 18:54:23 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: IMG_0111.jpeg
+2025-02-07 18:54:25 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: IMG_0111.jpeg after 2 seconds.
+2025-02-07 18:54:25 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: IMG_0111.jpeg
+2025-02-07 18:54:25 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: file.txt
+2025-02-07 18:54:25 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: file.txt
+2025-02-07 18:54:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: file.txt after 1 seconds.
+2025-02-07 18:54:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: file.txt
+2025-02-07 18:54:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Capture1.png
+2025-02-07 18:54:27 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Capture1.png
+2025-02-07 18:54:28 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Capture1.png after 1 seconds.
+2025-02-07 18:54:28 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Capture1.png
+2025-02-07 18:54:28 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: some-file.txt
+2025-02-07 18:54:28 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: some-file.txt
+2025-02-07 18:54:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: some-file.txt after 1 seconds.
+2025-02-07 18:54:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: some-file.txt
+2025-02-07 18:54:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: demo (2).zip
+2025-02-07 18:54:30 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: demo (2).zip
+2025-02-07 18:54:31 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: demo (2).zip after 1 seconds.
+2025-02-07 18:54:31 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: demo (2).zip
+2025-02-07 18:54:31 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Blank Document.pages
+2025-02-07 18:54:32 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Blank Document.pages
+2025-02-07 18:54:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Blank Document.pages after 1 seconds.
+2025-02-07 18:54:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Blank Document.pages
+2025-02-07 18:54:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: sample_media_file.png
+2025-02-07 18:54:34 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: sample_media_file.png
+2025-02-07 18:54:35 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: sample_media_file.png after 1 seconds.
+2025-02-07 18:54:35 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: sample_media_file.png
+2025-02-07 18:54:35 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: image.jpg
+2025-02-07 18:54:35 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: image.jpg
+2025-02-07 18:54:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: image.jpg after 1 seconds.
+2025-02-07 18:54:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: image.jpg
+2025-02-07 18:54:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: ED369D24-B62F-42A4-8EDF-9247C4BF0C58.png
+2025-02-07 18:54:37 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: ED369D24-B62F-42A4-8EDF-9247C4BF0C58.png
+2025-02-07 18:54:38 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: ED369D24-B62F-42A4-8EDF-9247C4BF0C58.png after 1 seconds.
+2025-02-07 18:54:38 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: ED369D24-B62F-42A4-8EDF-9247C4BF0C58.png
+2025-02-07 18:54:38 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Снимок экрана 2025-02-05 в 22.56.05.png
+2025-02-07 18:54:38 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Снимок экрана 2025-02-05 в 22.56.05.png
+2025-02-07 18:54:40 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Снимок экрана 2025-02-05 в 22.56.05.png after 2 seconds.
+2025-02-07 18:54:40 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Снимок экрана 2025-02-05 в 22.56.05.png
+2025-02-07 18:54:40 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: targetkarate-logo.png
+2025-02-07 18:54:41 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: targetkarate-logo.png
+2025-02-07 18:54:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: targetkarate-logo.png after 1 seconds.
+2025-02-07 18:54:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: targetkarate-logo.png
+2025-02-07 18:54:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: zero_bytes_file.txt
+2025-02-07 18:54:42 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: zero_bytes_file.txt
+2025-02-07 18:54:43 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: zero_bytes_file.txt after 1 seconds.
+2025-02-07 18:54:43 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: zero_bytes_file.txt
+2025-02-07 18:54:43 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: random_data.txt
+2025-02-07 18:54:44 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: random_data.txt
+2025-02-07 18:54:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: random_data.txt after 1 seconds.
+2025-02-07 18:54:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: random_data.txt
+2025-02-07 18:54:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: result.txt
+2025-02-07 18:54:45 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: result.txt
+2025-02-07 18:54:46 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: result.txt after 1 seconds.
+2025-02-07 18:54:46 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: result.txt
+2025-02-07 18:54:46 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Step 1.png
+2025-02-07 18:54:46 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Step 1.png
+2025-02-07 18:54:47 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Step 1.png after 1 seconds.
+2025-02-07 18:54:47 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Step 1.png
+2025-02-07 18:54:47 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Divyesh Vadhavana.jpg
+2025-02-07 18:54:48 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Divyesh Vadhavana.jpg
+2025-02-07 18:54:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Divyesh Vadhavana.jpg after 1 seconds.
+2025-02-07 18:54:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Divyesh Vadhavana.jpg
+2025-02-07 18:54:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: puppies.jpeg
+2025-02-07 18:54:49 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: puppies.jpeg
+2025-02-07 18:54:50 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: puppies.jpeg after 1 seconds.
+2025-02-07 18:54:50 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: puppies.jpeg
+2025-02-07 18:54:50 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: text.txt
+2025-02-07 18:54:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: text.txt
+2025-02-07 18:54:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: text.txt after 1 seconds.
+2025-02-07 18:54:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: text.txt
+2025-02-07 18:54:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Cypress1.pdf
+2025-02-07 18:54:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Cypress1.pdf
+2025-02-07 18:54:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Cypress1.pdf after 1 seconds.
+2025-02-07 18:54:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Cypress1.pdf
+2025-02-07 18:54:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: luminoslogo.png
+2025-02-07 18:54:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: luminoslogo.png
+2025-02-07 18:54:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: luminoslogo.png after 1 seconds.
+2025-02-07 18:54:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: luminoslogo.png
+2025-02-07 18:54:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Screenshot (1).png
+2025-02-07 18:54:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Screenshot (1).png
+2025-02-07 18:54:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Screenshot (1).png after 1 seconds.
+2025-02-07 18:54:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Screenshot (1).png
+2025-02-07 18:54:56 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Abhishek.png
+2025-02-07 18:54:57 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Abhishek.png
+2025-02-07 18:54:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Abhishek.png after 1 seconds.
+2025-02-07 18:54:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Abhishek.png
+2025-02-07 18:54:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: BlankDocument_VS.txt
+2025-02-07 18:54:58 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: BlankDocument_VS.txt
+2025-02-07 18:54:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: BlankDocument_VS.txt after 1 seconds.
+2025-02-07 18:54:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: BlankDocument_VS.txt
+2025-02-07 18:54:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: webdriverio-view.pdf
+2025-02-07 18:54:59 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: webdriverio-view.pdf
+2025-02-07 18:55:01 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: webdriverio-view.pdf after 2 seconds.
+2025-02-07 18:55:01 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: webdriverio-view.pdf
+2025-02-07 18:55:01 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: sample.txt
+2025-02-07 18:55:02 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: sample.txt
+2025-02-07 18:55:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: sample.txt after 1 seconds.
+2025-02-07 18:55:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: sample.txt
+2025-02-07 18:55:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test1.pdf already exists. Skipping download.
+2025-02-07 18:55:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: playwright_image.svg
+2025-02-07 18:55:03 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: playwright_image.svg
+2025-02-07 18:55:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: playwright_image.svg after 1 seconds.
+2025-02-07 18:55:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: playwright_image.svg
+2025-02-07 18:55:04 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Java Notes.txt
+2025-02-07 18:55:05 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Java Notes.txt
+2025-02-07 18:55:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Java Notes.txt after 1 seconds.
+2025-02-07 18:55:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Java Notes.txt
+2025-02-07 18:55:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: megadyneBladeHero.jpg
+2025-02-07 18:55:06 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: megadyneBladeHero.jpg
+2025-02-07 18:55:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: megadyneBladeHero.jpg after 1 seconds.
+2025-02-07 18:55:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: megadyneBladeHero.jpg
+2025-02-07 18:55:07 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: example.json
+2025-02-07 18:55:08 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: example.json
+2025-02-07 18:55:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: example.json after 1 seconds.
+2025-02-07 18:55:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: example.json
+2025-02-07 18:55:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: UploadFileExample.txt
+2025-02-07 18:55:09 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: UploadFileExample.txt
+2025-02-07 18:55:10 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: UploadFileExample.txt after 1 seconds.
+2025-02-07 18:55:10 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: UploadFileExample.txt
+2025-02-07 18:55:10 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: upload.png
+2025-02-07 18:55:10 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: upload.png
+2025-02-07 18:55:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: upload.png after 1 seconds.
+2025-02-07 18:55:11 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: upload.png
+2025-02-07 18:55:12 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: file.json
+2025-02-07 18:55:12 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: file.json
+2025-02-07 18:55:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: file.json after 1 seconds.
+2025-02-07 18:55:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: file.json
+2025-02-07 18:55:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: 2.png
+2025-02-07 18:55:13 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: 2.png
+2025-02-07 18:55:14 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: 2.png after 1 seconds.
+2025-02-07 18:55:14 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: 2.png
+2025-02-07 18:55:14 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: testFile.jpg
+2025-02-07 18:55:15 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: testFile.jpg
+2025-02-07 18:55:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: testFile.jpg after 1 seconds.
+2025-02-07 18:55:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: testFile.jpg
+2025-02-07 18:55:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Sunilreddy-QA.pdf
+2025-02-07 18:55:16 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Sunilreddy-QA.pdf
+2025-02-07 18:55:17 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Sunilreddy-QA.pdf after 1 seconds.
+2025-02-07 18:55:17 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Sunilreddy-QA.pdf
+2025-02-07 18:55:17 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: MyTest.pdf
+2025-02-07 18:55:17 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: MyTest.pdf
+2025-02-07 18:55:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: MyTest.pdf after 1 seconds.
+2025-02-07 18:55:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: MyTest.pdf
+2025-02-07 18:55:18 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: document1.txt
+2025-02-07 18:55:19 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: document1.txt
+2025-02-07 18:55:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: document1.txt after 1 seconds.
+2025-02-07 18:55:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: document1.txt
+2025-02-07 18:55:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Capture1.PNG already exists. Skipping download.
+2025-02-07 18:55:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: career.jpg
+2025-02-07 18:55:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: career.jpg
+2025-02-07 18:55:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: career.jpg after 1 seconds.
+2025-02-07 18:55:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: career.jpg
+2025-02-07 18:55:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: empty.txt
+2025-02-07 18:55:22 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: empty.txt
+2025-02-07 18:55:23 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: empty.txt after 1 seconds.
+2025-02-07 18:55:23 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: empty.txt
+2025-02-07 18:55:23 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: icon1.jpg
+2025-02-07 18:55:23 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: icon1.jpg
+2025-02-07 18:55:24 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: icon1.jpg after 1 seconds.
+2025-02-07 18:55:24 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: icon1.jpg
+2025-02-07 18:55:24 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Fee Receipt.pdf
+2025-02-07 18:55:25 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Fee Receipt.pdf
+2025-02-07 18:55:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Fee Receipt.pdf after 1 seconds.
+2025-02-07 18:55:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Fee Receipt.pdf
+2025-02-07 18:55:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: Jpeg_with_exif.jpeg
+2025-02-07 18:55:26 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: Jpeg_with_exif.jpeg
+2025-02-07 18:55:27 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: Jpeg_with_exif.jpeg after 1 seconds.
+2025-02-07 18:55:27 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: Jpeg_with_exif.jpeg
+2025-02-07 18:55:27 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: LambdaTest.txt
+2025-02-07 18:55:28 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: LambdaTest.txt
+2025-02-07 18:55:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: LambdaTest.txt after 1 seconds.
+2025-02-07 18:55:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: LambdaTest.txt
+2025-02-07 18:55:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: 3.png
+2025-02-07 18:55:29 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: 3.png
+2025-02-07 18:55:30 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: 3.png after 1 seconds.
+2025-02-07 18:55:30 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: 3.png
+2025-02-07 18:55:31 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: sample-zip-file.zip
+2025-02-07 18:55:32 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: sample-zip-file.zip
+2025-02-07 18:55:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: sample-zip-file.zip after 1 seconds.
+2025-02-07 18:55:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: sample-zip-file.zip
+2025-02-07 18:55:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: dummy.pdf
+2025-02-07 18:55:33 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: dummy.pdf
+2025-02-07 18:55:34 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: dummy.pdf after 1 seconds.
+2025-02-07 18:55:34 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: dummy.pdf
+2025-02-07 18:55:34 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: MyFile.txt
+2025-02-07 18:55:35 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: MyFile.txt
+2025-02-07 18:55:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: MyFile.txt after 1 seconds.
+2025-02-07 18:55:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: MyFile.txt
+2025-02-07 18:55:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: 8 (1).pdf
+2025-02-07 18:55:36 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: 8 (1).pdf
+2025-02-07 18:55:37 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: 8 (1).pdf after 1 seconds.
+2025-02-07 18:55:37 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: 8 (1).pdf
+2025-02-07 18:55:37 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - File download process completed.
+2025-02-07 19:09:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:09:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:09:16 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Navigating to the Digest Authentication Page...
+2025-02-07 19:09:16 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Navigated to the Digest Authentication Page.
+2025-02-07 19:09:16 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to login using AutoIT script...
+2025-02-07 19:09:16 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Executing AutoIT script for Digest Authentication...
+2025-02-07 19:09:16 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - AutoIT script executed successfully.
+2025-02-07 19:09:21 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to get the successful login message...
+2025-02-07 19:09:21 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Waiting for success message to appear...
+2025-02-07 19:10:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:10:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:10:02 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Navigating to the Digest Authentication Page...
+2025-02-07 19:10:03 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Navigated to the Digest Authentication Page.
+2025-02-07 19:10:03 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to login using AutoIT script...
+2025-02-07 19:10:03 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Executing AutoIT script for Digest Authentication...
+2025-02-07 19:10:03 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - AutoIT script executed successfully.
+2025-02-07 19:10:08 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to get the successful login message...
+2025-02-07 19:10:08 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Waiting for success message to appear...
+2025-02-07 19:10:08 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Success message retrieved: Congratulations! You must have the proper credentials.
+2025-02-07 19:10:08 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Successful login message is received.
+2025-02-07 19:23:15 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:23:15 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:23:15 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Navigating to Exit Intent Page...
+2025-02-07 19:23:16 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Successfully navigated to Exit Intent Page.
+2025-02-07 19:23:16 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Triggering Exit Intent by moving mouse outside viewport...
+2025-02-07 19:23:17 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Mouse moved outside viewport to trigger Exit Intent.
+2025-02-07 19:23:20 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Exit Intent triggered, waiting for modal to appear.
+2025-02-07 19:23:20 [main] INFO  com.qa.herokuapp.tests.ExitIntentTest - Verifying if modal appears...
+2025-02-07 19:23:20 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Waiting for the modal to appear...
+2025-02-07 19:23:20 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Modal is visible. Clicking Close button...
+2025-02-07 19:23:20 [main] INFO  com.qa.herokuapp.pages.ExitIntentPage - Modal closed successfully.
+2025-02-07 19:23:52 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:23:52 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:23:52 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Navigating to the Digest Authentication Page...
+2025-02-07 19:23:52 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Navigated to the Digest Authentication Page.
+2025-02-07 19:23:52 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to login using AutoIT script...
+2025-02-07 19:23:52 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Executing AutoIT script for Digest Authentication...
+2025-02-07 19:23:52 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - AutoIT script executed successfully.
+2025-02-07 19:23:57 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Trying to get the successful login message...
+2025-02-07 19:23:57 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Waiting for success message to appear...
+2025-02-07 19:23:58 [main] INFO  com.qa.herokuapp.pages.DigestAuthenticationPage - Success message retrieved: Congratulations! You must have the proper credentials.
+2025-02-07 19:23:58 [main] INFO  com.qa.herokuapp.tests.DigestAuthenticationTest - Successful login message is received.
+2025-02-07 19:24:18 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:24:19 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:24:19 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Navigating to File Download Page...
+2025-02-07 19:24:19 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Successfully navigated to File Download Page.
+2025-02-07 19:24:19 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - Initiating file download process...
+2025-02-07 19:24:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Total files available for download: 73
+2025-02-07 19:24:20 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: chromedriver.exe
+2025-02-07 19:24:21 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: chromedriver.exe
+2025-02-07 19:24:51 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File not downloaded within timeout: chromedriver.exe
+2025-02-07 19:24:51 [main] WARN  com.qa.herokuapp.pages.FileDownloadPage - File download failed: chromedriver.exe
+2025-02-07 19:24:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Test2.pdf already exists. Skipping download.
+2025-02-07 19:24:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - aaa.txt already exists. Skipping download.
+2025-02-07 19:24:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - webdriverIO.png already exists. Skipping download.
+2025-02-07 19:24:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Social icon.png already exists. Skipping download.
+2025-02-07 19:24:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 472490367_3019294874875681_7604486489568407827_n.jpg already exists. Skipping download.
+2025-02-07 19:24:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Selenium.txt already exists. Skipping download.
+2025-02-07 19:24:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - puppy.png already exists. Skipping download.
+2025-02-07 19:24:51 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: test-file.txt
+2025-02-07 19:24:52 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: test-file.txt
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: test-file.txt after 1 seconds.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: test-file.txt
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Myfile.png already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - testing.pdf already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - schema.jpg already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test.png already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - bb.txt already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Untitled-1.html already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - login.csv already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - logo.png already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Test1.pdf already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - document.txt already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test.txt already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - spectrum-logo.png already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - targetScreenshot (3).png already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - IMG_0111.jpeg already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - file.txt already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Capture1.png already exists. Skipping download.
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Initiating download for file: selenium-snapshot.png
+2025-02-07 19:24:53 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Waiting for file download to complete: selenium-snapshot.png
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File found: selenium-snapshot.png after 1 seconds.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - File downloaded successfully: selenium-snapshot.png
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - some-file.txt already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - demo (2).zip already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Blank Document.pages already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - sample_media_file.png already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - image.jpg already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - ED369D24-B62F-42A4-8EDF-9247C4BF0C58.png already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Снимок экрана 2025-02-05 в 22.56.05.png already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - targetkarate-logo.png already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - zero_bytes_file.txt already exists. Skipping download.
+2025-02-07 19:24:54 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - random_data.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - result.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Step 1.png already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Divyesh Vadhavana.jpg already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - puppies.jpeg already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - text.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Cypress1.pdf already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - luminoslogo.png already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Screenshot (1).png already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Abhishek.png already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - BlankDocument_VS.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - webdriverio-view.pdf already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - sample.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - test1.pdf already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - playwright_image.svg already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Java Notes.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - megadyneBladeHero.jpg already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - example.json already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - UploadFileExample.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - upload.png already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - file.json already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 2.png already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - testFile.jpg already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Sunilreddy-QA.pdf already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - MyTest.pdf already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - document1.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Capture1.PNG already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - career.jpg already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - empty.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - icon1.jpg already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Fee Receipt.pdf already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - Jpeg_with_exif.jpeg already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - LambdaTest.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 3.png already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - sample-zip-file.zip already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - dummy.pdf already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - MyFile.txt already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.pages.FileDownloadPage - 8 (1).pdf already exists. Skipping download.
+2025-02-07 19:24:55 [main] INFO  com.qa.herokuapp.tests.FileDownloadTest - File download process completed.
+2025-02-07 19:25:51 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-02-07 19:25:51 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-02-07 19:25:52 [main] INFO  com.qa.herokuapp.tests.BrokenImagesTest - Navigating to Broken Images Page...
+2025-02-07 19:25:52 [main] INFO  com.qa.herokuapp.tests.BrokenImagesTest - Successfully navigated to Broken Images Page.
+2025-02-07 19:25:52 [main] INFO  com.qa.herokuapp.pages.BrokenImagesPage - Checking for broken images on the page.
+2025-02-07 19:25:52 [main] WARN  com.qa.herokuapp.pages.BrokenImagesPage - Broken image detected: <img src="asdf.jpg">
+2025-02-07 19:25:52 [main] WARN  com.qa.herokuapp.pages.BrokenImagesPage - Broken image detected: <img src="hjkl.jpg">
+2025-02-07 19:25:52 [main] INFO  com.qa.herokuapp.pages.BrokenImagesPage - Total broken images found: 2

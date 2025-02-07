@@ -15,8 +15,7 @@ import com.qa.herokuapp.helper.WebDriverWaitUtils;
 
 public class FileDownloadPage extends TestBase {
 	private WebDriver driver;
-
-	private static final String DOWNLOAD_PATH = System.getenv("user.dir") + "\\test-output\\file_downloads";
+	private static final String DOWNLOAD_PATH = System.getProperty("user.dir") + "\\test-output\\file_downloads";
 
 	@FindBy(xpath = "//div[@class='example']/a")
 	private List<WebElement> listOfFiles;
@@ -27,7 +26,7 @@ public class FileDownloadPage extends TestBase {
 	}
 
 	public void downloadFile() {
-		WebDriverWaitUtils.waitForTheVisibilityOfElement(driver, Duration.ofSeconds(10), listOfFiles.get(0));
+		WebDriverWaitUtils.waitForTheVisibilityOfListWebElements(driver, Duration.ofSeconds(10), listOfFiles);
 		LOGGER.info("Total files available for download: " + listOfFiles.size());
 
 		for (WebElement file : listOfFiles) {
@@ -43,9 +42,9 @@ public class FileDownloadPage extends TestBase {
 			file.click();
 
 			if (waitForFileDownload(fileName, 30)) {
-				LOGGER.info(fileName + " downloaded successfully.");
+				LOGGER.info("File downloaded successfully: " + fileName);
 			} else {
-				LOGGER.warn(fileName + " download failed.");
+				LOGGER.warn("File download failed: " + fileName);
 			}
 		}
 	}
@@ -53,22 +52,24 @@ public class FileDownloadPage extends TestBase {
 	public boolean waitForFileDownload(String fileName, int timeoutSeconds) {
 		File file = new File(Paths.get(DOWNLOAD_PATH, fileName).toString());
 		int counter = 0;
-		LOGGER.info("Waiting for file download to complete for: " + fileName);
+
+		LOGGER.info("Waiting for file download to complete: " + fileName);
 
 		while (counter < timeoutSeconds) {
 			if (file.exists()) {
-				LOGGER.info("File " + fileName + " found after " + counter + " seconds.");
+				LOGGER.info("File found: " + fileName + " after " + counter + " seconds.");
 				return true;
 			}
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(1000); // Wait 1 second before checking again
 			} catch (InterruptedException e) {
 				LOGGER.error("Interrupted while waiting for file download: " + e.getMessage());
 			}
 			counter++;
 		}
 
-		LOGGER.warn("File " + fileName + " not downloaded within the timeout period.");
+		LOGGER.warn("File not downloaded within timeout: " + fileName);
 		return false;
 	}
+
 }
