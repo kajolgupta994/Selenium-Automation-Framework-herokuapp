@@ -5,19 +5,23 @@
 		<listener class-name="com.qa.herokuapp.helper.ITestListenerUtils"></listener>
 	</listeners>
   <test thread-count="5" name="Test">
-	  
     <classes>
+      <class name="com.qa.herokuapp.tests.DigestAuthenticationTest"/>
+      <class name="com.qa.herokuapp.tests.DynamicLoadingTest"/>
+      <class name="com.qa.herokuapp.tests.DynamicWebElementsTest"/>
+      <class name="com.qa.herokuapp.tests.ExitIntentTest"/>
+      <class name="com.qa.herokuapp.tests.AddRemoveElementsTest"/>
       <class name="com.qa.herokuapp.tests.BrokenImagesTest"/>
       <class name="com.qa.herokuapp.tests.DisappearingElementsTest"/>
       <class name="com.qa.herokuapp.tests.BasicAuthLoginTest"/>
-      <class name="com.qa.herokuapp.tests.DynamicContentTest"/>
       <class name="com.qa.herokuapp.tests.ContextMenuTest"/>
+      <class name="com.qa.herokuapp.tests.DynamicContentTest"/>
       <class name="com.qa.herokuapp.tests.DropdownTest"/>
+      <class name="com.qa.herokuapp.tests.DynamicControlsTest"/>
+      <class name="com.qa.herokuapp.tests.FileDownloadTest"/>
       <class name="com.qa.herokuapp.tests.CheckboxesTest"/>
       <class name="com.qa.herokuapp.tests.DragAndDropTest"/>
-      <class name="com.qa.herokuapp.tests.DigestAuthenticationTest"/>
-      <class name="com.qa.herokuapp.tests.DynamicWebElementsTest"/>
-      <class name="com.qa.herokuapp.tests.AddRemoveElementsTest"/>
+      <class name="com.qa.herokuapp.tests.EntryAdTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
