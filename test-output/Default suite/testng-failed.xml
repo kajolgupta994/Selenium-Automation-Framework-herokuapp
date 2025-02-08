@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.herokuapp.tests.ExitIntentTest">
+      <class name="com.qa.herokuapp.tests.FileUploadTest">
         <methods>
-          <include name="testExitIntent"/>
           <include name="loadConfig"/>
+          <include name="testdragAndDropFileUpload"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="testFileDownload"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.ExitIntentTest -->
+      </class> <!-- com.qa.herokuapp.tests.FileUploadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

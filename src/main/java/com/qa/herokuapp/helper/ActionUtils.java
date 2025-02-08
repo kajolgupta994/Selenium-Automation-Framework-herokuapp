@@ -42,12 +42,10 @@ public class ActionUtils {
 		action = new Actions(driver);
 		action.clickAndHold(source).moveToElement(target).release(target).build().perform();
 	}
-	
-	public static void moveOffsetOutsideViewPort(WebDriver driver) {
+
+	public static void moveToElement(WebDriver driver, WebElement element) {
 		action = new Actions(driver);
-	    
-	    // Move the cursor out of the viewport (above the browser window)
-	    action.moveByOffset(0, -500).perform(); 
+		action.moveToElement(element).build().perform();
 	}
 
 }
