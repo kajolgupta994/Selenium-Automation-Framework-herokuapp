@@ -2462,3 +2462,23 @@ Iuvaret9 | Apeirian9 | Adipisci9 | Definiebas9 | Consequuntur9 | Phaedrum9 |
 2025-02-08 11:11:33 [main] INFO  com.qa.herokuapp.pages.FileUploadPage - Waiting for the visibility of uploaded filename after drag-and-drop...
 2025-02-08 11:11:33 [main] INFO  com.qa.herokuapp.pages.FileUploadPage - Drag-and-drop uploaded file name: Test2 (4).pdf
 2025-02-08 11:11:33 [main] INFO  com.qa.herokuapp.tests.FileUploadTest - Drag-and-drop file upload verified successfully.
+2025-03-11 19:46:17 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-11 19:46:17 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-15 14:23:53 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-15 14:23:53 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-15 14:23:54 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - Home
+News
+Contact
+About is clicked
+2025-03-15 14:34:09 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-15 14:34:09 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-15 14:34:13 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - Home is clicked
+2025-03-15 14:34:13 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - News is clicked
+2025-03-15 14:34:13 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - Contact is clicked
+2025-03-15 14:34:13 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - About is clicked
+2025-03-15 14:40:19 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-15 14:40:19 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-15 14:40:29 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - Home is clicked
+2025-03-15 14:40:29 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - News is clicked
+2025-03-15 14:40:30 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - Contact is clicked
+2025-03-15 14:40:30 [main] INFO  com.qa.herokuapp.pages.FloatingMenuPage - About is clicked

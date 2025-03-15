@@ -3,16 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.herokuapp.tests.FileUploadTest">
+      <class name="com.qa.herokuapp.tests.FloatingMenuTest">
         <methods>
           <include name="loadConfig"/>
-          <include name="testdragAndDropFileUpload"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
-          <include name="setup"/>
-          <include name="testFileDownload"/>
+          <include name="testFloadingMenu"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.FileUploadTest -->
+      </class> <!-- com.qa.herokuapp.tests.FloatingMenuTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

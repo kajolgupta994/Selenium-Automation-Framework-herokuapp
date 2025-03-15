@@ -69,6 +69,7 @@ public abstract class TestBase {
 			WebDriverManager.chromedriver().setup();
 
 			// ChromeOptions - Adding download directory configuration
+			
 			String downloadPath = System.getProperty("user.dir") + "\\test-output\\file_downloads";
 			
 			HashMap<String, Object> chromePrefs = new HashMap<>();			
