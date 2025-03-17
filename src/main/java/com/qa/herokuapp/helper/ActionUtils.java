@@ -2,7 +2,7 @@ package com.qa.herokuapp.helper;
 
 import java.time.Duration;
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -47,5 +47,12 @@ public class ActionUtils {
 		action = new Actions(driver);
 		action.moveToElement(element).build().perform();
 	}
+	public static void moveToElements(WebDriver driver, WebElement element, Keys keys) {
+		action = new Actions(driver);		
+		action.click(element) // Ensure the slider is selected first
+        .sendKeys(keys) // Send arrow key press
+        .perform();
+	}
+	
 
 }

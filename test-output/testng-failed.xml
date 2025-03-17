@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.herokuapp.tests.FramesTest">
+      <class name="com.qa.herokuapp.tests.HorizontalSliderTest">
         <methods>
           <include name="loadConfig"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
-          <include name="handleNestedFrames"/>
+          <include name="handleHorizontalSlider"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.FramesTest -->
+      </class> <!-- com.qa.herokuapp.tests.HorizontalSliderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
