@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.herokuapp.tests.FormAuthenticationTest">
+      <class name="com.qa.herokuapp.tests.FramesTest">
         <methods>
           <include name="loadConfig"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
-          <include name="setup"/>
-          <include name="verifyLoginWithValidUsernameAndInvalidPassword"/>
+          <include name="handleNestedFrames"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.FormAuthenticationTest -->
+      </class> <!-- com.qa.herokuapp.tests.FramesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

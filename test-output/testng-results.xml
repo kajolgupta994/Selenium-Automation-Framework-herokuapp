@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-16T23:13:44 IST" name="Default suite" finished-at="2025-03-16T23:14:02 IST" duration-ms="17294">
+  <suite started-at="2025-03-17T17:00:44 IST" name="Default suite" finished-at="2025-03-17T17:01:07 IST" duration-ms="22337">
     <groups>
     </groups>
-    <test started-at="2025-03-16T23:13:44 IST" name="Default test" finished-at="2025-03-16T23:14:02 IST" duration-ms="17294">
-      <class name="com.qa.herokuapp.tests.FormAuthenticationTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:13:44 IST" name="loadConfig" finished-at="2025-03-16T23:13:44 IST" duration-ms="21" status="PASS">
+    <test started-at="2025-03-17T17:00:44 IST" name="Default test" finished-at="2025-03-17T17:01:07 IST" duration-ms="22337">
+      <class name="com.qa.herokuapp.tests.FramesTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.herokuapp.tests.FramesTest@435871cb]" started-at="2025-03-17T17:00:44 IST" name="loadConfig" finished-at="2025-03-17T17:00:44 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:13:44 IST" name="initializeBrowser" finished-at="2025-03-16T23:13:50 IST" duration-ms="5576" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.qa.herokuapp.tests.FramesTest@435871cb]" started-at="2025-03-17T17:00:44 IST" name="initializeBrowser" finished-at="2025-03-17T17:01:02 IST" duration-ms="17420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:13:50 IST" name="setup" finished-at="2025-03-16T23:13:50 IST" duration-ms="78" status="PASS">
+        <test-method signature="handleNestedFrames()[pri:0, instance:com.qa.herokuapp.tests.FramesTest@435871cb]" started-at="2025-03-17T17:01:02 IST" name="handleNestedFrames" finished-at="2025-03-17T17:01:06 IST" duration-ms="3914" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidUsernamePassword()[pri:0, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:13:50 IST" name="verifyLoginWithValidUsernamePassword" finished-at="2025-03-16T23:13:56 IST" duration-ms="5693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidUsernamePassword -->
-        <test-method signature="verifyLoginWithInvalidUsernamePassword()[pri:1, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:13:56 IST" name="verifyLoginWithInvalidUsernamePassword" finished-at="2025-03-16T23:13:57 IST" duration-ms="1440" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidUsernamePassword -->
-        <test-method signature="verifyLoginWithValidUsernameAndInvalidPassword()[pri:2, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:13:57 IST" name="verifyLoginWithValidUsernameAndInvalidPassword" finished-at="2025-03-16T23:13:59 IST" duration-ms="1529" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidUsernameAndInvalidPassword -->
-        <test-method signature="verifyLoginWithInvalidUsernameAndValidPassword()[pri:3, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:13:59 IST" name="verifyLoginWithInvalidUsernameAndValidPassword" finished-at="2025-03-16T23:14:00 IST" duration-ms="1122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidUsernameAndValidPassword -->
-        <test-method signature="verifyLoginWithNoUsernameAndPassword()[pri:4, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:14:00 IST" name="verifyLoginWithNoUsernameAndPassword" finished-at="2025-03-16T23:14:01 IST" duration-ms="1160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithNoUsernameAndPassword -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.herokuapp.tests.FormAuthenticationTest@295eaa7c]" started-at="2025-03-16T23:14:01 IST" name="closeBrowser" finished-at="2025-03-16T23:14:02 IST" duration-ms="588" status="PASS">
+        </test-method> <!-- handleNestedFrames -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.herokuapp.tests.FramesTest@435871cb]" started-at="2025-03-17T17:01:06 IST" name="closeBrowser" finished-at="2025-03-17T17:01:07 IST" duration-ms="897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.qa.herokuapp.tests.FormAuthenticationTest -->
+      </class> <!-- com.qa.herokuapp.tests.FramesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
