@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-17T19:25:54 IST" name="Default suite" finished-at="2025-03-17T19:26:09 IST" duration-ms="14863">
+  <suite started-at="2025-03-18T23:40:27 IST" name="Default suite" finished-at="2025-03-18T23:41:00 IST" duration-ms="33926">
     <groups>
     </groups>
-    <test started-at="2025-03-17T19:25:54 IST" name="Default test" finished-at="2025-03-17T19:26:09 IST" duration-ms="14863">
-      <class name="com.qa.herokuapp.tests.HorizontalSliderTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.herokuapp.tests.HorizontalSliderTest@435871cb]" started-at="2025-03-17T19:25:54 IST" name="loadConfig" finished-at="2025-03-17T19:25:54 IST" duration-ms="18" status="PASS">
+    <test started-at="2025-03-18T23:40:27 IST" name="Default test" finished-at="2025-03-18T23:41:00 IST" duration-ms="33926">
+      <class name="com.qa.herokuapp.tests.InputTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.herokuapp.tests.InputTest@435871cb]" started-at="2025-03-18T23:40:26 IST" name="loadConfig" finished-at="2025-03-18T23:40:27 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.qa.herokuapp.tests.HorizontalSliderTest@435871cb]" started-at="2025-03-17T19:25:54 IST" name="initializeBrowser" finished-at="2025-03-17T19:26:02 IST" duration-ms="7879" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.qa.herokuapp.tests.InputTest@435871cb]" started-at="2025-03-18T23:40:27 IST" name="initializeBrowser" finished-at="2025-03-18T23:40:35 IST" duration-ms="8200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="handleHorizontalSlider()[pri:0, instance:com.qa.herokuapp.tests.HorizontalSliderTest@435871cb]" started-at="2025-03-17T19:26:02 IST" name="handleHorizontalSlider" finished-at="2025-03-17T19:26:08 IST" duration-ms="6164" status="PASS">
+        <test-method signature="handleInputTextField()[pri:0, instance:com.qa.herokuapp.tests.InputTest@435871cb]" started-at="2025-03-18T23:40:35 IST" name="handleInputTextField" finished-at="2025-03-18T23:40:49 IST" duration-ms="13801" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleHorizontalSlider -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.herokuapp.tests.HorizontalSliderTest@435871cb]" started-at="2025-03-17T19:26:08 IST" name="closeBrowser" finished-at="2025-03-17T19:26:09 IST" duration-ms="755" status="PASS">
+        </test-method> <!-- handleInputTextField -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.herokuapp.tests.InputTest@435871cb]" started-at="2025-03-18T23:40:49 IST" name="closeBrowser" finished-at="2025-03-18T23:41:00 IST" duration-ms="11506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.qa.herokuapp.tests.HorizontalSliderTest -->
+      </class> <!-- com.qa.herokuapp.tests.InputTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,7 +1,5 @@
 package com.qa.herokuapp.base;
 
-import java.util.Properties;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +13,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.HashMap;
+import java.util.Properties;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 

@@ -53,6 +53,4 @@ public class ActionUtils {
         .sendKeys(keys) // Send arrow key press
         .perform();
 	}
-	
-
 }

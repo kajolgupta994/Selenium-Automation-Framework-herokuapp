@@ -3204,3 +3204,486 @@ Session ID: 0e69abc82b48861f51206b6b9e4bac0d
 2025-03-17 19:26:08 [main] INFO  com.qa.herokuapp.pages.HorizontalSliderPage - Updated slider value: 3.0
 2025-03-17 19:26:08 [main] INFO  com.qa.herokuapp.pages.HorizontalSliderPage - Updated slider value: 3.0
 2025-03-17 19:26:08 [main] INFO  com.qa.herokuapp.pages.HorizontalSliderPage - Slider range is set to: 3
+2025-03-18 15:58:14 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 15:58:14 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 15:58:14 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 15:58:15 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:01:25 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:01:25 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:01:25 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:01:26 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:01:30 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user1
+2025-03-18 16:01:30 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:01:30 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:01:33 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:01:33 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user2
+2025-03-18 16:01:33 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:01:37 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:01:37 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:01:37 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user3
+2025-03-18 16:04:55 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:04:55 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:04:55 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:04:55 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:04:59 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:04:59 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:04:59 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: 
+2025-03-18 16:04:59 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:05:01 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:05:12 [main] INFO  com.qa.herokuapp.pages.HoversPage - Unable to hover over on images
+2025-03-18 16:08:05 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:08:05 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:08:05 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:08:06 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:08:09 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:08:10 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:08:10 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: 
+2025-03-18 16:08:10 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:08:10 [main] INFO  com.qa.herokuapp.pages.HoversPage - Unable to hover over on images
+2025-03-18 16:08:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:08:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:08:56 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:08:58 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:09:02 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:09:02 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:09:02 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: 
+2025-03-18 16:09:02 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:09:04 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:09:15 [main] INFO  com.qa.herokuapp.pages.HoversPage - Unable to hover over on images
+2025-03-18 16:11:38 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:11:38 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:11:38 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:11:39 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:11:41 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:11:41 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:11:41 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:11:41 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:11:43 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:11:43 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:11:43 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user2
+2025-03-18 16:11:43 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:11:46 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:11:46 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:11:46 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:11:46 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user3
+2025-03-18 16:13:13 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:13:13 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:13:13 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:13:14 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:13:16 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: 
+2025-03-18 16:13:16 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:13:16 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: 
+2025-03-18 16:13:17 [main] INFO  com.qa.herokuapp.pages.HoversPage - name: user1
+2025-03-18 16:13:19 [main] INFO  com.qa.herokuapp.pages.HoversPage - 
+2025-03-18 16:13:30 [main] INFO  com.qa.herokuapp.pages.HoversPage - Unable to hover over on images
+2025-03-18 16:22:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:22:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:22:30 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:22:31 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:22:33 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user1
+View profile
+2025-03-18 16:22:33 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: name: user1
+View profile
+2025-03-18 16:25:14 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:25:14 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:25:14 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:25:17 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:25:19 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user1
+View profile
+2025-03-18 16:25:19 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: name: user1
+View profile
+2025-03-18 16:27:46 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 16:27:46 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 16:27:46 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 16:27:47 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 16:27:49 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user1
+2025-03-18 16:27:49 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: name: user1
+2025-03-18 16:27:55 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user2
+2025-03-18 16:27:55 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: name: user2
+2025-03-18 16:28:01 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user3
+2025-03-18 16:28:01 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: name: user3
+2025-03-18 17:13:37 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 17:13:37 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 17:13:37 [main] INFO  com.qa.herokuapp.tests.HoversTest - Navigating to the Hovers page...
+2025-03-18 17:13:38 [main] INFO  com.qa.herokuapp.tests.HoversTest - Hover over on images...
+2025-03-18 17:13:41 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user1
+2025-03-18 17:13:41 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: name: user1
+2025-03-18 17:13:46 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user2
+2025-03-18 17:13:46 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: name: user2
+2025-03-18 17:13:52 [main] INFO  com.qa.herokuapp.pages.HoversPage - Hovered on: name: user3
+2025-03-18 17:13:52 [main] INFO  com.qa.herokuapp.pages.HoversPage - Viewing profile of: name: user3
+2025-03-18 17:35:43 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 17:35:43 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 17:35:43 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Navigating to the Infinite Scroll page...
+2025-03-18 17:35:44 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Handling infinite scroll...
+2025-03-18 17:36:14 [main] ERROR com.qa.herokuapp.pages.InfiniteScrollPage - Unable to handle infinite scroll
+org.openqa.selenium.ScriptTimeoutException: script timeout
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfa0ebe5adce8fe51c920fe81992caa5, executeAsyncScript {args=[], script=window.scrollTo(0, document.body.scrollHeight);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58807/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bfa0ebe5adce8fe51c920fe81992caa5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:484) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.InfiniteScrollPage.handleInfiniteScroll(InfiniteScrollPage.java:32) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.InfiniteScrollTest.handleHoverOnImages(InfiniteScrollTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-18 17:39:01 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 17:39:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 17:39:02 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Navigating to the Infinite Scroll page...
+2025-03-18 17:39:04 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Handling infinite scroll...
+2025-03-18 17:39:06 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 2
+2025-03-18 17:39:08 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 3
+2025-03-18 17:39:11 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 4
+2025-03-18 17:39:13 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 5
+2025-03-18 17:39:15 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 6
+2025-03-18 17:39:17 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 7
+2025-03-18 17:39:19 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 8
+2025-03-18 17:39:22 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 9
+2025-03-18 17:39:24 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 10
+2025-03-18 17:39:26 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 11
+2025-03-18 17:39:28 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 12
+2025-03-18 17:39:30 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 13
+2025-03-18 17:39:32 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 14
+2025-03-18 17:39:34 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 15
+2025-03-18 17:39:36 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 16
+2025-03-18 17:39:38 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 17
+2025-03-18 17:39:40 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 18
+2025-03-18 17:39:43 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 19
+2025-03-18 17:39:45 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 20
+2025-03-18 17:39:47 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 21
+2025-03-18 17:39:49 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 22
+2025-03-18 17:39:51 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 23
+2025-03-18 17:39:53 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 24
+2025-03-18 17:39:55 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 25
+2025-03-18 17:39:57 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 26
+2025-03-18 17:39:59 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 27
+2025-03-18 17:40:01 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 28
+2025-03-18 17:40:03 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 29
+2025-03-18 17:40:06 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 30
+2025-03-18 17:40:08 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 31
+2025-03-18 17:40:10 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 32
+2025-03-18 17:40:12 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 33
+2025-03-18 17:40:14 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 34
+2025-03-18 17:40:16 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 35
+2025-03-18 17:40:18 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 36
+2025-03-18 17:40:20 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 37
+2025-03-18 17:40:22 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 38
+2025-03-18 17:40:24 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 39
+2025-03-18 17:40:27 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 40
+2025-03-18 17:40:29 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 41
+2025-03-18 17:40:31 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 42
+2025-03-18 17:40:33 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 43
+2025-03-18 17:40:35 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 44
+2025-03-18 17:40:37 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 45
+2025-03-18 17:40:39 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 46
+2025-03-18 17:40:41 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 47
+2025-03-18 17:40:43 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 48
+2025-03-18 17:40:45 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 49
+2025-03-18 17:40:47 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 50
+2025-03-18 17:40:49 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 51
+2025-03-18 17:40:52 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 52
+2025-03-18 17:40:54 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 53
+2025-03-18 17:40:56 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 54
+2025-03-18 17:40:58 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 55
+2025-03-18 17:41:00 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 56
+2025-03-18 17:41:02 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 57
+2025-03-18 17:41:04 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 58
+2025-03-18 17:41:06 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 59
+2025-03-18 17:41:08 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 60
+2025-03-18 17:41:10 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 61
+2025-03-18 17:41:12 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 62
+2025-03-18 17:41:15 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 63
+2025-03-18 17:41:17 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 64
+2025-03-18 17:41:19 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 65
+2025-03-18 17:41:21 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 66
+2025-03-18 17:41:23 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 67
+2025-03-18 17:41:25 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 68
+2025-03-18 17:41:27 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 69
+2025-03-18 17:41:29 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 70
+2025-03-18 17:41:31 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 71
+2025-03-18 17:41:33 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 72
+2025-03-18 17:41:36 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 73
+2025-03-18 17:41:38 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 74
+2025-03-18 17:41:40 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 75
+2025-03-18 17:41:42 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 76
+2025-03-18 17:41:44 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 77
+2025-03-18 17:41:46 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 78
+2025-03-18 17:41:48 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 79
+2025-03-18 17:41:50 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 80
+2025-03-18 17:41:52 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 81
+2025-03-18 17:41:54 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 82
+2025-03-18 17:41:56 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 83
+2025-03-18 17:41:59 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 84
+2025-03-18 17:42:01 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 85
+2025-03-18 17:42:03 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 86
+2025-03-18 17:42:05 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 87
+2025-03-18 17:42:07 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 88
+2025-03-18 17:42:09 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 89
+2025-03-18 17:42:11 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 90
+2025-03-18 17:42:13 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 91
+2025-03-18 17:42:15 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 92
+2025-03-18 17:42:17 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 93
+2025-03-18 17:42:19 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 94
+2025-03-18 17:42:21 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 95
+2025-03-18 17:42:24 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 96
+2025-03-18 17:42:26 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 97
+2025-03-18 17:42:28 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 98
+2025-03-18 17:42:30 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 99
+2025-03-18 17:42:32 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 100
+2025-03-18 17:42:34 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 101
+2025-03-18 17:42:36 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 102
+2025-03-18 17:42:38 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 103
+2025-03-18 17:42:40 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 104
+2025-03-18 17:42:42 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 105
+2025-03-18 17:42:44 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 106
+2025-03-18 17:42:46 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 107
+2025-03-18 17:42:48 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 108
+2025-03-18 17:42:50 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 109
+2025-03-18 17:42:53 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 110
+2025-03-18 17:42:55 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 111
+2025-03-18 17:42:57 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 112
+2025-03-18 17:42:59 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 113
+2025-03-18 17:43:01 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 114
+2025-03-18 17:43:03 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 115
+2025-03-18 17:43:05 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 116
+2025-03-18 17:43:07 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 117
+2025-03-18 17:43:09 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 118
+2025-03-18 17:43:11 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 119
+2025-03-18 17:43:13 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 120
+2025-03-18 17:43:16 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 121
+2025-03-18 17:43:18 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 122
+2025-03-18 17:43:20 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 123
+2025-03-18 17:43:22 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 124
+2025-03-18 17:43:24 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 125
+2025-03-18 17:43:26 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 126
+2025-03-18 17:43:28 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 127
+2025-03-18 17:43:30 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 128
+2025-03-18 17:43:33 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 129
+2025-03-18 17:43:35 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 130
+2025-03-18 17:43:37 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 131
+2025-03-18 17:43:39 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 132
+2025-03-18 17:43:41 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 133
+2025-03-18 17:43:43 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 134
+2025-03-18 17:43:45 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 135
+2025-03-18 17:43:47 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 136
+2025-03-18 17:43:49 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 137
+2025-03-18 17:43:51 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 138
+2025-03-18 17:43:54 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 139
+2025-03-18 17:43:56 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 140
+2025-03-18 17:43:58 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 141
+2025-03-18 17:44:00 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 142
+2025-03-18 17:44:02 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 143
+2025-03-18 17:44:04 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 144
+2025-03-18 17:44:06 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 145
+2025-03-18 17:44:08 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 146
+2025-03-18 17:44:10 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 147
+2025-03-18 17:44:12 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 148
+2025-03-18 17:44:14 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 149
+2025-03-18 17:44:17 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 150
+2025-03-18 17:44:19 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 151
+2025-03-18 17:44:21 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 152
+2025-03-18 18:10:21 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 18:10:21 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 18:10:21 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Navigating to the Infinite Scroll page...
+2025-03-18 18:10:22 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Handling infinite scroll...
+2025-03-18 18:10:25 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 2
+2025-03-18 18:10:27 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 3
+2025-03-18 18:10:29 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 4
+2025-03-18 18:10:31 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 5
+2025-03-18 18:10:33 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 6
+2025-03-18 18:10:36 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 7
+2025-03-18 18:10:38 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 8
+2025-03-18 18:10:40 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 9
+2025-03-18 18:10:42 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 10
+2025-03-18 18:10:44 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 11
+2025-03-18 18:10:46 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 12
+2025-03-18 18:10:48 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 13
+2025-03-18 18:10:50 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 14
+2025-03-18 18:10:52 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 15
+2025-03-18 18:10:54 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 16
+2025-03-18 18:10:56 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 17
+2025-03-18 18:10:58 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 18
+2025-03-18 18:11:00 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 19
+2025-03-18 18:11:03 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 20
+2025-03-18 18:11:05 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 21
+2025-03-18 18:11:07 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 22
+2025-03-18 18:11:09 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 23
+2025-03-18 18:11:11 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 24
+2025-03-18 18:11:13 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 25
+2025-03-18 18:11:15 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 26
+2025-03-18 18:11:17 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 27
+2025-03-18 18:11:19 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 28
+2025-03-18 18:11:21 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 29
+2025-03-18 18:11:24 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 30
+2025-03-18 18:11:26 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 31
+2025-03-18 18:11:28 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 32
+2025-03-18 18:11:30 [main] ERROR com.qa.herokuapp.pages.InfiniteScrollPage - Unable to handle infinite scroll
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0a5cf9b81c9483d84c9687dcaf402fb, findElements {value=//div[@class='jscroll-added'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59882/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0a5cf9b81c9483d84c9687dcaf402fb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:375) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:83) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36) ~[selenium-support-4.26.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy33.size(Unknown Source) ~[?:?]
+	at com.qa.herokuapp.pages.InfiniteScrollPage.handleInfiniteScroll(InfiniteScrollPage.java:38) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.InfiniteScrollTest.handleHoverOnImages(InfiniteScrollTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-18 18:14:11 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 18:14:11 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 18:14:11 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Navigating to the Infinite Scroll page...
+2025-03-18 18:14:12 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Handling infinite scroll...
+2025-03-18 18:14:14 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 2
+2025-03-18 18:14:16 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 3
+2025-03-18 18:14:18 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 4
+2025-03-18 18:14:21 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 5
+2025-03-18 18:14:23 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 6
+2025-03-18 18:14:25 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 7
+2025-03-18 18:14:27 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 8
+2025-03-18 18:14:29 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 9
+2025-03-18 18:14:31 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 10
+2025-03-18 18:14:33 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 11
+2025-03-18 18:14:33 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - Scrolling stopped after 10 attempts.
+2025-03-18 18:16:17 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 18:16:17 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 18:16:18 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Navigating to the Infinite Scroll page...
+2025-03-18 18:16:19 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Handling infinite scroll...
+2025-03-18 18:18:21 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 18:18:21 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 18:18:21 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Navigating to the Infinite Scroll page...
+2025-03-18 18:18:24 [main] INFO  com.qa.herokuapp.tests.InfiniteScrollTest - Handling infinite scroll...
+2025-03-18 18:18:46 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 3
+2025-03-18 18:19:25 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 4
+2025-03-18 18:19:39 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 5
+2025-03-18 18:19:46 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 6
+2025-03-18 18:19:54 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 7
+2025-03-18 18:20:04 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 8
+2025-03-18 18:20:13 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 9
+2025-03-18 18:20:24 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 10
+2025-03-18 18:20:34 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 11
+2025-03-18 18:20:45 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - New content loaded. Total elements: 12
+2025-03-18 18:20:50 [main] INFO  com.qa.herokuapp.pages.InfiniteScrollPage - Scrolling stopped after 10 attempts.
+2025-03-18 23:23:55 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 23:23:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 23:23:56 [main] INFO  com.qa.herokuapp.tests.InputTest - Navigating to the input page...
+2025-03-18 23:23:57 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
+2025-03-18 23:24:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 23:24:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 23:24:56 [main] INFO  com.qa.herokuapp.tests.InputTest - Navigating to the input page...
+2025-03-18 23:24:57 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
+2025-03-18 23:25:41 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 23:25:41 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 23:25:41 [main] INFO  com.qa.herokuapp.tests.InputTest - Navigating to the input page...
+2025-03-18 23:25:42 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
+2025-03-18 23:26:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 23:26:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 23:26:30 [main] INFO  com.qa.herokuapp.tests.InputTest - Navigating to the input page...
+2025-03-18 23:26:31 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
+2025-03-18 23:35:43 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 23:35:43 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 23:35:43 [main] INFO  com.qa.herokuapp.tests.InputTest - Navigating to the input page...
+2025-03-18 23:35:44 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
+2025-03-18 23:36:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 23:36:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 23:36:34 [main] INFO  com.qa.herokuapp.tests.InputTest - Navigating to the input page...
+2025-03-18 23:36:36 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
+2025-03-18 23:36:36 [main] ERROR com.qa.herokuapp.pages.InputPage - Invalid input: Only numeric values are allowed.
+2025-03-18 23:39:15 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 23:39:15 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 23:39:15 [main] INFO  com.qa.herokuapp.tests.InputTest - Navigating to the input page...
+2025-03-18 23:39:15 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
+2025-03-18 23:39:15 [main] ERROR com.qa.herokuapp.pages.InputPage - Invalid input: Only numeric values allowed.
+2025-03-18 23:40:35 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-18 23:40:35 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-18 23:40:35 [main] INFO  com.qa.herokuapp.tests.InputTest - Navigating to the input page...
+2025-03-18 23:40:49 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
+2025-03-18 23:40:49 [main] ERROR com.qa.herokuapp.pages.InputPage - Invalid input: Only numeric values are allowed.
+2025-03-18 23:40:49 [main] ERROR com.qa.herokuapp.pages.InputPage - Invalid input: Only numeric values allowed.
