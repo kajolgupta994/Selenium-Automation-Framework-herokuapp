@@ -3687,3 +3687,1371 @@ Session ID: f0a5cf9b81c9483d84c9687dcaf402fb
 2025-03-18 23:40:49 [main] INFO  com.qa.herokuapp.tests.InputTest - Handling input field...
 2025-03-18 23:40:49 [main] ERROR com.qa.herokuapp.pages.InputPage - Invalid input: Only numeric values are allowed.
 2025-03-18 23:40:49 [main] ERROR com.qa.herokuapp.pages.InputPage - Invalid input: Only numeric values allowed.
+2025-03-19 11:41:32 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 11:41:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 11:41:33 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 11:42:26 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 11:42:26 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 11:42:26 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 11:43:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 11:43:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 11:43:16 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 11:48:17 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 11:48:17 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 11:48:17 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 11:49:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 11:49:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 11:49:16 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:25:53 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:25:54 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:25:54 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:25:56 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:26:13 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3487406aec6eec6818fa1bd08487a89c, clickElement {id=f.A91AF2E7786E6EC12D7EFFD1E233AF2E.d.415D9D480F6EA0E8FAC3A5783E3A5E6C.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64671}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64671/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3487406aec6eec6818fa1bd08487a89c)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: 3487406aec6eec6818fa1bd08487a89c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:60) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:27:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:27:31 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:27:31 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:27:32 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:27:50 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2632ae139a3012b5e5fce73b739a00e4, clickElement {id=f.20FDB8B9384C3AB10EAAE2B351BDB9DE.d.BE2EEBA9C5133F4C8FBA8626C4359B4B.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64747/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2632ae139a3012b5e5fce73b739a00e4)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: 2632ae139a3012b5e5fce73b739a00e4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:60) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:39:46 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:39:46 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:39:46 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:39:48 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:40:03 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition (element to be clickable: [[ChromeDriver: chrome on windows (cb4cc3227a6619a5065162a77df3d587)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]) to be refreshed (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65201/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb4cc3227a6619a5065162a77df3d587
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForPageLoad(WebDriverWaitUtils.java:54) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:66) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:41:05 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:41:06 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:41:06 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:41:07 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:41:20 [main] INFO  com.qa.herokuapp.pages.JQueryMenuUIPage - Unable to interact with the main menus
+org.openqa.selenium.ElementNotInteractableException: element not interactable: https://the-internet.herokuapp.com/jqueryui/menu# has no size and location
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dd920d5b7d574f890cddc1d5fbc7847, actions {actions=[org.openqa.selenium.interactions.Sequence@3a2d3909]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65264/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dd920d5b7d574f890cddc1d5fbc7847
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613) ~[selenium-api-4.26.0.jar:?]
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578) ~[selenium-api-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.ActionUtils.alertClickAndHold(ActionUtils.java:22) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleJQueryUIMenu(JQueryMenuUIPage.java:43) ~[test-classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:62) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:41:30 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dd920d5b7d574f890cddc1d5fbc7847, clickElement {id=f.C750EFD3DCFCC130E6925B2ACDF10787.d.57D84EA1157BC89DC38F5DDC6EDEADBD.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65264/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4dd920d5b7d574f890cddc1d5fbc7847)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: 4dd920d5b7d574f890cddc1d5fbc7847
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:60) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:42:35 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:42:35 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:42:35 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:42:37 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:42:39 [main] INFO  com.qa.herokuapp.pages.JQueryMenuUIPage - Unable to interact with the main menus
+org.openqa.selenium.ElementNotInteractableException: element not interactable: https://the-internet.herokuapp.com/jqueryui/menu# has no size and location
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d97b5bddc018677f4fd55ee5fd5e0963, actions {actions=[org.openqa.selenium.interactions.Sequence@2503ec73]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65338/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d97b5bddc018677f4fd55ee5fd5e0963
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613) ~[selenium-api-4.26.0.jar:?]
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578) ~[selenium-api-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.ActionUtils.alertClickAndHold(ActionUtils.java:22) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleJQueryUIMenu(JQueryMenuUIPage.java:43) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:43:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:43:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:43:33 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:43:34 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:43:51 [main] INFO  com.qa.herokuapp.pages.JQueryMenuUIPage - Unable to interact with the main menus
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [557bed73afc682985472354dd3934517, clickElement {id=f.F65D83BFB98ECEC728C5EAF9FA02FCAF.d.80F77CB8C96A20777BFE2B4421FEDD32.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65389/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (557bed73afc682985472354dd3934517)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: 557bed73afc682985472354dd3934517
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleJQueryUIMenu(JQueryMenuUIPage.java:49) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:45:45 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:45:46 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:45:46 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:45:47 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:46:06 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f45822f4f9d60441c997d704d5b84ce, clickElement {id=f.81CDE2E5215446E6C5C534E0565C2D1B.d.7E93ECA996C4EF5CF40515305E9D19CC.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65475}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65475/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5f45822f4f9d60441c997d704d5b84ce)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: 5f45822f4f9d60441c997d704d5b84ce
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:67) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:46:53 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:46:53 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:46:53 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:46:55 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:47:13 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [02c2adc628c7ab24379156083e6d65f3, clickElement {id=f.D2472C22BA900DA0A12C7FD181DCDCCD.d.58A31A176490EB3515B30F5553967534.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65530/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (02c2adc628c7ab24379156083e6d65f3)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: 02c2adc628c7ab24379156083e6d65f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:67) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:47:23 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to click 'Back to JQuery UI'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (02c2adc628c7ab24379156083e6d65f3)] -> xpath: //a[text()='Back to JQuery UI']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65530/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02c2adc628c7ab24379156083e6d65f3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForTheVisibilityOfElement(WebDriverWaitUtils.java:18) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.clickBackToJQueryUI(JQueryMenuUIPage.java:82) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:34) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:48:09 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:48:09 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:48:09 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:48:11 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:48:21 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.ElementNotInteractableException: element not interactable: https://the-internet.herokuapp.com/jqueryui/menu# has no size and location
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e7f96d8c85088f799303d2af24a1ba7, actions {actions=[org.openqa.selenium.interactions.Sequence@d5556bf]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49204/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e7f96d8c85088f799303d2af24a1ba7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613) ~[selenium-api-4.26.0.jar:?]
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578) ~[selenium-api-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.ActionUtils.alertClickAndHold(ActionUtils.java:22) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:61) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:48:32 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to click 'Back to JQuery UI'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7e7f96d8c85088f799303d2af24a1ba7)] -> xpath: //a[text()='Back to JQuery UI']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49204/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e7f96d8c85088f799303d2af24a1ba7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForTheVisibilityOfElement(WebDriverWaitUtils.java:18) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.clickBackToJQueryUI(JQueryMenuUIPage.java:82) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:34) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:55:51 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:55:51 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:55:51 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:55:53 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:56:11 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to reopen Downloads menu
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (9eaf0907c521656d53745c57899b294e)] -> xpath: //ul/li/a[text()='Downloads']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49445/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eaf0907c521656d53745c57899b294e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForElementToBeClickable(WebDriverWaitUtils.java:28) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.reopenDownloadsMenu(JQueryMenuUIPage.java:84) ~[test-classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:68) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:56:21 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on windows (9eaf0907c521656d53745c57899b294e)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li], [[ChromeDriver: chrome on windows (9eaf0907c521656d53745c57899b294e)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li], [[ChromeDriver: chrome on windows (9eaf0907c521656d53745c57899b294e)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49445/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eaf0907c521656d53745c57899b294e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForTheVisibilityOfListWebElements(WebDriverWaitUtils.java:44) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:71) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:57:28 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:57:28 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:57:28 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:57:30 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:57:51 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to reopen Downloads menu
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (2c19ee675709bc410a30e5f762341871)] -> xpath: //ul/li/a[text()='Downloads']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49519/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c19ee675709bc410a30e5f762341871
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForElementToBeClickable(WebDriverWaitUtils.java:28) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.reopenDownloadsMenu(JQueryMenuUIPage.java:90) ~[test-classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:68) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:58:01 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on windows (2c19ee675709bc410a30e5f762341871)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li], [[ChromeDriver: chrome on windows (2c19ee675709bc410a30e5f762341871)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li], [[ChromeDriver: chrome on windows (2c19ee675709bc410a30e5f762341871)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49519/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c19ee675709bc410a30e5f762341871
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForTheVisibilityOfListWebElements(WebDriverWaitUtils.java:44) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:71) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 21:59:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 21:59:31 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 21:59:31 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 21:59:32 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 21:59:53 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a438f30764425e2af74ea3a19451d739, isElementDisplayed {id=f.6490968B486363DC0E3C376DB54CC5D1.d.A89B8ABB369F2D8B3F7ABAC082AB949A.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49603/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a438f30764425e2af74ea3a19451d739)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: a438f30764425e2af74ea3a19451d739
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:264) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:260) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForTheVisibilityOfListWebElements(WebDriverWaitUtils.java:44) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:72) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 22:01:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:01:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:01:39 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 22:01:40 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 22:05:26 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:05:26 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:05:26 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 22:05:28 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 22:05:45 [main] INFO  com.qa.herokuapp.pages.JQueryMenuUIPage - Unable to interact with the main menus
+org.openqa.selenium.ElementNotInteractableException: element not interactable: https://the-internet.herokuapp.com/jqueryui/menu# has no size and location
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5cd13f014ca5bcd95696ae5642f23f1, actions {actions=[org.openqa.selenium.interactions.Sequence@554c4eaa]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49838/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5cd13f014ca5bcd95696ae5642f23f1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613) ~[selenium-api-4.26.0.jar:?]
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578) ~[selenium-api-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.ActionUtils.alertClickAndHold(ActionUtils.java:22) ~[classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleJQueryUIMenu(JQueryMenuUIPage.java:47) ~[test-classes/:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:71) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 22:05:56 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5cd13f014ca5bcd95696ae5642f23f1, clickElement {id=f.E87BF69CC2CA741C5401B24A4D0EF024.d.D5AD49E4EFCD64F0B3E6A566D6E4E208.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49838/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b5cd13f014ca5bcd95696ae5642f23f1)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: b5cd13f014ca5bcd95696ae5642f23f1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:66) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 22:07:44 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:07:44 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:07:44 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 22:07:46 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 22:09:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:09:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:09:56 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 22:09:58 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 22:10:16 [main] ERROR com.qa.herokuapp.pages.JQueryMenuUIPage - Failed to handle download submenus
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8640ea311a9a2e2ca45b60def76ae6bc, clickElement {id=f.1D664AB74C87C914F98004BED364411A.d.8BE57C962D125CF547D5DDF04B3909FB.e.13}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50045}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50045/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8640ea311a9a2e2ca45b60def76ae6bc)] -> xpath: //ul/li/a[text()='Downloads']/following-sibling::ul/li]
+Session ID: 8640ea311a9a2e2ca45b60def76ae6bc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.26.0.jar:?]
+	at com.qa.herokuapp.pages.JQueryMenuUIPage.handleDownloadSubmenus(JQueryMenuUIPage.java:66) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JQueryMenuUITest.handleJQueryMenu(JQueryMenuUITest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 22:11:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:11:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:11:33 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 22:11:34 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 22:36:45 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:36:45 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:36:46 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Navigating to the JQuery Menu UI page...
+2025-03-19 22:36:54 [main] INFO  com.qa.herokuapp.tests.JQueryMenuUITest - Handling JQuery Menu UI...
+2025-03-19 22:38:49 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:38:49 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:38:49 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 22:38:49 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 22:38:55 [main] ERROR com.qa.herokuapp.pages.JavascriptAlertsPage - Failed to handle download submenus
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50860/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df814b3442f5cc1f5fd6e70be9f82d3d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.checkIfAlertIsPresent(WebDriverWaitUtils.java:49) ~[classes/:?]
+	at com.qa.herokuapp.helper.AlertUtils.waitForAlert(AlertUtils.java:23) ~[classes/:?]
+	at com.qa.herokuapp.helper.AlertUtils.alertAccept(AlertUtils.java:38) ~[classes/:?]
+	at com.qa.herokuapp.pages.JavascriptAlertsPage.handleAlerts(JavascriptAlertsPage.java:37) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JavascriptAlertsTest.handleJQueryMenu(JavascriptAlertsTest.java:26) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 22:43:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:43:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:43:39 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 22:43:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:43:40 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:43:40 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 22:43:40 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 22:43:41 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 22:56:36 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:56:37 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:56:37 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 22:56:40 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 22:56:40 [main] ERROR com.qa.herokuapp.pages.JavascriptAlertsPage - Failed to handle javascript confirm
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression Click for JS Confirm because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'Click for JS Confirm' is not a valid XPath expression.
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81ae7305f4f82b70c7d08d253026f28e, findElement {using=xpath, value=Click for JS Confirm}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51420}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51420/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81ae7305f4f82b70c7d08d253026f28e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.26.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForElementToBeClickable(WebDriverWaitUtils.java:28) ~[classes/:?]
+	at com.qa.herokuapp.pages.JavascriptAlertsPage.handlejavascriptConfirm(JavascriptAlertsPage.java:53) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JavascriptAlertsTest.handleJQueryMenu(JavascriptAlertsTest.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 22:59:12 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 22:59:12 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 22:59:12 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 22:59:13 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 22:59:13 [main] ERROR com.qa.herokuapp.pages.JavascriptAlertsPage - Failed to handle javascript confirm
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression Click for JS Confirm because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'Click for JS Confirm' is not a valid XPath expression.
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad811ebd607b65ddc28a330449391116, findElement {value=Click for JS Confirm, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51510/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad811ebd607b65ddc28a330449391116
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.26.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.26.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.waitForElementToBeClickable(WebDriverWaitUtils.java:28) ~[classes/:?]
+	at com.qa.herokuapp.pages.JavascriptAlertsPage.handlejavascriptConfirm(JavascriptAlertsPage.java:53) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JavascriptAlertsTest.handleJQueryMenu(JavascriptAlertsTest.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 23:08:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 23:08:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 23:08:33 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 23:08:34 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 23:08:40 [main] ERROR com.qa.herokuapp.pages.JavascriptAlertsPage - Failed to handle javascript confirm
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51811}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51811/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f816388baa8e8d7727aa54bafab3d035
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.26.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.26.0.jar:?]
+	at com.qa.herokuapp.helper.WebDriverWaitUtils.checkIfAlertIsPresent(WebDriverWaitUtils.java:49) ~[classes/:?]
+	at com.qa.herokuapp.helper.AlertUtils.waitForAlert(AlertUtils.java:23) ~[classes/:?]
+	at com.qa.herokuapp.helper.AlertUtils.alertDismiss(AlertUtils.java:28) ~[classes/:?]
+	at com.qa.herokuapp.pages.JavascriptAlertsPage.handlejavascriptConfirm(JavascriptAlertsPage.java:58) ~[test-classes/:?]
+	at com.qa.herokuapp.tests.JavascriptAlertsTest.handleJQueryMenu(JavascriptAlertsTest.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.10.1.r202404130807.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-03-19 23:09:15 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 23:09:15 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 23:09:15 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 23:09:16 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 23:14:42 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 23:14:42 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 23:14:42 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 23:14:43 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 23:14:43 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You successfully clicked an alert
+2025-03-19 23:14:44 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You clicked: Ok
+2025-03-19 23:14:44 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You clicked: Cancel
+2025-03-19 23:14:45 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You entered: I'm sending some keys
+2025-03-19 23:14:45 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You entered: null
+2025-03-19 23:23:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 23:23:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 23:23:30 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 23:23:30 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 23:23:31 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You successfully clicked an alert
+2025-03-19 23:23:31 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You clicked: Ok
+2025-03-19 23:23:32 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You entered: I'm sending some keys
+2025-03-19 23:23:32 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You entered: null
+2025-03-19 23:24:52 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 23:24:52 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 23:24:52 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 23:24:53 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 23:24:53 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You successfully clicked an alert
+2025-03-19 23:24:54 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You clicked: Ok
+2025-03-19 23:24:54 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You entered: I'm sending some keys
+2025-03-19 23:24:54 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You entered: null
+2025-03-19 23:27:09 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 23:27:09 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 23:27:09 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the Javascript Alert page...
+2025-03-19 23:27:15 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling Javascript Alerts...
+2025-03-19 23:27:15 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You successfully clicked an alert
+2025-03-19 23:27:16 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You clicked: Ok
+2025-03-19 23:27:16 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - You entered: I'm sending some keys
+2025-03-19 23:30:32 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-19 23:30:32 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-19 23:30:32 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Navigating to the JavaScript Alert page...
+2025-03-19 23:30:33 [main] INFO  com.qa.herokuapp.tests.JavascriptAlertsTest - Handling JavaScript Alerts...
+2025-03-19 23:30:33 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - Alert result message: You successfully clicked an alert
+2025-03-19 23:30:34 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - Confirm alert result message: You clicked: Ok
+2025-03-19 23:30:34 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - Prompt alert result message: You entered: I'm sending some keys

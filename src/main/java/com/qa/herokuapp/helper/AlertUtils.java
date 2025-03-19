@@ -41,5 +41,14 @@ public class AlertUtils {
 	        System.out.println("No such alert window." + e.getMessage());
 	    }
 	}
+	
+	public static void alertSendkeys(WebDriver driver, String str) {
+	    try {
+	        alert = waitForAlert(driver, Duration.ofSeconds(5));
+	        alert.sendKeys(str);
+	    } catch (NoAlertPresentException e) {
+	        System.out.println("No such alert window." + e.getMessage());
+	    }
+	}
 
 }
