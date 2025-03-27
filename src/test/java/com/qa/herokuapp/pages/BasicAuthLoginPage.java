@@ -11,11 +11,11 @@ public class BasicAuthLoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public static String getSuccessMsg() {
+	public String getSuccessMsg() {
 		return driver.getPageSource();
 	}
 
-	public static String getCurrentUrl() {
+	public String getCurrentUrl() {
 		return driver.getCurrentUrl();
 	}
 }

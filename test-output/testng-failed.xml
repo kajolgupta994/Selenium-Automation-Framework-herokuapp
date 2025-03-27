@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.herokuapp.tests.JavascriptAlertsTest">
+      <class name="com.qa.herokuapp.tests.TyposTest">
         <methods>
-          <include name="handleJQueryMenu"/>
           <include name="loadConfig"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
+          <include name="validateTyposOnPage"/>
+          <include name="setup"/>
+          <include name="validatePageTextForTypos"/>
         </methods>
-      </class> <!-- com.qa.herokuapp.tests.JavascriptAlertsTest -->
+      </class> <!-- com.qa.herokuapp.tests.TyposTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

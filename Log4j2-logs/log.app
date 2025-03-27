@@ -5055,3 +5055,1169 @@ Session ID: f816388baa8e8d7727aa54bafab3d035
 2025-03-19 23:30:33 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - Alert result message: You successfully clicked an alert
 2025-03-19 23:30:34 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - Confirm alert result message: You clicked: Ok
 2025-03-19 23:30:34 [main] INFO  com.qa.herokuapp.pages.JavascriptAlertsPage - Prompt alert result message: You entered: I'm sending some keys
+2025-03-24 17:10:29 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:10:29 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:10:29 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Navigating to the Key Presses page...
+2025-03-24 17:10:31 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Testing key presses...
+2025-03-24 17:10:32 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Entered text: A
+2025-03-24 17:10:32 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Pressed ENTER key
+2025-03-24 17:10:33 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Displayed result: 
+2025-03-24 17:10:33 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Entered text: 
+2025-03-24 17:10:33 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Pressed ENTER key
+2025-03-24 17:10:33 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Displayed result: 
+2025-03-24 17:10:34 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Entered text: 
+2025-03-24 17:10:34 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Pressed ENTER key
+2025-03-24 17:10:34 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Displayed result: 
+2025-03-24 17:12:11 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:12:11 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:12:11 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Navigating to the Key Presses page...
+2025-03-24 17:12:12 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Testing key presses...
+2025-03-24 17:12:12 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Entered text: A
+2025-03-24 17:12:12 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Pressed ENTER key
+2025-03-24 17:12:12 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Displayed result: 
+2025-03-24 17:12:13 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Entered text: 
+2025-03-24 17:12:13 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Pressed ENTER key
+2025-03-24 17:12:13 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Displayed result: 
+2025-03-24 17:12:13 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Entered text: 
+2025-03-24 17:12:14 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Pressed ENTER key
+2025-03-24 17:12:14 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Displayed result: 
+2025-03-24 17:21:40 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:21:40 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:21:40 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Navigating to the Key Presses page...
+2025-03-24 17:21:41 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Testing key presses...
+2025-03-24 17:21:41 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: H | Displayed Result: You entered: H
+2025-03-24 17:21:41 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: e | Displayed Result: You entered: E
+2025-03-24 17:21:41 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: l | Displayed Result: You entered: L
+2025-03-24 17:21:42 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: l | Displayed Result: You entered: L
+2025-03-24 17:21:42 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: o | Displayed Result: You entered: O
+2025-03-24 17:21:42 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 1 | Displayed Result: You entered: 1
+2025-03-24 17:21:42 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 2 | Displayed Result: You entered: 2
+2025-03-24 17:21:42 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 3 | Displayed Result: You entered: 3
+2025-03-24 17:21:43 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: ! | Displayed Result: You entered: 1
+2025-03-24 17:22:05 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:22:05 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:22:05 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Navigating to the Key Presses page...
+2025-03-24 17:22:06 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Testing key presses...
+2025-03-24 17:22:06 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: H | Displayed Result: You entered: H
+2025-03-24 17:22:07 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: e | Displayed Result: You entered: E
+2025-03-24 17:22:07 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: l | Displayed Result: You entered: L
+2025-03-24 17:22:07 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: l | Displayed Result: You entered: L
+2025-03-24 17:22:07 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: o | Displayed Result: You entered: O
+2025-03-24 17:22:07 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 1 | Displayed Result: You entered: 1
+2025-03-24 17:22:07 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 2 | Displayed Result: You entered: 2
+2025-03-24 17:22:08 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 3 | Displayed Result: You entered: 3
+2025-03-24 17:22:08 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: ! | Displayed Result: You entered: 1
+2025-03-24 17:23:03 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:23:03 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:23:03 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Navigating to the Key Presses page...
+2025-03-24 17:23:04 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Testing key presses...
+2025-03-24 17:23:04 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: H | Displayed Result: You entered: H
+2025-03-24 17:23:05 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: e | Displayed Result: You entered: E
+2025-03-24 17:23:05 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: l | Displayed Result: You entered: L
+2025-03-24 17:23:05 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: l | Displayed Result: You entered: L
+2025-03-24 17:23:05 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: o | Displayed Result: You entered: O
+2025-03-24 17:23:05 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 1 | Displayed Result: You entered: 1
+2025-03-24 17:23:05 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 2 | Displayed Result: You entered: 2
+2025-03-24 17:23:06 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 3 | Displayed Result: You entered: 3
+2025-03-24 17:23:06 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: ! | Displayed Result: You entered: 1
+2025-03-24 17:23:06 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed:  | Displayed Result: You entered: BACK_SPACE
+2025-03-24 17:23:06 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed:  | Displayed Result: You entered: SPACE
+2025-03-24 17:24:50 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:24:50 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:24:50 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Navigating to the Key Presses page...
+2025-03-24 17:24:52 [main] INFO  com.qa.herokuapp.tests.KeyPressesTest - Testing key presses...
+2025-03-24 17:24:53 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: H | Displayed Result: You entered: H
+2025-03-24 17:24:53 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: e | Displayed Result: You entered: E
+2025-03-24 17:24:53 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: l | Displayed Result: You entered: L
+2025-03-24 17:24:54 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: l | Displayed Result: You entered: L
+2025-03-24 17:24:54 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: o | Displayed Result: You entered: O
+2025-03-24 17:24:54 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 1 | Displayed Result: You entered: 1
+2025-03-24 17:24:54 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 2 | Displayed Result: You entered: 2
+2025-03-24 17:24:54 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: 3 | Displayed Result: You entered: 3
+2025-03-24 17:24:54 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed: ! | Displayed Result: You entered: 1
+2025-03-24 17:24:55 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed:  | Displayed Result: You entered: NUMPAD1
+2025-03-24 17:24:55 [main] INFO  com.qa.herokuapp.pages.KeyPressesPage - Typed:  | Displayed Result: You entered: SPACE
+2025-03-24 17:41:13 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:41:13 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:41:13 [main] INFO  com.qa.herokuapp.tests.JavascripOnloadEventErrorTest - Navigating to the JavaScript Onload Event Error page...
+2025-03-24 17:41:14 [main] INFO  com.qa.herokuapp.tests.JavascripOnloadEventErrorTest - Handling JavaScript Onload Event Error...
+2025-03-24 17:41:14 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - Console Log: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1742818270747r0.5611739338159853&wxhr=true&t=1742818270754&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+2025-03-24 17:41:14 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - Console Log: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-03-24 17:41:14 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - Console Log: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1742818270747r0.5611739338159853&wxhr=true&t=1742818273825&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+2025-03-24 17:41:14 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - Console Log: https://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read properties of undefined (reading 'xyz')
+2025-03-24 17:41:14 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - JavaScript error found!
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.tests.JavascripOnloadEventErrorTest - Navigating to the JavaScript Onload Event Error page...
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.tests.JavascripOnloadEventErrorTest - Handling JavaScript Onload Event Error...
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - Console Log: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1742818312096r0.4526508875208992&wxhr=true&t=1742818312102&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - Console Log: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - Console Log: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1742818312096r0.4526508875208992&wxhr=true&t=1742818314336&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - Console Log: https://the-internet.herokuapp.com/javascript_error 6:51 Uncaught TypeError: Cannot read properties of undefined (reading 'xyz')
+2025-03-24 17:41:54 [main] INFO  com.qa.herokuapp.pages.JavascriptOnloadEventErrorPage - JavaScript error found!
+2025-03-24 17:48:04 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:48:04 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:48:04 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Navigating to the Multiple Windows page...
+2025-03-24 17:48:08 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Testing multiple windows...
+2025-03-24 17:52:00 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 17:52:00 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 17:52:00 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Navigating to the Multiple Windows page...
+2025-03-24 17:52:01 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Clicking on Click Here link...
+2025-03-24 17:52:01 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Getting text from the new window
+2025-03-24 17:52:02 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Text received: Opening a new window
+2025-03-24 18:17:50 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 18:17:50 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 18:17:50 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Navigating to the Multiple Windows page...
+2025-03-24 18:17:51 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Clicking on Click Here link...
+2025-03-24 18:17:51 [main] ERROR com.qa.herokuapp.pages.MultipleWindowsPage - Unable to click on the 'Click Here' button: no such window
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc683a3fc499896671d74839fa0c0af8, switchToWindow {handle=Opening a new window}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56037/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc683a3fc499896671d74839fa0c0af8
+2025-03-24 18:17:51 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Getting text from the new window
+2025-03-24 18:17:51 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Text received: Opening a new window
+2025-03-24 18:47:07 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 18:47:07 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 18:47:07 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Navigating to the Multiple Windows page...
+2025-03-24 18:47:14 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Clicking on 'Click Here' link...
+2025-03-24 18:47:14 [main] INFO  com.qa.herokuapp.pages.MultipleWindowsPage - Clicked on 'Click Here' link.
+2025-03-24 18:47:14 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Getting text from the new window...
+2025-03-24 18:47:14 [main] INFO  com.qa.herokuapp.pages.MultipleWindowsPage - Switched to the new window
+2025-03-24 18:47:15 [main] INFO  com.qa.herokuapp.pages.MultipleWindowsPage - Text from new window: New Window
+2025-03-24 18:47:15 [main] INFO  com.qa.herokuapp.pages.MultipleWindowsPage - Switched back to the main window.
+2025-03-24 18:47:15 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Text received: New Window
+2025-03-24 18:49:59 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 18:49:59 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 18:49:59 [main] INFO  com.qa.herokuapp.tests.MutipleWindowsTest - Navigating to the Multiple Windows page...
+2025-03-24 18:50:05 [main] INFO  com.qa.herokuapp.pages.MultipleWindowsPage - Clicked on 'Click Here' link.
+2025-03-24 18:50:05 [main] INFO  com.qa.herokuapp.pages.MultipleWindowsPage - Switched to the new window
+2025-03-24 18:50:05 [main] INFO  com.qa.herokuapp.pages.MultipleWindowsPage - Text from new window: New Window
+2025-03-24 18:50:05 [main] INFO  com.qa.herokuapp.pages.MultipleWindowsPage - Switched back to the main window.
+2025-03-24 18:57:03 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 18:57:04 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 18:57:04 [main] INFO  com.qa.herokuapp.tests.NotificationMessagesTest - Navigating to the Notification Messages page...
+2025-03-24 18:57:06 [main] INFO  com.qa.herokuapp.pages.NotificationMessagesPage - Clicked on 'Click Here' link.
+2025-03-24 18:57:07 [main] INFO  com.qa.herokuapp.pages.NotificationMessagesPage - Text from new notification bar: Action unsuccesful, please try again
+×
+2025-03-24 19:26:31 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 19:26:31 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 19:26:31 [main] INFO  com.qa.herokuapp.tests.NotificationMessagesTest - Navigating to the Notification Messages page...
+2025-03-24 19:26:32 [main] INFO  com.qa.herokuapp.tests.NotificationMessagesTest - Clicking 'Click Here' and validating notification...
+2025-03-24 19:26:34 [main] INFO  com.qa.herokuapp.pages.NotificationMessagesPage - Clicked on 'Click Here' link.
+2025-03-24 19:26:34 [main] INFO  com.qa.herokuapp.pages.NotificationMessagesPage - Text from new notification bar: Action successful
+×
+2025-03-24 19:26:34 [main] INFO  com.qa.herokuapp.pages.NotificationMessagesPage - Expected notification found: Action successful
+×
+2025-03-24 19:29:48 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 19:29:48 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 19:29:48 [main] INFO  com.qa.herokuapp.tests.NotificationMessagesTest - Navigating to the Notification Messages page...
+2025-03-24 19:29:50 [main] INFO  com.qa.herokuapp.tests.NotificationMessagesTest - Clicking 'Click Here' and validating notification...
+2025-03-24 19:29:52 [main] INFO  com.qa.herokuapp.pages.NotificationMessagesPage - Clicked on 'Click Here' link.
+2025-03-24 19:29:53 [main] WARN  com.qa.herokuapp.pages.NotificationMessagesPage - Unexpected notification: Action unsuccesful, please try again
+× | Retrying...
+2025-03-24 19:29:54 [main] INFO  com.qa.herokuapp.pages.NotificationMessagesPage - Clicked on 'Click Here' link.
+2025-03-24 19:29:54 [main] INFO  com.qa.herokuapp.pages.NotificationMessagesPage - Expected notification found: Action successful
+×
+2025-03-24 19:48:34 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 19:48:34 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 19:48:34 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Navigating to the redirect link page...
+2025-03-24 19:48:35 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Clicking 'Click Here'...
+2025-03-24 19:48:37 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicked on 'Click Here' link.
+2025-03-24 19:48:37 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Clicking on statuses...
+2025-03-24 19:48:37 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicked on: 200
+2025-03-24 19:48:39 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Going back to the status codes page
+2025-03-24 19:48:46 [main] ERROR com.qa.herokuapp.pages.RedirectLinkPage - Unable to click on the status code link: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a60dffb9533bfaded66f145875a7c04c, clickElement {id=f.41C3CD1C687B310B83767F84ED41376E.d.A94A95783A55060CC5957EBB0A970364.e.15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58181/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a60dffb9533bfaded66f145875a7c04c)] -> xpath: //ul/li]
+Session ID: a60dffb9533bfaded66f145875a7c04c
+2025-03-24 19:48:55 [main] ERROR com.qa.herokuapp.pages.RedirectLinkPage - Unable to retrieve text from notification: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a60dffb9533bfaded66f145875a7c04c, findElement {value=//div[@class='example']/p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58181/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a60dffb9533bfaded66f145875a7c04c
+2025-03-24 19:51:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 19:51:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 19:51:30 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Navigating to the redirect link page...
+2025-03-24 19:51:31 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Clicking 'Click Here'...
+2025-03-24 19:51:32 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicked on 'Click Here' link.
+2025-03-24 19:51:32 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Clicking on statuses...
+2025-03-24 19:51:33 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicked on: 200
+2025-03-24 19:51:35 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Received the message: HTTP status codes are a standard set of numbers used to communicate from a web server to your browser to indicate the outcome of the request being made (e.g. Success, Redirection, Client Error, Server Error). For a complete list of status codes, go here.
+
+Some standard status codes you will run into include but are not limited to:
+2025-03-24 19:51:35 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Received the message: HTTP status codes are a standard set of numbers used to communicate from a web server to your browser to indicate the outcome of the request being made (e.g. Success, Redirection, Client Error, Server Error). For a complete list of status codes, go here.
+
+Some standard status codes you will run into include but are not limited to:
+2025-03-24 19:51:35 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Going back to the status codes page
+2025-03-24 19:51:41 [main] ERROR com.qa.herokuapp.pages.RedirectLinkPage - Unable to click on the status code link: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ede866dad8338d2b8fb1ff1fb291c5c0, clickElement {id=f.6034A41F51D88C3B1FA5047FEE3C9DA5.d.5087AF8AC5BEF839421A470C9853D6FC.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58308/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ede866dad8338d2b8fb1ff1fb291c5c0)] -> xpath: //ul/li]
+Session ID: ede866dad8338d2b8fb1ff1fb291c5c0
+2025-03-24 20:14:07 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 20:14:07 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 20:14:07 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Navigating to the Redirect Link page...
+2025-03-24 20:14:08 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Clicking 'Click Here' to navigate to Status Codes page...
+2025-03-24 20:14:10 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicked on 'Click Here' link.
+2025-03-24 20:14:10 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Navigated to the Status Codes page.
+2025-03-24 20:14:10 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Clicking on status codes and validating messages...
+2025-03-24 20:14:10 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicking on status: 200
+2025-03-24 20:14:11 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Received message: This page returned a 200 status code.
+
+For a definition and common list of HTTP status codes, go here
+2025-03-24 20:14:11 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Success message received: This page returned a 200 status code.
+
+For a definition and common list of HTTP status codes, go here
+2025-03-24 20:14:11 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Navigating back to the Status Codes page...
+2025-03-24 20:14:12 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicking on status: 301
+2025-03-24 20:14:13 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Received message: This page returned a 301 status code.
+
+For a definition and common list of HTTP status codes, go here
+2025-03-24 20:14:13 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Success message received: This page returned a 301 status code.
+
+For a definition and common list of HTTP status codes, go here
+2025-03-24 20:14:13 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Navigating back to the Status Codes page...
+2025-03-24 20:14:13 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicking on status: 404
+2025-03-24 20:14:14 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Received message: This page returned a 404 status code.
+
+For a definition and common list of HTTP status codes, go here
+2025-03-24 20:14:14 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Success message received: This page returned a 404 status code.
+
+For a definition and common list of HTTP status codes, go here
+2025-03-24 20:14:14 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Navigating back to the Status Codes page...
+2025-03-24 20:14:15 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Clicking on status: 500
+2025-03-24 20:14:16 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Received message: This page returned a 500 status code.
+
+For a definition and common list of HTTP status codes, go here
+2025-03-24 20:14:16 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Success message received: This page returned a 500 status code.
+
+For a definition and common list of HTTP status codes, go here
+2025-03-24 20:14:16 [main] INFO  com.qa.herokuapp.pages.RedirectLinkPage - Navigating back to the Status Codes page...
+2025-03-24 20:14:16 [main] INFO  com.qa.herokuapp.tests.RedirectLinkTest - Test completed successfully.
+2025-03-24 22:09:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:09:03 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:09:03 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:09:03 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Trying to get the valid username from the config.properties file...
+2025-03-24 22:09:03 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Username is retrieved.admin
+2025-03-24 22:09:03 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Trying to get the valid password from the config.properties file...
+2025-03-24 22:09:03 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Password is retrieved.admin
+2025-03-24 22:09:03 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Set the basic-auth base url
+2025-03-24 22:09:03 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Trying to navigate to Basic Auth page and fill the credentials...
+2025-03-24 22:09:04 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Trying to get the invalid username from the config.properties file...
+2025-03-24 22:09:04 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Username is retrieved.
+2025-03-24 22:09:04 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Trying to get the invalid password from the config.properties file...
+2025-03-24 22:09:04 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Password is retrieved.
+2025-03-24 22:09:04 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Setting the basic-auth base url
+2025-03-24 22:09:04 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Trying to navigate to Basic Auth page and fill the credentials...
+2025-03-24 22:09:05 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Storing the expected url...
+2025-03-24 22:09:05 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Stored the expected url.
+2025-03-24 22:09:05 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Trying to get the page current url...
+2025-03-24 22:09:05 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - The current url is received.
+2025-03-24 22:30:04 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:30:05 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:30:05 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:30:10 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to secure file download page using basic auth...
+2025-03-24 22:30:21 [main] ERROR com.qa.herokuapp.pages.SecureFileDownloadPage - No files available for download!
+2025-03-24 22:30:21 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Verifying the downloaded file...
+2025-03-24 22:31:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:31:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:31:02 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:31:03 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to secure file download page using basic auth...
+2025-03-24 22:31:05 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: random_data.txt
+2025-03-24 22:31:05 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Verifying the downloaded file...
+2025-03-24 22:32:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:32:30 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:32:30 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:32:31 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to secure file download page using basic auth...
+2025-03-24 22:32:32 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Unable to click on the document to download: invalid selector: Unable to locate an element with the xpath expression //a[contains(text(),'.txt', '.jpg')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),'.txt', '.jpg')]' is not a valid XPath expression.
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ef25a375f947b30fbfefa46bc0af8a8, findElements {using=xpath, value=//a[contains(text(),'.txt', '.jpg')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59871/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ef25a375f947b30fbfefa46bc0af8a8
+2025-03-24 22:32:32 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Verifying the downloaded file...
+2025-03-24 22:33:21 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:33:21 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:33:21 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:33:22 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to secure file download page using basic auth...
+2025-03-24 22:33:33 [main] ERROR com.qa.herokuapp.pages.SecureFileDownloadPage - No files available for download!
+2025-03-24 22:33:33 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Verifying the downloaded file...
+2025-03-24 22:34:10 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:34:10 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:34:10 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:34:17 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to secure file download page using basic auth...
+2025-03-24 22:34:28 [main] ERROR com.qa.herokuapp.pages.SecureFileDownloadPage - No files available for download!
+2025-03-24 22:34:28 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Verifying the downloaded file...
+2025-03-24 22:36:45 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:36:45 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:36:45 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:36:46 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to secure file download page using basic auth...
+2025-03-24 22:36:57 [main] ERROR com.qa.herokuapp.pages.SecureFileDownloadPage - No files available for download!
+2025-03-24 22:37:29 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:37:29 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:37:29 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:37:35 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to secure file download page using basic auth...
+2025-03-24 22:37:46 [main] ERROR com.qa.herokuapp.pages.SecureFileDownloadPage - No files available for download!
+2025-03-24 22:38:52 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:38:52 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:38:52 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to the secure download page...
+2025-03-24 22:38:53 [main] INFO  com.qa.herokuapp.tests.SecureFileDownloadTest - Navigating to secure file download page using basic auth...
+2025-03-24 22:38:55 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: Image (23).PNG
+2025-03-24 22:38:57 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: random_data.txt
+2025-03-24 22:38:59 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: New Tab.html
+2025-03-24 22:39:01 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: DSCF0706.JPG
+2025-03-24 22:39:04 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: myfile.pdf
+2025-03-24 22:39:08 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: test.png
+2025-03-24 22:39:09 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: DSA Guide.pdf
+2025-03-24 22:39:11 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: demo.txt
+2025-03-24 22:39:14 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: 24. Example Defect.png
+2025-03-24 22:39:16 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: testing.mp3
+2025-03-24 22:39:18 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: WhatsApp Image 2025-03-20 at 8.58.26 AM.jpeg
+2025-03-24 22:39:21 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: multipart.jpg
+2025-03-24 22:39:22 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: TextDoc.txt
+2025-03-24 22:39:24 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: IMG-20170724-WA0087.jpg
+2025-03-24 22:39:26 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: test15792296634358943170.tmp
+2025-03-24 22:39:28 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: selenide-intro.txt
+2025-03-24 22:39:30 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: New Text Document.txt
+2025-03-24 22:39:32 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: Jpeg_with_exif.jpeg
+2025-03-24 22:39:34 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: Untitled.png
+2025-03-24 22:39:36 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: My pic latest.jpg
+2025-03-24 22:39:38 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: test1889947901534540721.tmp
+2025-03-24 22:39:39 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: loremFile.txt
+2025-03-24 22:39:42 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: In the river on ferry.jpg
+2025-03-24 22:39:44 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: sample-file.txt
+2025-03-24 22:39:47 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: List.html
+2025-03-24 22:39:50 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: test-file.txt
+2025-03-24 22:39:53 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: sample-zip-file.zip
+2025-03-24 22:39:55 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: aarti.txt
+2025-03-24 22:39:56 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: example.json
+2025-03-24 22:39:58 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: sm.jpg
+2025-03-24 22:40:00 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: sim vs emulator.png
+2025-03-24 22:40:03 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: some-file.txt
+2025-03-24 22:40:05 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: requirements.txt
+2025-03-24 22:40:06 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: Cat.jpg
+2025-03-24 22:40:08 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: LambdaTest.txt
+2025-03-24 22:40:10 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: testing_firefox.pdf
+2025-03-24 22:40:12 [main] INFO  com.qa.herokuapp.pages.SecureFileDownloadPage - Clicked on file: testing.pdf
+2025-03-24 22:40:13 [main] ERROR com.qa.herokuapp.pages.SecureFileDownloadPage - Error downloading files: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2523673847c5aeda59402f023796d3d1, getElementText {id=f.C2B07336ABFD794B5883B36EF6F3A247.d.639095BD1187E27D0B9DB14EB12AABE0.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60173/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2523673847c5aeda59402f023796d3d1)] -> xpath: //div[@class='example']//a]
+Session ID: 2523673847c5aeda59402f023796d3d1
+2025-03-24 22:49:22 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 22:49:22 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 22:49:22 [main] INFO  com.qa.herokuapp.tests.ShadowDOMTest - Navigating to the Shadow DOM page...
+2025-03-24 22:49:33 [main] ERROR com.qa.herokuapp.pages.ShadowDOMPage - Error interacting with Shadow DOM: no such element: Unable to locate element: {"method":"css selector","selector":"my-shadow-dom"}
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64d2167d41d310934f9f7f2c4bb7d430, findElement {using=css selector, value=my-shadow-dom}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60470}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60470/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64d2167d41d310934f9f7f2c4bb7d430
+2025-03-24 23:23:51 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-24 23:23:51 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-24 23:23:51 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-24 23:23:53 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-24 23:23:54 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-24 23:23:54 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-24 23:23:55 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-24 23:23:56 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-24 23:23:57 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [207bc696726046d6ac442e387677519a, getElementText {id=f.EADCFFFE3B4C6B10A812B8351C4D68D9.d.877E0130C76044EC13E9F3F88B8002C3.e.33}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61443/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (207bc696726046d6ac442e387677519a)] -> xpath: //ul/li]
+Session ID: 207bc696726046d6ac442e387677519a
+2025-03-24 23:23:57 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-24 23:24:17 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[2]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-24 23:24:17 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-24 23:24:37 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'List': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[3]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-25 19:56:07 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 19:56:07 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 19:56:07 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 19:56:08 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 19:56:09 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 19:56:09 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 19:56:10 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 19:56:11 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 19:56:12 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0decb37682432c1a147d360af5b852b, getElementText {id=f.C17648FF0C8B80E1467D8C5FAB48BF24.d.E7F5FF8321F8BD438D8067BF050C51E5.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62266}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62266/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e0decb37682432c1a147d360af5b852b)] -> xpath: //ul/li]
+Session ID: e0decb37682432c1a147d360af5b852b
+2025-03-25 19:56:12 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 19:56:32 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[2]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-25 19:56:32 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 19:56:38 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0decb37682432c1a147d360af5b852b, findElement {using=xpath, value=//div[@class='example']/a[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62266}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62266/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0decb37682432c1a147d360af5b852b
+2025-03-25 20:02:48 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:02:48 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:02:48 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:02:49 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 20:02:50 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 20:02:50 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:02:51 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:02:52 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:02:53 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c844c5855daf92d9469682d7b518097a, getElementText {id=f.1AA00B1A87679D120A5A0011EF8884FF.d.765D9FE8F390914FF2BC0CCCE8750B06.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62313/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c844c5855daf92d9469682d7b518097a)] -> xpath: //ul/li]
+Session ID: c844c5855daf92d9469682d7b518097a
+2025-03-25 20:04:28 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:04:29 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:04:29 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:04:29 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:04:30 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-25 20:04:31 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:04:31 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:04:32 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:04:33 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:06:28 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:06:28 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:06:28 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:06:34 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:06:35 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'List' link.
+2025-03-25 20:07:05 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': Expected condition failed: waiting for visibility of all [] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62391/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 360568e5765883bcbdb37667726a00e5
+2025-03-25 20:13:04 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:13:04 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:13:04 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:13:07 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:13:09 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 1
+2025-03-25 20:13:09 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:13:10 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 2
+2025-03-25 20:13:10 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:13:12 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f16d15f67d4a1be30cf92061559db96, clickElement {id=f.70B40FB594FA4097F64C6A25CC1A63EB.d.2D27E7E894E5A3D881D5D51B3C23604D.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62460/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4f16d15f67d4a1be30cf92061559db96)] -> xpath: //div[@class='example']/a[3]]
+Session ID: 4f16d15f67d4a1be30cf92061559db96
+2025-03-25 20:13:37 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:13:37 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:13:37 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:13:37 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:13:38 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 1
+2025-03-25 20:13:38 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:13:39 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 2
+2025-03-25 20:13:39 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:13:40 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 3
+2025-03-25 20:13:40 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:13:41 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 4
+2025-03-25 20:13:41 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:13:41 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 5
+2025-03-25 20:13:42 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:14:34 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:14:34 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:14:34 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:14:34 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 20:14:35 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 20:14:36 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:14:36 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:14:37 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:14:38 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [869520e7a4550787d91a0cf1cd1be47c, getElementText {id=f.09EE609BF0761B018F259163FF3A3373.d.72C87840D1403035FC331279AF28EE04.e.27}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (869520e7a4550787d91a0cf1cd1be47c)] -> xpath: //ul/li]
+Session ID: 869520e7a4550787d91a0cf1cd1be47c
+2025-03-25 20:14:38 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:14:58 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[2]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-25 20:14:58 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:15:18 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[3]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-25 20:15:51 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:15:51 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:15:51 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:15:52 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:15:53 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-25 20:15:53 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:15:54 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:15:54 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:15:56 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:15:56 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:16:15 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf3aee503fcd7c3b1806d7d834f71a9c, findElement {using=xpath, value=//div[@class='example']/a[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62581/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf3aee503fcd7c3b1806d7d834f71a9c
+2025-03-25 20:18:01 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:18:01 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:18:01 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:18:06 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 20:18:07 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 20:18:07 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:18:08 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:18:09 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:18:09 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [977e4390c6ab4f33761290286614ad4f, getElementText {id=f.6EF760933B8431205514C7687EFD60E4.d.D78BA659BF43FFC19FC55E1609C0B23E.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62616}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62616/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (977e4390c6ab4f33761290286614ad4f)] -> xpath: //ul/li]
+Session ID: 977e4390c6ab4f33761290286614ad4f
+2025-03-25 20:18:09 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:18:26 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [977e4390c6ab4f33761290286614ad4f, findElement {value=//div[@class='example']/a[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62616}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62616/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 977e4390c6ab4f33761290286614ad4f
+2025-03-25 20:18:26 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:18:26 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [977e4390c6ab4f33761290286614ad4f, findElement {value=//div[@class='example']/a[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62616}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62616/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 977e4390c6ab4f33761290286614ad4f
+2025-03-25 20:19:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:19:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:19:39 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:19:40 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 20:19:40 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 20:19:41 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:19:42 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:19:42 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:19:43 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9da2c64a32c5cc1bd159f64dbfa3415f, clickElement {id=f.90F7D05BD0BE7014F151489E7EE68429.d.C42A1663BAAD23D6947421ACF1155DAF.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62647}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62647/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9da2c64a32c5cc1bd159f64dbfa3415f)] -> xpath: //ul/li]
+Session ID: 9da2c64a32c5cc1bd159f64dbfa3415f
+2025-03-25 20:19:43 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:20:03 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[2]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-25 20:20:03 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:20:20 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': target frame detached
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9da2c64a32c5cc1bd159f64dbfa3415f, findElement {value=//div[@class='example']/a[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62647}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62647/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9da2c64a32c5cc1bd159f64dbfa3415f
+2025-03-25 20:21:08 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:21:08 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:21:08 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:21:08 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 20:21:09 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 20:21:10 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:21:10 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:21:11 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:21:12 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d346a7d0ad036f240318b791928d028, getElementText {id=f.996A0DD46A0F7436C88519F581DB3DD9.d.CBADCF4D28A49E8B29488AF9AD48AB20.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62674/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5d346a7d0ad036f240318b791928d028)] -> xpath: //ul/li]
+Session ID: 5d346a7d0ad036f240318b791928d028
+2025-03-25 20:21:12 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:21:32 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[2]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-25 20:21:32 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:21:38 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d346a7d0ad036f240318b791928d028, findElement {using=xpath, value=//div[@class='example']/a[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62674/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d346a7d0ad036f240318b791928d028
+2025-03-25 20:22:18 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:22:18 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:22:18 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:22:19 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 20:22:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 20:22:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:22:21 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:22:22 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:22:23 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dad22a92b159c521ae95bbcc3b9d5d04, getElementText {id=f.2DFCCE3A2EEF7B3F973092390534D259.d.89F0F6EB7221D18608914A69228E139A.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62706/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dad22a92b159c521ae95bbcc3b9d5d04)] -> xpath: //ul/li]
+Session ID: dad22a92b159c521ae95bbcc3b9d5d04
+2025-03-25 20:22:23 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:22:35 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dad22a92b159c521ae95bbcc3b9d5d04, findElement {using=xpath, value=//div[@class='example']/a[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62706/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dad22a92b159c521ae95bbcc3b9d5d04
+2025-03-25 20:22:35 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:22:35 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dad22a92b159c521ae95bbcc3b9d5d04, findElement {using=xpath, value=//div[@class='example']/a[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62706/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dad22a92b159c521ae95bbcc3b9d5d04
+2025-03-25 20:23:36 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:23:36 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:23:37 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:23:37 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:23:38 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-25 20:23:39 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:23:39 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:23:40 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:23:41 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:23:41 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:23:49 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d27babdec182d486211808bf24c7e80c, findElement {using=xpath, value=//div[@class='example']/a[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62743/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d27babdec182d486211808bf24c7e80c
+2025-03-25 20:24:23 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:24:23 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:24:23 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:24:24 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:24:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-25 20:24:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:24:26 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:24:27 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:24:27 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:24:28 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:24:28 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 1
+2025-03-25 20:24:28 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:24:29 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 2
+2025-03-25 20:24:29 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:24:30 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 3
+2025-03-25 20:24:30 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:25:18 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:25:18 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:25:18 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:25:19 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:25:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-25 20:25:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:25:21 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:25:22 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:25:22 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:25:22 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:25:23 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 1
+2025-03-25 20:25:23 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:25:24 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 2
+2025-03-25 20:25:24 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:25:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 3
+2025-03-25 20:25:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-25 20:29:13 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:29:13 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:29:13 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:29:14 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 20:29:15 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 20:29:16 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:29:17 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:29:18 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:29:18 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8659b8eed3c07600ba80c3a63c9de518, getElementText {id=f.E5B69CE1DAEFE760DB83110491CAD9BB.d.9DCCE92F3DA01B4BE0CF87826DACAE9A.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62833}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62833/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8659b8eed3c07600ba80c3a63c9de518)] -> xpath: //ul/li]
+Session ID: 8659b8eed3c07600ba80c3a63c9de518
+2025-03-25 20:29:18 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:29:38 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[2]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-25 20:29:38 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:29:59 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[3]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-25 20:29:59 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:30:12 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8659b8eed3c07600ba80c3a63c9de518, findElement {value=//div[@class='example']/a[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62833}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62833/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8659b8eed3c07600ba80c3a63c9de518
+2025-03-25 20:30:50 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-25 20:30:50 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-25 20:30:50 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-25 20:30:51 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-25 20:30:52 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-25 20:30:52 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:30:53 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:30:54 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-25 20:30:54 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cf0f8bdb571ddf095d68152e1d79adf, getElementText {id=f.39A7BC0C96BA723869D4212698BF7155.d.68A9B49C695CF3D9A9E4727E46416654.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62867/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9cf0f8bdb571ddf095d68152e1d79adf)] -> xpath: //ul/li]
+Session ID: 9cf0f8bdb571ddf095d68152e1d79adf
+2025-03-25 20:30:54 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-25 20:31:04 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cf0f8bdb571ddf095d68152e1d79adf, findElement {using=xpath, value=//div[@class='example']/a[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62867/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cf0f8bdb571ddf095d68152e1d79adf
+2025-03-25 20:31:04 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:31:05 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cf0f8bdb571ddf095d68152e1d79adf, findElement {using=xpath, value=//div[@class='example']/a[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62867/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cf0f8bdb571ddf095d68152e1d79adf
+2025-03-25 20:31:05 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-25 20:31:05 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cf0f8bdb571ddf095d68152e1d79adf, findElement {using=xpath, value=//div[@class='example']/a[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62867/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cf0f8bdb571ddf095d68152e1d79adf
+2025-03-26 10:33:47 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:33:47 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:33:47 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:33:49 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:33:50 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:33:51 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:33:51 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:33:52 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:33:53 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc45c7f9b4194a03c133f3a690e2250d, getElementText {id=f.E11F7F54E0B325F681787C852BF0E3BB.d.2E7E1773A72C19582B8A8F87FE5574A1.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63422}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63422/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dc45c7f9b4194a03c133f3a690e2250d)] -> xpath: //ul/li]
+Session ID: dc45c7f9b4194a03c133f3a690e2250d
+2025-03-26 10:33:53 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:33:53 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-26 10:34:14 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'An Image': Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='example']/a[2]' (tried for 10 second(s) with 500 milliseconds interval)
+2025-03-26 10:34:14 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:34:14 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-26 10:34:15 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 1
+2025-03-26 10:34:15 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:34:16 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 2
+2025-03-26 10:34:16 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:34:17 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 3
+2025-03-26 10:34:18 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:34:18 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:35:12 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:35:12 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:35:12 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:35:13 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-26 10:35:15 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-26 10:35:15 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:35:16 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:35:17 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:35:18 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:35:19 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:35:19 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-26 10:35:19 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 1
+2025-03-26 10:35:19 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:35:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 2
+2025-03-26 10:35:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:35:21 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 3
+2025-03-26 10:35:21 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:35:21 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:36:54 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:36:55 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:36:55 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:36:56 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-26 10:36:57 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-26 10:36:58 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:36:59 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:37:00 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:37:01 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:37:01 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-26 10:37:14 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'A List': invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67803725846b8cbc72a9cc3d744e1280, findElement {value=//div[@class='example']/a[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63494}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63494/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67803725846b8cbc72a9cc3d744e1280
+2025-03-26 10:37:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:37:56 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:37:56 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:37:57 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-26 10:37:58 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-26 10:37:59 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:38:00 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:38:00 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:38:02 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:38:02 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:38:02 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-26 10:38:03 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 1
+2025-03-26 10:38:03 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:38:04 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 2
+2025-03-26 10:38:04 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:38:05 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 3
+2025-03-26 10:38:05 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:39:43 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:39:43 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:39:43 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:39:44 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:39:45 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:39:46 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:39:47 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:39:48 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:39:49 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84fa2d4e7aa0903bc015a83f9e45371c, getElementText {id=f.0BE9AA863AB8196B9B63B4BBB3A5A5D4.d.DA3074B936F97A6B15C8E61D0B7750EA.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63556/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84fa2d4e7aa0903bc015a83f9e45371c)] -> xpath: //ul/li]
+Session ID: 84fa2d4e7aa0903bc015a83f9e45371c
+2025-03-26 10:39:49 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:45:21 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:45:21 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:45:21 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:45:22 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:45:23 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:45:24 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:45:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:45:26 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:45:50 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:46:38 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:46:38 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:46:38 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:46:39 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:46:40 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:46:41 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:46:42 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:46:43 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:46:49 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:47:36 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:47:36 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:47:36 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:47:37 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:47:38 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:47:39 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:47:40 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:47:41 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:47:51 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:48:42 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:48:42 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:48:42 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:48:44 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:48:45 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:48:45 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:48:46 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:48:47 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:48:57 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:51:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:51:33 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:51:33 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:51:34 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:51:35 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:51:36 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:51:37 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:51:38 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:51:40 [main] ERROR com.qa.herokuapp.pages.ShiftingContentPage - Unable to click on 'Menu Element': stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [222ef75429f38cd53c7607a190a8ef24, getElementText {id=f.AE10E3319578EAC8A463A1175CBC816B.d.2E122682574E07EC9B14664C5A9F4667.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\kajol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63717/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (222ef75429f38cd53c7607a190a8ef24)] -> xpath: //ul/li]
+Session ID: 222ef75429f38cd53c7607a190a8ef24
+2025-03-26 10:51:40 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:52:12 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:52:12 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:52:12 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:52:13 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:52:14 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:52:15 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:52:18 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:52:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:52:33 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:53:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:53:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:53:16 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:53:18 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:53:18 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:53:19 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:53:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:53:21 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:53:23 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Home
+2025-03-26 10:53:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: About
+2025-03-26 10:53:27 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Contact Us
+2025-03-26 10:53:29 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Portfolio
+2025-03-26 10:53:31 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Gallery
+2025-03-26 10:53:31 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:54:14 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:54:14 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:54:14 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:54:15 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:54:16 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:54:17 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:54:18 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:54:19 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:54:22 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Home
+2025-03-26 10:54:24 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: About
+2025-03-26 10:54:26 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Contact Us
+2025-03-26 10:54:28 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Portfolio
+2025-03-26 10:54:30 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Gallery
+2025-03-26 10:54:30 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:55:07 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:55:07 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:55:07 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:55:09 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:55:10 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:55:11 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:55:12 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:55:12 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:55:15 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Home
+2025-03-26 10:55:17 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: About
+2025-03-26 10:55:19 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Contact Us
+2025-03-26 10:55:21 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Portfolio
+2025-03-26 10:55:22 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Gallery
+2025-03-26 10:55:22 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:55:23 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-26 10:55:24 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-26 10:55:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:55:26 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:55:27 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:55:28 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:55:29 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:56:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-26 10:56:02 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-26 10:56:02 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigating to the Shifting Content page...
+2025-03-26 10:56:04 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'Menu Element'...
+2025-03-26 10:56:05 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'Menu Element' link.
+2025-03-26 10:56:05 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:56:06 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:56:07 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:56:09 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Home
+2025-03-26 10:56:11 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: About
+2025-03-26 10:56:13 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Contact Us
+2025-03-26 10:56:15 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Portfolio
+2025-03-26 10:56:17 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on menu item: Gallery
+2025-03-26 10:56:17 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:56:17 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'An Image'...
+2025-03-26 10:56:19 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'An Image' link.
+2025-03-26 10:56:20 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:56:21 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:56:22 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:56:23 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on a 'Click Here' link.
+2025-03-26 10:56:23 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Navigated back to Shifting Content main page.
+2025-03-26 10:56:23 [main] INFO  com.qa.herokuapp.tests.ShiftingContentTest - Clicking 'A List'...
+2025-03-26 10:56:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 1
+2025-03-26 10:56:25 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:56:26 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 2
+2025-03-26 10:56:26 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-26 10:56:27 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Clicked on 'A List' - Attempt 3
+2025-03-26 10:56:27 [main] INFO  com.qa.herokuapp.pages.ShiftingContentPage - Navigated back to 'A List' page.
+2025-03-27 12:56:25 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 12:56:25 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 12:56:25 [main] INFO  com.qa.herokuapp.tests.SortableDataTablesTest - Navigating to the sortable data table page...
+2025-03-27 12:56:28 [main] INFO  com.qa.herokuapp.tests.SortableDataTablesTest - Validating table1...
+2025-03-27 12:56:29 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 headers to sort the table.
+2025-03-27 12:56:29 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 headers to sort the table.
+2025-03-27 12:56:30 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 headers to sort the table.
+2025-03-27 12:56:31 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 headers to sort the table.
+2025-03-27 12:56:31 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 headers to sort the table.
+2025-03-27 12:56:32 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 headers to sort the table.
+2025-03-27 12:56:33 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 edit button
+2025-03-27 12:56:34 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 edit button
+2025-03-27 12:56:36 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 edit button
+2025-03-27 12:56:37 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 edit button
+2025-03-27 12:56:39 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 delete button
+2025-03-27 12:56:40 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 delete button
+2025-03-27 12:56:41 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 delete button
+2025-03-27 12:56:43 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table1 delete button
+2025-03-27 12:56:43 [main] INFO  com.qa.herokuapp.tests.SortableDataTablesTest - Validating table2...
+2025-03-27 12:56:44 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 headers to sort the table.
+2025-03-27 12:56:44 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 headers to sort the table.
+2025-03-27 12:56:44 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 headers to sort the table.
+2025-03-27 12:56:45 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 headers to sort the table.
+2025-03-27 12:56:45 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 headers to sort the table.
+2025-03-27 12:56:45 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 headers to sort the table.
+2025-03-27 12:56:47 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 edit button
+2025-03-27 12:56:48 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 edit button
+2025-03-27 12:56:49 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 edit button
+2025-03-27 12:56:51 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 edit button
+2025-03-27 12:56:53 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 delete button
+2025-03-27 12:56:55 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 delete button
+2025-03-27 12:56:56 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 delete button
+2025-03-27 12:56:58 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table2 delete button
+2025-03-27 13:08:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:08:16 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:08:16 [main] INFO  com.qa.herokuapp.tests.SortableDataTablesTest - Navigating to the sortable data table page...
+2025-03-27 13:08:17 [main] INFO  com.qa.herokuapp.tests.SortableDataTablesTest - Validating table1...
+2025-03-27 13:08:18 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:18 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:18 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:18 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:18 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:18 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:19 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:08:19 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:08:19 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:08:20 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:08:20 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:08:21 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:08:21 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:08:21 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:08:21 [main] INFO  com.qa.herokuapp.tests.SortableDataTablesTest - Validating table2...
+2025-03-27 13:08:21 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:22 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:22 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:22 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:22 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:22 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:08:22 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:08:23 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:08:23 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:08:23 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:08:23 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:08:23 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:08:24 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:08:25 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:10:54 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:10:54 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:10:54 [main] INFO  com.qa.herokuapp.tests.SortableDataTablesTest - Navigating to the sortable data table page...
+2025-03-27 13:10:55 [main] INFO  com.qa.herokuapp.tests.SortableDataTablesTest - Validating table1...
+2025-03-27 13:10:56 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:10:56 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:10:56 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:10:56 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:10:56 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:10:57 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on table header to sort the table.
+2025-03-27 13:10:57 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:10:57 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:10:58 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:10:58 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on edit button
+2025-03-27 13:10:58 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:10:59 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:10:59 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:10:59 [main] INFO  com.qa.herokuapp.pages.SortableDataTablesPage - Clicked on delete button
+2025-03-27 13:18:42 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:18:42 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:18:42 [main] INFO  com.qa.herokuapp.tests.TyposTest - Navigating to the typos page...
+2025-03-27 13:18:43 [main] INFO  com.qa.herokuapp.tests.TyposTest - Validating text on the Typos page...
+2025-03-27 13:19:57 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:19:57 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:19:57 [main] INFO  com.qa.herokuapp.tests.TyposTest - Navigating to the typos page...
+2025-03-27 13:19:58 [main] INFO  com.qa.herokuapp.tests.TyposTest - Validating text on the Typos page...Sometimes you'll see a typo, other times you won,t.
+2025-03-27 13:20:57 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:20:58 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:20:58 [main] INFO  com.qa.herokuapp.tests.TyposTest - Navigating to the typos page...
+2025-03-27 13:20:59 [main] INFO  com.qa.herokuapp.tests.TyposTest - Validating text on the Typos page...
+2025-03-27 13:21:17 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:21:17 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:21:17 [main] INFO  com.qa.herokuapp.tests.TyposTest - Navigating to the typos page...
+2025-03-27 13:21:17 [main] INFO  com.qa.herokuapp.tests.TyposTest - Validating text on the Typos page...
+2025-03-27 13:21:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:21:39 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:21:39 [main] INFO  com.qa.herokuapp.tests.TyposTest - Navigating to the typos page...
+2025-03-27 13:21:40 [main] INFO  com.qa.herokuapp.tests.TyposTest - Validating text on the Typos page...Sometimes you'll see a typo, other times you won,t.
+2025-03-27 13:21:59 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:22:00 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:22:00 [main] INFO  com.qa.herokuapp.tests.TyposTest - Navigating to the typos page...
+2025-03-27 13:22:01 [main] INFO  com.qa.herokuapp.tests.TyposTest - Validating text on the Typos page...Sometimes you'll see a typo, other times you won,t.
+2025-03-27 13:27:50 [main] INFO  com.qa.herokuapp.pages.HomePage - Waiting for the page to load...
+2025-03-27 13:27:50 [main] INFO  com.qa.herokuapp.pages.HomePage - Page loaded successfully.
+2025-03-27 13:27:50 [main] INFO  com.qa.herokuapp.tests.TyposTest - Navigating to the typos page...
+2025-03-27 13:27:53 [main] INFO  com.qa.herokuapp.tests.TyposTest - Validating text on the Typos page...Sometimes you'll see a typo, other times you won,t.

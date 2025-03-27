@@ -2,13 +2,10 @@ package com.qa.herokuapp.tests;
 
 import static org.testng.Assert.*;
 
-import java.time.Duration;
 
 import org.testng.annotations.Test;
 
 import com.qa.herokuapp.base.TestBase;
-import com.qa.herokuapp.helper.ImplicitWaitUtils;
-import com.qa.herokuapp.pages.HomePage;
 import com.qa.herokuapp.pages.BasicAuthLoginPage;
 
 public class BasicAuthLoginTest extends TestBase {
@@ -38,7 +35,7 @@ public class BasicAuthLoginTest extends TestBase {
 		
 		
 		// Verify the successful login message
-		String successMessage = BasicAuthLoginPage.getSuccessMsg();
+		String successMessage = basicAuthLoginPage.getSuccessMsg();
 		assertTrue(successMessage.contains("Congratulations! You must have the proper credentials."),
 				"Login was not successful!");
 
@@ -70,7 +67,7 @@ public class BasicAuthLoginTest extends TestBase {
 		LOGGER.info("Stored the expected url.");
 		
 		LOGGER.info("Trying to get the page current url...");
-		String currentUrl = BasicAuthLoginPage.getCurrentUrl();
+		String currentUrl = basicAuthLoginPage.getCurrentUrl();
 		LOGGER.info("The current url is received.");
 
 		assertNotEquals(currentUrl, expectedUrl, "Invalid login should not load the correct page!");
